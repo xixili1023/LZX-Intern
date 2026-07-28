@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Projects/202507_行业景气度因子/06_Experiment/experiment_log.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "experiment_log"
+              "title": "README"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "9b785dd0752a4004",
   "lastOpenFiles": [
+    "01_Projects/202507_行业景气度因子/06_Experiment/experiment_log.md",
     "01_Projects/202507_行业景气度因子/06_Experiment/README.md",
     "01_Projects/202507_行业景气度因子/04_Backtest/回测框架.md",
     "01_Projects/202507_行业景气度因子/04_Backtest/参数设置.md",
@@ -203,7 +204,6 @@
     "01_Projects/202507_行业景气度因子/00_Project_Profile/项目背景.md",
     "01_Projects/202507_行业景气度因子/00_Project_Profile/我的贡献.md",
     "01_Projects/202507_行业景气度因子/08_Reference/README.md",
-    "01_Projects/202507_行业景气度因子/06_Experiment/experiment_log.md",
     "01_Projects/202507_行业景气度因子/07_Report/面试讲解版.md",
     "01_Projects/202507_行业景气度因子/07_Report/实习汇报版.md",
     "01_Projects/202507_行业景气度因子/07_Report/完整研究报告.md",
