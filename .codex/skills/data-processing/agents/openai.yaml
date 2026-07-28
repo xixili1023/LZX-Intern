@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Processing"
+  short_description: "Design reproducible quant data workflows"
+  default_prompt: "Use $data-processing to design and document a reproducible project data workflow."

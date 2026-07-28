@@ -1,0 +1,42 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+
+# Data and generated artifacts
+02_Assets/Data/raw/*
+02_Assets/Data/interim/*
+02_Assets/Data/processed/*
+02_Assets/Data/external/*
+!02_Assets/Data/**/.gitkeep
+01_Projects/*/data/*
+!01_Projects/*/data/README.md
+!01_Projects/*/data/.gitkeep
+01_Projects/*/02_Data/raw/*
+01_Projects/*/02_Data/processed/*
+!01_Projects/*/02_Data/**/.gitkeep
+01_Projects/*/04_Backtest/results/*
+!01_Projects/*/04_Backtest/results/.gitkeep
+03_Templates/Project_Template/02_Data/raw/*
+03_Templates/Project_Template/02_Data/processed/*
+!03_Templates/Project_Template/02_Data/**/.gitkeep
+03_Templates/Project_Template/04_Backtest/results/*
+!03_Templates/Project_Template/04_Backtest/results/.gitkeep

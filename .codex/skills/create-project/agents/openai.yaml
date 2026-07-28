@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Quant Project"
+  short_description: "Scaffold projects from the standard quant template"
+  default_prompt: "Use $create-project to scaffold a new quant research project without inventing research content."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Report Generation"
+  short_description: "Create evidence-based quant project reports"
+  default_prompt: "Use $report-generation to prepare a project report grounded in research and experiments."

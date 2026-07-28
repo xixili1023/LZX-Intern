@@ -1,0 +1,4 @@
+interface:
+  display_name: "Factor Research"
+  short_description: "Structure factor design and evaluation workflows"
+  default_prompt: "Use $factor-research to document factor logic, construction, evaluation, and evidence."

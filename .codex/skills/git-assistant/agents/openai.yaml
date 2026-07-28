@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Assistant"
+  short_description: "Generate clear Chinese Git commit summaries only"
+  default_prompt: "Use $git-assistant to draft a Chinese commit title, change summary, and purpose without running Git commands."

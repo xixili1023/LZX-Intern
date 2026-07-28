@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Documentation"
+  short_description: "Maintain traceable quant research documentation"
+  default_prompt: "Use $research-document to organize research questions, methods, decisions, and links."

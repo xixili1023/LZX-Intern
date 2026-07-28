@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "01_Projects/202507_行业景气度因子/06_Experiment/experiment_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "experiment_log"
             }
           }
         ]
@@ -184,5 +184,42 @@
     }
   },
   "active": "9b785dd0752a4004",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "01_Projects/202507_行业景气度因子/06_Experiment/README.md",
+    "01_Projects/202507_行业景气度因子/04_Backtest/回测框架.md",
+    "01_Projects/202507_行业景气度因子/04_Backtest/参数设置.md",
+    "01_Projects/202507_行业景气度因子/03_Factors/README.md",
+    "01_Projects/202507_行业景气度因子/03_Factors/因子说明.md",
+    "01_Projects/202507_行业景气度因子/03_Factors/因子评价.md",
+    "01_Projects/202507_行业景气度因子/03_Factors/因子构建.md",
+    "01_Projects/202507_行业景气度因子/02_Data/数据说明.md",
+    "01_Projects/202507_行业景气度因子/02_Data/README.md",
+    "01_Projects/202507_行业景气度因子/01_Research/README.md",
+    "01_Projects/202507_行业景气度因子/01_Research/研究问题.md",
+    "01_Projects/202507_行业景气度因子/01_Research/研究框架.md",
+    "01_Projects/202507_行业景气度因子/01_Research/方法说明.md",
+    "01_Projects/202507_行业景气度因子/00_Project_Profile/项目时间线.md",
+    "01_Projects/202507_行业景气度因子/00_Project_Profile/项目简介.md",
+    "01_Projects/202507_行业景气度因子/00_Project_Profile/项目背景.md",
+    "01_Projects/202507_行业景气度因子/00_Project_Profile/我的贡献.md",
+    "01_Projects/202507_行业景气度因子/08_Reference/README.md",
+    "01_Projects/202507_行业景气度因子/06_Experiment/experiment_log.md",
+    "01_Projects/202507_行业景气度因子/07_Report/面试讲解版.md",
+    "01_Projects/202507_行业景气度因子/07_Report/实习汇报版.md",
+    "01_Projects/202507_行业景气度因子/07_Report/完整研究报告.md",
+    "01_Projects/202507_行业景气度因子/07_Report/README.md",
+    "01_Projects/202507_行业景气度因子/05_Code/utils",
+    "01_Projects/202507_行业景气度因子/05_Code/model",
+    "01_Projects/202507_行业景气度因子/05_Code/factor",
+    "01_Projects/202507_行业景气度因子/05_Code/data",
+    "01_Projects/202507_行业景气度因子/05_Code/backtest",
+    "01_Projects/202507_行业景气度因子/05_Code/README.md",
+    "01_Projects/202507_行业景气度因子/04_Backtest/results",
+    "01_Projects/202507_行业景气度因子/04_Backtest/README.md",
+    "01_Projects/202507_行业景气度因子/02_Data/raw",
+    "01_Projects/202507_行业景气度因子/02_Data/processed",
+    "01_Projects/202507_行业景气度因子/00_Project_Profile/README.md",
+    "01_Projects/202507_行业景气度因子/08_Reference",
+    "01_Projects/202507_行业景气度因子/07_Report"
+  ]
 }

@@ -1,0 +1,27 @@
+# Research
+
+## 文件夹用途
+
+管理项目的研究问题、假设、分析框架、方法选择和研究决策，是项目研究逻辑的核心。
+
+## 应该存放什么
+
+- `研究问题.md`：核心问题、子问题、假设和验证标准
+- `研究框架.md`：研究流程、输入输出、基准和验证设计
+- `方法说明.md`：定义、公式、假设、实现口径和局限
+- 重要研究决策及其理由
+
+## 不应该存放什么
+
+- 大型数据文件或数据处理产物
+- 具体实现代码和运行日志
+- 只有结果截图、没有方法说明的材料
+- 与项目研究问题无关的学习笔记
+
+## 与其他模块的关系
+
+- 接收 [[00_Project_Profile/README|Project Profile]] 定义的目标和边界。
+- 指导 [[02_Data/README|Data]]、[[03_Factors/README|Factors]] 和 [[04_Backtest/README|Backtest]] 的设计。
+- 研究假设通过 [[06_Experiment/README|Experiment]] 中的独立实验记录验证。
+- 研究逻辑和结论最终进入 [[07_Report/README|Report]]。
+- 方法依据记录在 [[08_Reference/README|Reference]]。

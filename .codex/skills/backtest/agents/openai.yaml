@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quant Backtest"
+  short_description: "Design and review reproducible quant backtests"
+  default_prompt: "Use $backtest to design or review a reproducible project backtest and its controls."
