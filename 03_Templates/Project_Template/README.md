@@ -19,7 +19,7 @@
 | 文件 | 作用 | Obsidian 入口 |
 | --- | --- | --- |
 | `README.md` | 长期稳定地说明“项目是什么”，包括项目定位、结构、运行方式和导航。 | 当前文件 |
-| `PROJECT_STATUS.md` | 动态说明“项目现在进行到哪里”，维护状态、阶段、任务、计划和最后更新时间。 | [[PROJECT_STATUS\|Project Status]] |
+| `PROJECT_STATUS.md` | 动态说明“项目现在进行到哪里”：状态与阶段维护在笔记属性中，正文维护已完成、进行中、下一步计划和最后更新时间。 | [[PROJECT_STATUS\|Project Status]] |
 | `06_Experiment/experiment_log.md` | 记录研究过程中做过哪些实验、实验条件、实验结果和结论。 | [[06_Experiment/experiment_log\|Experiment Log]] |
 | Git | 负责代码版本管理，保留实现变化和对应 commit。 | Git 历史 |
 

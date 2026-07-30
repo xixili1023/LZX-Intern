@@ -1,3 +1,11 @@
+---
+project_status: "已完成"
+current_stage: "研究资料整理"
+project_type: "因子研究"
+frequency: "日频"
+method: "因子构建"
+---
+
 # Project Status
 
 本文件用于维护项目当前状态和近期行动，只记录“项目现在进行到哪里”。项目历史变化由 Git 版本管理负责。

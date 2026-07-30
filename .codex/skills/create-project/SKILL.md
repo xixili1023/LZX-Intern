@@ -42,7 +42,7 @@ description: Create a new project inside the LZX-Intern Personal Quant Research 
 文件职责必须保持清晰：
 
 - `README.md`：说明项目是什么，长期维护项目定位、结构和入口。
-- `PROJECT_STATUS.md`：记录项目当前阶段、状态、已完成事项、进行中事项和下一步计划。
+- `PROJECT_STATUS.md`：项目状态与当前阶段只写入顶部 YAML 笔记属性；正文只保留已完成事项、进行中事项、下一步计划和最后更新时间。
 - `06_Experiment/experiment_log.md`：记录研究实验过程，包括实验目的、参数、结果和结论。
 - Git：负责代码、研究文档、配置和必要小型结果文件的版本管理。
 

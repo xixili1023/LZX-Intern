@@ -1,0 +1,11 @@
+{
+  "id": "conv-1785373514580-ztfzkubvl",
+  "providerId": "claude",
+  "title": "你好，你现在怎么样？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1785373514581,
+  "updatedAt": 1785373549834,
+  "lastResponseAt": 1785373514595,
+  "sessionId": null,
+  "selectedModel": "haiku"
+}
