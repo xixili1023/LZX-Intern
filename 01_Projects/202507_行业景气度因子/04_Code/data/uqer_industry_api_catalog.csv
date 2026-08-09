@@ -1,0 +1,29 @@
+scope,category,api_name,metadata_api_name,sample_indic_id,enabled,review_status,review_note
+中国宏观,中国数据,EcoDataChinaGet,getEcoDataChina,1010000042,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+中国宏观,中国分地区数据,EcoDataChinaRegionGet,getEcoDataChinaRegion,1200000035,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+国际宏观,海外其他国家数据,EcoDataGlobeRestGet,getEcoDataGlobeRest,3030000000,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+国际宏观,欧盟数据,EcoDataGlobeEuGet,getEcoDataGlobeEu,3020100007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+国际宏观,美国数据,EcoDataGlobeUsaGet,getEcoDataGlobeUsa,3010803502,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,农林牧渔,EcoDataIndAgriculturalGet,getEcoDataIndAgricultural,2010000007,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标已停更且 2024 年后无观测
+行业经济,汽车,EcoDataIndAutomobileGet,getEcoDataIndAutomobile,2070000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,医药生物,EcoDataIndBiologicalmedicineGet,getEcoDataIndBiologicalmedicine,2140000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,建材,EcoDataIndBuildingmaterialsGet,getEcoDataIndBuildingmaterials,2060001987,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,旅游酒店,EcoDataIndCateringtourismGet,getEcoDataIndCateringtourism,2180000007,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2016 年后无观测
+行业经济,化工,EcoDataIndChemicalGet,getEcoDataIndChemical,2030100004,1,live_validated,2026-08-07 样本成功；全 API 元数据约 93979 行，禁止未审核全量观测下载
+行业经济,批发零售业,EcoDataIndCommercialtradeGet,getEcoDataIndCommercialtrade,2200000227,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,文教体娱及工艺品,EcoDataIndCultureGet,getEcoDataIndCulture,1160011602,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,电子电器,EcoDataIndElectronicGet,getEcoDataIndElectronic,2090000007,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2017 年后无观测
+行业经济,能源,EcoDataIndEnergyGet,getEcoDataIndEnergy,2020000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,金融保险业,EcoDataIndFinancialservicesGet,getEcoDataIndFinancialservices,2210500002,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2016 年后无观测
+行业经济,食品饮料,EcoDataIndFoodbeverageGet,getEcoDataIndFoodbeverage,2110000007,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2022 年后无观测
+行业经济,信息服务,EcoDataIndLightmanufactueGet,getEcoDataIndLightmanufactue,2130000009,0,suspected_mislabel,与轻工制造完全重复且 API 名不符；启用前需在 UQER 页面核对
+行业经济,轻工制造,EcoDataIndLightmanufactueGet,getEcoDataIndLightmanufactue,2130000009,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2018 年后无观测
+行业经济,机械设备,EcoDataIndMachineryequipmentGet,getEcoDataIndMachineryequipment,2080100004,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,有色金属,EcoDataIndOthersGet,getEcoDataIndOthers,2220000007,0,suspected_mislabel,与综合完全重复且 API 名不符；启用前需在 UQER 页面核对
+行业经济,综合,EcoDataIndOthersGet,getEcoDataIndOthers,2220000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,房地产及建筑业,EcoDataIndRealestateGet,getEcoDataIndRealestate,2170000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,钢铁,EcoDataIndSteelGet,getEcoDataIndSteel,2040100347,1,live_validated_no_period_data,2026-08-07 元数据成功返回；样例指标 2019 年后无观测
+行业经济,纺织服装,EcoDataIndTextileclothingGet,getEcoDataIndTextileclothing,2120000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,交通运输,EcoDataIndTraffictransportGet,getEcoDataIndTraffictransport,2160000007,1,live_validated,2026-08-07 样本元数据与观测值均成功返回
+行业经济,公用事业,EcoDataFinGet,getEcoDataFin,2020500033,0,suspected_mislabel,与行业财务完全重复且 API 名不符；启用前需在 UQER 页面核对
+行业经济,行业财务,EcoDataFinGet,getEcoDataFin,2020500033,0,live_validation_failed,2026-08-07 元数据和观测值均为空；找到正确接口或指标代码前禁止启用

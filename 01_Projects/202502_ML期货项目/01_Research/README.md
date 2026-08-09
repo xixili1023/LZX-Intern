@@ -6,4 +6,4 @@
 - [[研究框架|研究框架]]
 - [[技术路线|技术路线]]
 
-数据口径见 [[../02_Data/README|Data]]，特征定义见 [[../03_Factors/README|Factors]]，模型设计见 [[../04_Model/README|Model]]。
+数据口径见 [项目外部数据说明](/Users/lizhexi/Desktop/InternData/ML期货项目Data/README.md)，特征定义见 [[../02_Factors/README|Factors]]，模型设计见 [[../03_Model/README|Model]]。

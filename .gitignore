@@ -5,6 +5,10 @@
 *.pem
 *.key
 
+# Local Anemoi gateway files supplied by the administrator
+02_Assets/Code/data_acquisition/client.py
+02_Assets/Code/data_acquisition/demo.py
+
 # Python
 __pycache__/
 *.py[cod]
@@ -21,12 +25,12 @@ venv/
 .DS_Store
 .vscode/
 
+# Obsidian local interface state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
 # Data and generated artifacts
-02_Assets/Data/raw/*
-02_Assets/Data/interim/*
-02_Assets/Data/processed/*
-02_Assets/Data/external/*
-!02_Assets/Data/**/.gitkeep
 01_Projects/*/data/*
 !01_Projects/*/data/README.md
 !01_Projects/*/data/.gitkeep

@@ -6,7 +6,8 @@
 
 - Home：`00_Home`
 - 项目根目录：`01_Projects`
-- 公共数据：`02_Assets/Data`
+- 公共数据：`~/Desktop/InternData/StockData`
+- 项目专属数据：`~/Desktop/InternData/<项目数据目录>`
 - 公共代码：`02_Assets/Code`
 - 公共参考资料：`02_Assets/References`
 - 模板目录：`03_Templates`
@@ -55,7 +56,7 @@
 
 - `raw`：保存未经修改的原始数据或其本地入口。
 - `processed`：保存通过可复现流程生成的研究数据。
-- 公共数据进入 `02_Assets/Data`；项目专属数据进入项目的 `02_Data`。
+- 公共数据进入仓库外的 `~/Desktop/InternData/StockData`；项目专属数据进入仓库外的 `~/Desktop/InternData/<项目数据目录>`。
 - 原始数据视为不可变输入，不直接覆盖或人工修改。
 
 ### 4.2 数据说明
@@ -194,4 +195,3 @@
 4. 模板默认约定
 
 项目确需偏离本规范时，应在项目文档中记录偏离原因、适用范围和影响。
-

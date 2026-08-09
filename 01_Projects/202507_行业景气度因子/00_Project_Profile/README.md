@@ -21,7 +21,7 @@
 ## 与其他模块的关系
 
 - 为 [[01_Research/README|Research]] 定义目标和边界。
-- 汇总 [[06_Experiment/README|Experiment]] 与 [[07_Report/README|Report]] 的关键进展。
+- 汇总 [[05_Experiment/README|Experiment]] 与 [[06_Report/README|Report]] 的关键进展。
 - `我的贡献.md` 应链接到对应代码、实验、研究文档或报告。
 
 ## 已迁移内容

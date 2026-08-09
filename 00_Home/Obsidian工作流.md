@@ -1,38 +1,41 @@
 # Obsidian 工作流
 
-本页说明 Personal Quant Research Portfolio 的 Obsidian 插件分工和推荐配置。Obsidian、VS Code 与 GitHub 始终使用同一个仓库目录，不复制 Vault，不建立第二套项目目录。
+本页说明 Personal Quant Research Portfolio 的研究档案组织方式与 Obsidian 配置原则。该仓库面向研究复盘、项目协作与专业审阅，内容应能够帮助读者理解项目做了什么、目前进行到哪里、下一阶段准备验证什么。
+
+Obsidian、VS Code 与 GitHub 始终使用同一个仓库目录，不复制 Vault，不建立第二套项目目录。
 
 ## 工作目录
 
-统一目录：
+仓库根目录同时作为 Obsidian Vault、VS Code Workspace 和 Git Repository，不依赖固定的本地绝对路径。
 
-```text
-/Users/lizhexi/Desktop/LZX-Intern
-```
+- Obsidian：阅读和维护研究文档、项目档案、实验记录与汇报材料。
+- VS Code：处理数据、开发因子或模型、运行实验与回测。
+- Git/GitHub：保存可公开的代码和文档版本，展示项目演进。
+- Markdown、代码和配置始终只有一份；`.obsidian` 只保存必要的 Vault 配置。
 
-- Obsidian：将该目录作为 Vault 打开。
-- VS Code：使用“打开文件夹”打开该目录。
-- Git/GitHub：在该目录中查看变更并由用户手动 commit、push。
-- Markdown、代码和配置始终只有一份；`.obsidian` 只保存 Obsidian 的界面与插件配置。
+## 内容边界
 
-## 插件分工
+仓库中应保存：
 
-| 插件 | 负责内容 | 不负责内容 |
-| --- | --- | --- |
-| Dataview | 自动展示项目 metadata | 修改项目状态或生成研究结论 |
-| Tasks | 汇总可执行任务 | 保存方法、结论和数据定义 |
-| QuickAdd | 创建标准项目和实验记录 | 替代项目模板或自动编造实验内容 |
-| Excalidraw | 表达复杂关系和流程 | 保存精确参数、结果和结论 |
-| Outliner | 编辑长文提纲和嵌套列表 | 把所有报告改成列表 |
-| Notebook Navigator | 项目和首页快速导航 | 项目数据库计算 |
+- 项目背景、研究问题、假设和方法选择；
+- 数据来源、字段口径、版本和质量检查；
+- 因子、模型、回测与实验设计；
+- 已完成里程碑、当前研究阶段、下一阶段计划和待确认问题；
+- 可追溯的代码入口、结果位置、实验结论与限制；
+- 完整报告、汇报版本和面试讲解材料。
 
-## Dataview
+仓库中不保存：
 
-入口：[[00_Home/项目数据库|项目数据库]]。
+- 个人每日安排、私人提醒或生活事项；
+- 与研究交付无关的时间管理记录；
+- 密钥、凭证、敏感数据和本地环境；
+- 无法追溯来源的结论或为了填满模板而生成的内容。
 
-项目 metadata 统一保存在 `01_Projects/<项目>/PROJECT_STATUS.md`。Dataview 只读查询这些字段，因此在 VS Code 和 GitHub 中仍然是普通 YAML 与 Markdown。
+## 项目状态与进度展示
 
-每个项目只维护五个必需属性：
+每个项目只在 `01_Projects/<项目>/PROJECT_STATUS.md` 维护当前状态。该文件既是项目进度来源，也是带教快速了解项目推进情况的入口。
+
+顶部 metadata 只保留五个字段：
 
 ```yaml
 ---
@@ -44,192 +47,132 @@ method: "因子构建"
 ---
 ```
 
-项目名称直接使用目录名，创建时间直接使用项目目录前缀，不再建立重复属性。
+正文统一展示：
 
-- `frequency`：最终研究、信号或回测的主要频率，例如 `高频`、`日频`、`周频`、`月频`。
-- `method`：只填写最能代表项目的一种主要方法，例如 `因子构建`、`机器学习`、`LightGBM`、`组合优化`、`回测`。
-- 原始数据可能同时包含多个频率，具体情况写在 `02_Data`，不全部堆进项目属性。
-- 具体模型、参数和辅助方法写在研究或模型文档，不全部堆进 `method`。
+1. 项目当前定位；
+2. 已完成里程碑；
+3. 正在进行的工作；
+4. 下一阶段计划；
+5. 风险与待确认事项；
+6. 最后更新时间。
+
+任务条使用以下状态：
+
+```markdown
+- [x] 已完成且能够提供证据的里程碑
+- [/] 当前正在推进的研究工作
+- [ ] 已确定的下一阶段工作或待验证事项
+- [-] 已取消，并在正文说明原因的事项
+```
+
+任务描述采用“动作 + 可交付结果”的形式，并尽可能链接对应文档、实验或结果。任务条不用于记录个人每日安排。
+
+## 项目数据库
+
+入口：[[00_Home/项目数据库|项目数据库]]。
+
+Dataview 只读查询各项目的 `PROJECT_STATUS.md`，自动展示项目状态、当前阶段、项目类型、研究频率和主要方法。项目名称来自目录名，创建月份来自 `YYYYMM_项目名称` 前缀，不重复建立属性。
+
+- `frequency`：最终研究、信号或回测的主要频率。
+- `method`：最能代表项目的一种主要方法。
+- 具体模型、参数和辅助方法写在项目研究文档中。
+- 项目状态只修改源文件，不在查询页或手工索引中重复维护。
 
 ### 标签规则
 
-标签只用于“无法从目录或项目属性判断、并且值得跨项目检索”的研究主题。
+标签只用于目录和项目属性无法表达、且确实需要跨项目检索的研究主题。
 
-- 每个项目最多 `0–2` 个标签。
-- 标签只放在项目的 `PROJECT_STATUS.md`。
-- 不给首页、模板、任务、实验记录和普通项目文档加标签。
-- 不使用 `quant-research`、`factor-research`、`machine-learning`、`home`、`experiment`、`task` 等重复标签。
+- 每个项目最多 `0–2` 个标签；
+- 标签只放在项目的 `PROJECT_STATUS.md`；
+- 不给首页、模板、任务、实验记录和普通项目文档添加重复标签；
+- 项目数量较少、没有真实跨项目检索需求时，不使用标签。
 
-当前两个项目都不需要标签。只有以后出现多个项目共享同一主题，并且确实需要跨项目筛选时，才给这些项目添加同一个标签。例如出现两个以上行业轮动项目时再使用 `industry-rotation`。
+## 项目进展汇总
 
-## Tasks
+入口：[[00_Home/当前任务|项目进展与下一步]]。
 
-入口：[[00_Home/当前任务|当前任务]]。
+Tasks 只汇总两类内容：
 
-推荐将阶段行动放在项目 `PROJECT_STATUS.md`，将实验产生的后续行动放在对应实验记录。任务统一使用 Markdown 复选框，日期通过 Tasks 的创建或编辑窗口添加。
+- `PROJECT_STATUS.md` 中的项目里程碑、进行中工作和下一阶段计划；
+- 项目当前编号的 `*_Experiment` 目录中由实验结果产生的待验证事项。
 
-## QuickAdd
+汇总页同时展示未完成事项和已完成里程碑，便于审阅者判断项目推进速度、当前重点和后续路径。研究结论、数据定义和方法说明仍保存在对应项目文档中，不写成任务条。
 
-QuickAdd 是 Obsidian 内的“固定表单创建器”，不理解“请帮我创建一个名为 XXX 的项目”这样的自然语言。两种创建入口分别是：
+## 实验与证据链
 
-- 对 Codex 说“请帮我创建一个新的量化研究项目，名字是 XXX”：由 Codex 检查仓库并按标准模板创建。
-- 在 Obsidian 中运行 QuickAdd 的 `新建量化项目`：按表单选择六项信息后，由本地脚本复制标准模板。
+每次参数、模型、因子或回测方案发生实质变化时，建立唯一的 Experiment ID，并至少记录：
 
-两种入口使用同一个 `Project_Template`，最终都创建在 `01_Projects`，不要混用第二套目录。
+- 实验目的与研究假设；
+- 数据范围、数据版本和信息可用时间；
+- 因子、模型或策略版本；
+- 参数设置和评价指标；
+- 代码、配置、结果和图表位置；
+- 实验结果、结论、限制和待验证事项；
+- 对应 Git commit。
 
-### 基础设置
+正式结论应沿下面的链路追溯：
 
-在 `设置 → QuickAdd` 中：
+`Research → Data → Factors/Model → Backtest → Experiment → Report`
 
-1. 将 Template folder 设为 `03_Templates`。
-2. 保持 Disable AI & Online features 开启；本工作流不依赖 QuickAdd AI。
-3. 建议开启 One-page input form，便于一次填写实验模板中的多个字段。
+代码为数据、因子、模型、回测和实验提供实现证据；报告中的关键判断应链接到对应实验或来源文档。
 
-### 快速创建完整项目
+## 插件配置原则
 
-QuickAdd 的普通 Template Choice 只能创建单个文件，不能复制完整项目目录。因此项目创建使用 User Script 复制现有 `Project_Template`：
+只配置能够降低真实维护成本的功能。
 
-1. 在 QuickAdd 中新建一个 `Macro`，名称设为 `新建量化项目`。
-2. 打开 Macro Builder，添加 `User Script`。
-3. 选择 `Create_Project`，来源是：
-   `03_Templates/QuickAdd_Scripts/Create_Project.js`。
-4. 将该 Macro 加到命令面板，并按需要绑定快捷键。
+| 功能 | 用途 | 使用边界 |
+| --- | --- | --- |
+| Dataview | 自动展示项目 metadata | 只读查询，不修改状态或生成结论 |
+| Tasks | 汇总项目进度与待验证事项 | 不管理个人每日安排 |
+| Notebook Navigator | 快速浏览项目和首页 | 不承担项目数据库计算 |
+| Templates | 创建标准实验和研究文档 | 不预填不存在的结果 |
+| Backlinks / Outgoing Links | 检查研究证据之间的连接 | 不以链接数量代替内容质量 |
+| Outline | 管理长报告和研究文档结构 | 不强制把正文改成列表 |
+| File Recovery | 防止文档误删或误覆盖 | 不代替 Git 版本管理 |
 
-运行后依次选择项目目录、项目类型、项目状态、当前阶段、研究频率和主要方法。脚本会：
+QuickAdd、Excalidraw 和 Outliner 只在出现稳定、重复的使用需求后启用：
 
-1. 检查目标项目目录是否已存在。
-2. 将完整的 `03_Templates/Project_Template` 复制到 `01_Projects/<项目目录>`。
-3. 使用 `Project_Create_Template.md` 生成新项目的 `PROJECT_STATUS.md`。
-4. 打开新项目 README。
+- 重复创建实验记录时，再配置 QuickAdd；
+- 复杂关系无法用 Markdown 或 Mermaid 清晰表达时，再使用 Excalidraw；
+- 长篇提纲确实需要频繁调整嵌套层级时，再使用 Outliner。
 
-脚本只创建新目录；若目标目录已经存在会立即停止，不覆盖已有项目。
+不为插件建立第二套状态、任务、标签或目录体系。
 
-### 快速创建实验记录
+## 推荐导航
 
-在 QuickAdd 中新增 `Template` Choice：
+高频入口不超过五个：
 
-| 设置 | 值 |
-| --- | --- |
-| Choice 名称 | `新建实验记录` |
-| Template Path | `03_Templates/Experiment_Create_Template.md` |
-| File Name Format | `01_Projects/{{VALUE:project_folder}}/06_Experiment/{{VALUE:experiment_id}}_{{VALUE:experiment_name}}` |
-| Create in folder | 关闭 |
-| Open created file | 开启 |
-| File exists | Do nothing 或 Increment file name |
+1. [[00_Home/首页|首页]]
+2. [[00_Home/项目数据库|项目数据库]]
+3. [[00_Home/当前任务|项目进展与下一步]]
+4. [[00_Home/研究地图|研究地图]]
+5. [[03_Templates/README|模板库]]
 
-运行时填写：
+顶层目录已经使用 `00_` 至 `04_` 编号，按名称升序浏览即可。
 
-- `project_folder`：实际项目目录名
-- `experiment_id`：例如 `EXP_001`
-- `experiment_name`：简短实验名称
-
-模板不会预填实验结果；运行完成后再根据真实证据填写结果、结论和限制。
-
-## Excalidraw
-
-默认绘图目录规划为 `02_Assets/Excalidraw`。详细边界见 [[02_Assets/Excalidraw/README|Excalidraw 绘图规范]]。
-
-适合：
-
-- 研究框架图
-- 模型流程图
-- 因子逻辑图
-- 回测流程图
-
-不建议为每篇笔记配图，也不批量生成图片。参数、评价结果和研究结论继续写在 Markdown 中。
-
-## Outliner
-
-推荐用于长 Markdown 报告的“提纲阶段”：
-
-1. 用嵌套列表拆解章节、论点、证据和待补材料。
-2. 使用 Tab / Shift+Tab 调整层级，移动时保持整个子树一起移动。
-3. 开启缩进参考线和列表折叠，方便管理长提纲。
-4. 结构稳定后，将正式内容展开为 Markdown 标题、段落和表格。
-
-推荐结构：
-
-```markdown
-- 研究问题
-  - 核心假设
-    - 支持证据
-    - 反例与限制
-  - 验证方法
-    - 数据
-    - 因子或模型
-    - 回测
-```
-
-任务和知识内容应分开：
-
-```markdown
-- 研究判断：景气度信号可能提供中长期信息
-- [ ] 检验景气度信号的滚动稳定性
-```
-
-Tasks 不需要 `#task` 标签，只根据复选框识别任务。
-
-### 关于 `TQ_*` 属性
-
-Tasks 8.3 会自动向 Obsidian 登记一组 `TQ_*` 高级查询属性。它们用于控制任务查询页面的显示方式，当前使用次数都是 `0`：
-
-- 不是项目属性；
-- 不是任务标签；
-- 不会进入项目数据库；
-- 不需要填写或理解。
-
-Tasks 每次启动都会重新登记这些名称，因此保留 Tasks 功能时无法通过删除配置永久移除。建议关闭“所有属性”侧栏；需要查看当前笔记属性时，只看笔记顶部实际出现的五个项目属性。
-
-## Notebook Navigator
-
-推荐配置：
-
-| 设置 | 推荐值 |
-| --- | --- |
-| Start view | Files |
-| Layout | Dual pane |
-| Folder sort | Name ascending |
-| Note sort | Modified descending |
-| Auto reveal active file | On |
-| Include descendant notes | Off |
-| Recent notes | On，5 条 |
-| Homepage | `00_Home/首页.md` |
-
-推荐快捷入口不超过 5 个：
-
-1. `00_Home/首页.md`
-2. `00_Home/项目数据库.md`
-3. `00_Home/当前任务.md`
-4. `00_Home/研究地图.md`
-5. `03_Templates/README.md`
-
-顶层目录已经使用 `00_` 至 `04_` 编号，因此保持名称升序即可，不需要手工拖动或重排目录。
-
-管理长报告时，在 Notebook Navigator 中定位项目的 `07_Report`，在 Obsidian Outline 核心插件中查看标题结构，再使用 Outliner 调整尚未定稿的列表提纲。
-
-## 日常使用顺序
+## 研究使用顺序
 
 ### 新项目启动
 
-1. 通过 Codex 或 QuickAdd 创建项目。
+1. 从标准项目模板创建项目目录。
 2. 在项目 `README.md` 写清项目定位、研究对象和最终交付物。
 3. 在 `01_Research` 写研究问题、假设和验证标准。
-4. 检查 `PROJECT_STATUS.md` 的五个属性，并只保留近期可执行任务。
-5. 在开始写代码前，先在 `02_Data` 记录数据来源、时间范围、频率和可得性。
+4. 在仓库外的项目数据目录记录数据来源、时间范围、频率和可得性，并从项目 README 建立链接。
+5. 在 `PROJECT_STATUS.md` 登记当前阶段和首批项目里程碑。
 
 ### 研究执行
 
-1. 从 [[00_Home/项目数据库|项目数据库]] 查看所有项目，只选择一个当前主项目。
-2. 从 [[00_Home/当前任务|当前任务]] 选择下一项可验证行动。
-3. 按 `Research → Data → Factors/Model → Backtest → Experiment → Report` 推进。
-4. 每次参数、模型、因子或回测方案发生实质变化时，创建一条实验记录。
-5. 实验记录保存假设、数据版本、参数、结果、结论和对应 Git commit，不把结果写进 Tag 或项目属性。
+1. 在 [[00_Home/项目数据库|项目数据库]] 查看项目状态。
+2. 在项目 `PROJECT_STATUS.md` 更新能够对外展示的阶段进展。
+3. 在 VS Code 中执行数据、因子、模型和回测工作。
+4. 将正式实验写入项目当前编号的 `*_Experiment` 目录，记录输入、参数、结果和限制。
+5. 将验证后的结论沉淀到研究文档和项目当前编号的 `*_Report` 目录。
 
-### 日常维护
+### 项目维护
 
-平时只需要维护两个地方：
+平时只维护两个动态位置：
 
-1. `PROJECT_STATUS.md`：更新 `project_status`、`current_stage`、下一步任务和最后更新时间。`frequency`、`method`、`project_type` 只有研究定义真的改变时才修改。
-2. 当前实验记录：补充实际参数、结果、结论和限制。
+1. `PROJECT_STATUS.md`：状态、阶段、里程碑、下一阶段和风险；
+2. 当前实验记录：数据版本、参数、结果、结论和待验证事项。
 
-阶段完成后，在 VS Code 中检查代码和 Markdown，再检查 Git 差异并由用户手动 commit、push。不要为了“保持最新”而重复改 README；README 只在项目定位、运行入口或目录结构发生稳定变化时更新。
+README 只在项目定位、运行入口或目录结构发生稳定变化时更新。阶段完成后检查代码、Markdown、链接和 Git 差异，再由用户手动 commit、push。

@@ -14,7 +14,7 @@
 
 ## 不应该存放什么
 
-- 需要跨项目复用的公共数据；应进入 [[02_Assets/Data/README|Public Data Assets]]
+- 需要跨项目复用的公共数据；应进入仓库外的 `~/Desktop/InternData/StockData`
 - 密钥、账号、访问令牌或受限凭证
 - 不允许提交 Git 的大型、敏感或受版权限制的数据
 - 没有来源、许可或字段说明的数据文件

@@ -37,15 +37,15 @@ $$
 
 - 项目概况：[[00_Project_Profile/项目简介|项目简介]]
 - 研究框架：[[01_Research/研究框架|研究框架]]
-- 数据说明：[[02_Data/数据说明|数据说明]]
-- 高频特征：[[03_Factors/高频特征工程|高频特征工程]]
-- 模型体系：[[04_Model/模型体系|模型体系]]
-- LightGBM：[[04_Model/LightGBM模型说明|LightGBM模型说明]]
-- 代码说明：[[05_Code/README|Code]]
-- 实验记录：[[06_Experiment/experiment_log|Experiment Log]]
-- 完整报告：[[07_Report/项目总结报告|项目总结报告]]
-- 面试版本：[[07_Report/面试讲解版|面试讲解版]]
-- 原始资料：[[08_Reference/README|Reference]]
+- 数据说明：[数据说明](/Users/lizhexi/Desktop/InternData/ML期货项目Data/数据说明.md)
+- 高频特征：[[02_Factors/高频特征工程|高频特征工程]]
+- 模型体系：[[03_Model/模型体系|模型体系]]
+- LightGBM：[[03_Model/LightGBM模型说明|LightGBM模型说明]]
+- 代码说明：[[04_Code/README|Code]]
+- 实验记录：[[05_Experiment/experiment_log|Experiment Log]]
+- 完整报告：[[06_Report/项目总结报告|项目总结报告]]
+- 面试版本：[[06_Report/面试讲解版|面试讲解版]]
+- 原始资料：[[07_Reference/README|Reference]]
 
 ## 目录结构
 
@@ -55,19 +55,21 @@ $$
 ├── PROJECT_STATUS.md
 ├── 00_Project_Profile/
 ├── 01_Research/
-├── 02_Data/
-├── 03_Factors/
-├── 04_Model/
-├── 05_Code/
-├── 06_Experiment/
-├── 07_Report/
-└── 08_Reference/
+├── 02_Factors/
+├── 03_Model/
+├── 04_Code/
+├── 05_Experiment/
+├── 06_Report/
+└── 07_Reference/
 ```
+
+项目数据不占用仓库内编号，独立保存在 `/Users/lizhexi/Desktop/InternData/ML期货项目Data`。
 
 ## Git 与数据边界
 
 - Notebook 可纳入 Git 版本管理。
 - 本项目按个人展示仓库管理，只公开研究说明和代码 Notebook。
 - FastBox 原始数据和生成的 Pickle 数据不进入 Git。
+- 项目数据统一保存在 `/Users/lizhexi/Desktop/InternData/ML期货项目Data`；可通过环境变量 `ML_FUTURES_DATA_ROOT` 覆盖该位置。
 - FastBox 认证信息通过环境变量 `FASTBOX_USERNAME` 和 `FASTBOX_PASSWORD` 提供。
 - Commit 与 push 由用户手动执行。

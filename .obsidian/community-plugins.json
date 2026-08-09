@@ -1,8 +1,8 @@
 [
-  "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-outliner",
   "notebook-navigator",
+  "obsidian-tasks-plugin",
+  "obsidian-outliner",
   "quickadd",
-  "obsidian-tasks-plugin"
+  "obsidian-excalidraw-plugin"
 ]

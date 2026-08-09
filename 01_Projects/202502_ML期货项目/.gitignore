@@ -3,14 +3,10 @@
 .env.*
 
 # Raw and generated data
-02_Data/raw/*
-02_Data/processed/*
-!02_Data/raw/.gitkeep
-!02_Data/processed/.gitkeep
-05_Code/**/*.pkl
-05_Code/**/*.pickle
-05_Code/**/*.parquet
-05_Code/**/*.csv
+04_Code/**/*.pkl
+04_Code/**/*.pickle
+04_Code/**/*.parquet
+04_Code/**/*.csv
 
 # Notebook and Python caches
 .ipynb_checkpoints/

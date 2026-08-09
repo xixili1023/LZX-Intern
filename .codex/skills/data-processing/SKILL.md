@@ -48,7 +48,6 @@ description: Design and document reproducible data acquisition, validation, clea
 - 未经明确要求不下载、覆盖、移动或删除数据。
 - 不提交大型、敏感、受限或包含凭证的数据。
 - 不隐瞒人工修正；所有重要转换必须可追踪。
-- 项目专属数据留在项目 `02_Data`，跨项目公共数据进入 `02_Assets/Data`。
+- 项目专属数据进入仓库外的 `~/Desktop/InternData/<项目数据目录>`，跨项目公共数据进入仓库外的 `~/Desktop/InternData/StockData`；仓库内只保留数据说明、代码和必要的小型元数据。
 - 不使用未来时点才能获得的信息构造历史样本。
 - 不写具体代码，除非用户在后续任务中明确要求实现。
-

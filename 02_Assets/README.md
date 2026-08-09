@@ -4,7 +4,7 @@
 
 ## 子目录
 
-- [[02_Assets/Data/README|Data]]：公共数据资源、数据字典和重建说明。
+- [StockData](/Users/lizhexi/Desktop/InternData/StockData/README.md)：仓库外的公共数据资源、数据字典和重建说明。
 - [[02_Assets/Code/README|Code]]：通用代码工具、模块和测试。
 - [[02_Assets/References/README|References]]：论文、资料和参考文献索引。
 - [[02_Assets/Excalidraw/README|Excalidraw]]：研究框架、模型、因子和回测流程图源文件及绘图规范。

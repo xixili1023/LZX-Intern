@@ -8,10 +8,10 @@
 - [[03_Templates/Factor_Template/README|Factor Template]]：独立因子研究记录模板。
 - [[03_Templates/Backtest_Template/README|Backtest Template]]：回测设计与结果记录模板。
 - [[03_Templates/Research_Report_Template/README|Research Report Template]]：研究报告写作模板。
-- [[03_Templates/Project_Create_Template|Project Create Template]]：QuickAdd 创建项目时用于生成 `PROJECT_STATUS.md`；状态与阶段写入笔记属性，正文只维护任务与更新时间。
-- [[03_Templates/Experiment_Create_Template|Experiment Create Template]]：QuickAdd 创建独立实验记录。
+- [[03_Templates/Project_Create_Template|Project Create Template]]：生成 `PROJECT_STATUS.md`；状态与阶段写入笔记属性，正文展示项目定位、里程碑、下一阶段和风险。
+- [[03_Templates/Experiment_Create_Template|Experiment Create Template]]：创建独立实验记录，可手工复制或按需接入 QuickAdd。
 
-QuickAdd 项目脚本位于 `03_Templates/QuickAdd_Scripts/Create_Project.js`，使用方式见 [[00_Home/Obsidian工作流#QuickAdd|Obsidian 工作流]]。
+可选的 QuickAdd 项目脚本位于 `03_Templates/QuickAdd_Scripts/Create_Project.js`。只有在项目或实验创建流程形成稳定重复需求后，才启用对应自动化。
 
 ## 使用规则
 

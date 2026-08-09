@@ -9,6 +9,9 @@
 - `研究问题.md`：核心问题、子问题、假设和验证标准
 - `研究框架.md`：研究流程、输入输出、基准和验证设计
 - `方法说明.md`：定义、公式、假设、实现口径和局限
+- `项目建设路线图.md`：从零重建的阶段顺序、阶段产物与验收门禁
+- `UQER与Wind景气指标对账方案.md`：新旧数据源的语义、数值、时点和因子可替代性验证
+- `UQER行业指标真实抽样检查.md`：真实返回样本、质量结果、取数架构决策与已知限制
 - 重要研究决策及其理由
 
 ## 不应该存放什么
@@ -21,13 +24,16 @@
 ## 与其他模块的关系
 
 - 接收 [[00_Project_Profile/README|Project Profile]] 定义的目标和边界。
-- 指导 [[02_Data/README|Data]]、[[03_Factors/README|Factors]] 和 [[04_Backtest/README|Backtest]] 的设计。
-- 研究假设通过 [[06_Experiment/README|Experiment]] 中的独立实验记录验证。
-- 研究逻辑和结论最终进入 [[07_Report/README|Report]]。
-- 方法依据记录在 [[08_Reference/README|Reference]]。
+- 指导 [项目外部数据说明](/Users/lizhexi/Desktop/InternData/行业景气度项目Data/README.md)、[[02_Factors/README|Factors]] 和 [[03_Backtest/README|Backtest]] 的设计。
+- 研究假设通过 [[05_Experiment/README|Experiment]] 中的独立实验记录验证。
+- 研究逻辑和结论最终进入 [[06_Report/README|Report]]。
+- 方法依据记录在 [[07_Reference/README|Reference]]。
 
 ## 已迁移内容
 
 - [[研究问题|核心问题、子问题与研究假设]]
 - [[研究框架|整体研究流程与证据链]]
 - [[方法说明|标的构建、因子评价与方法解释]]
+- [[项目建设路线图|从零重建的实施路线图]]
+- [[UQER与Wind景气指标对账方案|UQER 与 Wind 景气指标对账方案]]
+- [[UQER行业指标真实抽样检查|UQER 行业指标真实抽样检查]]
