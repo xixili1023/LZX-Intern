@@ -1,0 +1,43 @@
+{
+  "source_csv": "/Users/lizhexi/Desktop/LZX-Intern/01_Projects/202507_行业景气度因子/04_Code/data/uqer_industry_prosperity_list_20260812.csv",
+  "source_csv_sha256": "928b1b9a2c6ab7d81a41210aec6df72962e5326e84606ad5006a7ac0ecfb0af7",
+  "new_snapshot": "/Users/lizhexi/Desktop/InternData/行业景气度项目Data/raw/uqer_industry_indicators/snapshot=metadata-recheck-20260813-v1",
+  "new_manifest_sha256": "b3a9650b06cc5bb6b2e2eb3080a824ecadca726781b2a1a6750766b572da8a4d",
+  "mapping_rows": 840,
+  "requested_unique_ids": 824,
+  "returned_unique_ids": 824,
+  "missing_unique_ids": [],
+  "unexpected_unique_ids": [],
+  "identical_to_old_list_all_fields": 679,
+  "different_from_old_list_any_field": 145,
+  "unchanged_since_20260812_all_fields": 714,
+  "changed_since_20260812_any_field": 110,
+  "old_list_field_change_counts": {
+    "uqer_name": 0,
+    "name_en": 0,
+    "frequency": 0,
+    "unit": 0,
+    "stat_type": 0,
+    "region": 0,
+    "country": 0,
+    "source": 0,
+    "api": 0,
+    "begin_date": 0,
+    "end_date": 145,
+    "is_update": 0
+  },
+  "snapshot_change_counts": {
+    "uqer_name": 0,
+    "name_en": 0,
+    "frequency": 0,
+    "unit": 0,
+    "stat_type": 0,
+    "region": 0,
+    "country": 0,
+    "source": 0,
+    "api": 0,
+    "begin_date": 0,
+    "end_date": 110,
+    "is_update": 0
+  }
+}

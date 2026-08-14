@@ -1,0 +1,37 @@
+﻿查询时间,Wind代码,指数名称,UQER查询代码,接口,查询类型,查询目的,参数摘要,接口声明覆盖,接口声明说明,状态,返回行数,错误摘要,可否据此判断无覆盖
+2026-08-13T08:53:09+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxGet,ticker_info,按Wind通用代码核对UQER映射与基本信息,ticker=CI011800; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:10+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxGet,name_candidate,按中文名搜索映射候选（不自动替代）,secShortName=国泰海通资产配置指数; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:12+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,MktIdxdGet,daily,日行情覆盖与Wind点位对账,ticker=CI011800; beginDate=20221231; endDate=20260811; field=13个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:13+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxConsGet,constituents_20231231,历史成分覆盖探测,ticker=CI011800; intoDate=20231231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:14+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxConsGet,constituents_20241231,历史成分覆盖探测,ticker=CI011800; intoDate=20241231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:15+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxConsGet,constituents_20251231,历史成分覆盖探测,ticker=CI011800; intoDate=20251231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:16+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxConsGet,constituents_20260630,历史成分覆盖探测,ticker=CI011800; intoDate=20260630; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:17+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxConsGet,constituents_20260811,历史成分覆盖探测,ticker=CI011800; intoDate=20260811; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:19+08:00,CI011800.WI,国泰海通资产配置指数,CI011800,IdxCloseWeightGet,close_weights,历史收盘权重覆盖探测,ticker=CI011800; beginDate=20221231; endDate=20260811; field=1个字段; pandas=1,未列入接口枚举,IdxCloseWeightGet的参数说明枚举中债、上证、中证、深证、国证及通联DY系列等代码，未列入这四个Wind策略指数代码；本脚本仍做一次实际探测，但不将其外推到其他UQER接口。,空结果,0,,是
+2026-08-13T08:53:20+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxGet,ticker_info,按Wind通用代码核对UQER映射与基本信息,ticker=CICSF040; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:22+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxGet,name_candidate,按中文名搜索映射候选（不自动替代）,secShortName=中信期货大类资产配置指数; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:22+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,MktIdxdGet,daily,日行情覆盖与Wind点位对账,ticker=CICSF040; beginDate=20150105; endDate=20260811; field=13个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:24+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxConsGet,constituents_20231231,历史成分覆盖探测,ticker=CICSF040; intoDate=20231231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:25+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxConsGet,constituents_20241231,历史成分覆盖探测,ticker=CICSF040; intoDate=20241231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:26+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxConsGet,constituents_20251231,历史成分覆盖探测,ticker=CICSF040; intoDate=20251231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:26+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxConsGet,constituents_20260630,历史成分覆盖探测,ticker=CICSF040; intoDate=20260630; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:28+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxConsGet,constituents_20260811,历史成分覆盖探测,ticker=CICSF040; intoDate=20260811; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:29+08:00,CICSF040.WI,中信期货大类资产配置指数,CICSF040,IdxCloseWeightGet,close_weights,历史收盘权重覆盖探测,ticker=CICSF040; beginDate=20150105; endDate=20260811; field=1个字段; pandas=1,未列入接口枚举,IdxCloseWeightGet的参数说明枚举中债、上证、中证、深证、国证及通联DY系列等代码，未列入这四个Wind策略指数代码；本脚本仍做一次实际探测，但不将其外推到其他UQER接口。,空结果,0,,是
+2026-08-13T08:53:30+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxGet,ticker_info,按Wind通用代码核对UQER映射与基本信息,ticker=CI011001; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:31+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxGet,name_candidate,按中文名搜索映射候选（不自动替代）,secShortName=国泰海通大类资产全天候增强指数; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:32+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,MktIdxdGet,daily,日行情覆盖与Wind点位对账,ticker=CI011001; beginDate=20090108; endDate=20260811; field=13个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:33+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxConsGet,constituents_20231231,历史成分覆盖探测,ticker=CI011001; intoDate=20231231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:34+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxConsGet,constituents_20241231,历史成分覆盖探测,ticker=CI011001; intoDate=20241231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:35+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxConsGet,constituents_20251231,历史成分覆盖探测,ticker=CI011001; intoDate=20251231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:36+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxConsGet,constituents_20260630,历史成分覆盖探测,ticker=CI011001; intoDate=20260630; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:37+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxConsGet,constituents_20260811,历史成分覆盖探测,ticker=CI011001; intoDate=20260811; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:38+08:00,CI011001.WI,国泰海通大类资产全天候增强指数,CI011001,IdxCloseWeightGet,close_weights,历史收盘权重覆盖探测,ticker=CI011001; beginDate=20090108; endDate=20260811; field=1个字段; pandas=1,未列入接口枚举,IdxCloseWeightGet的参数说明枚举中债、上证、中证、深证、国证及通联DY系列等代码，未列入这四个Wind策略指数代码；本脚本仍做一次实际探测，但不将其外推到其他UQER接口。,空结果,0,,是
+2026-08-13T08:53:40+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxGet,ticker_info,按Wind通用代码核对UQER映射与基本信息,ticker=GALLW; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:41+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxGet,name_candidate,按中文名搜索映射候选（不自动替代）,secShortName=中国银河全天候指数; field=18个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:42+08:00,GALLW.WI,中国银河全天候指数,GALLW,MktIdxdGet,daily,日行情覆盖与Wind点位对账,ticker=GALLW; beginDate=20210701; endDate=20260811; field=13个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:43+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxConsGet,constituents_20231231,历史成分覆盖探测,ticker=GALLW; intoDate=20231231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:44+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxConsGet,constituents_20241231,历史成分覆盖探测,ticker=GALLW; intoDate=20241231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:45+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxConsGet,constituents_20251231,历史成分覆盖探测,ticker=GALLW; intoDate=20251231; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:46+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxConsGet,constituents_20260630,历史成分覆盖探测,ticker=GALLW; intoDate=20260630; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:47+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxConsGet,constituents_20260811,历史成分覆盖探测,ticker=GALLW; intoDate=20260811; field=10个字段; pandas=1,文档未限定,须以网关实际返回判断。,空结果,0,,是
+2026-08-13T08:53:48+08:00,GALLW.WI,中国银河全天候指数,GALLW,IdxCloseWeightGet,close_weights,历史收盘权重覆盖探测,ticker=GALLW; beginDate=20210701; endDate=20260811; field=1个字段; pandas=1,未列入接口枚举,IdxCloseWeightGet的参数说明枚举中债、上证、中证、深证、国证及通联DY系列等代码，未列入这四个Wind策略指数代码；本脚本仍做一次实际探测，但不将其外推到其他UQER接口。,空结果,0,,是

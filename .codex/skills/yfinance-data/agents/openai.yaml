@@ -1,0 +1,5 @@
+interface:
+  display_name: "YFinance 市场数据"
+  short_description: "为本地量化项目获取并核验 Yahoo Finance 市场数据"
+  default_prompt: "Use $yfinance-data to collect and validate reproducible market data for this LZX-Intern project."
+

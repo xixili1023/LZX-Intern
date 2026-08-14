@@ -1,0 +1,15 @@
+{
+  "manifest_summary": {
+    "successful_calls": 74,
+    "failed_calls": 0,
+    "downloaded_rows": 337365,
+    "metadata_rows": 920,
+    "observation_rows": 336445
+  },
+  "requested_unique_ids": 824,
+  "ids_with_observations_2015_to_20260813": 824,
+  "ids_without_observations_2015_to_20260813": 0,
+  "observation_rows_from_files": 336445,
+  "publish_date_non_null_rows": 196523,
+  "publish_date_missing_rows": 139922
+}

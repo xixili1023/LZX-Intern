@@ -1,0 +1,841 @@
+﻿industry_code,industry_name,industry_rank,uqer_indic_id,uqer_name,name_en,frequency,unit,stat_type,region,country,source,api,begin_date,end_date,is_update,selection_score
+801010,农林牧渔,1,2010711979,价格:仔猪:外三元(15kg),Price: Piglet: Foreign Mixed Breed (15kg),日,元/公斤,当期值,全国,中国,博亚和讯,getEcoDataIndAgricultural,2016-09-28,2026-08-07,1,150.0
+801010,农林牧渔,2,2010712032,价格:仔猪:外三元(20kg),Price: Piglet: Foreign Mixed Breed (20kg),日,元/公斤,当期值,全国,中国,博亚和讯,getEcoDataIndAgricultural,2016-01-04,2026-08-07,1,150.0
+801010,农林牧渔,3,2010711926,价格:生猪:外三元,Price: Pig: Foreign Mixed Breed,日,元/公斤,当期值,全国,中国,博亚和讯,getEcoDataIndAgricultural,2016-01-04,2026-08-07,1,150.0
+801010,农林牧渔,4,2010000983,农产品批发价格200指数,Wholesale Price Index of Agricultural Products,日,2015年=100,定基,全国,中国,中国农业农村部,getEcoDataIndAgricultural,2015-01-19,2026-08-07,1,150.0
+801010,农林牧渔,5,2010000984,农产品批发价格200指数:菜篮子,Wholesale Price Index of Agricultural Products 200: Vegetable Basket,日,2015年=100,定基,全国,中国,中国农业农村部,getEcoDataIndAgricultural,2015-01-19,2026-08-07,1,150.0
+801010,农林牧渔,6,2010723605,收盘价:大商所:农产品期货价格指数,Closing Price: Dalian Commodity Exchange: Agricultural Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,7,2010723606,收盘价:大商所:农产品期货价格综合指数,Closing Price: Dalian Commodity Exchange: Agricultural Futures Price Composite Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,8,2010723608,收盘价:大商所:大豆类期货价格指数,Closing Price: Dalian Commodity Exchange: Soybean Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,9,2010723617,收盘价:大商所:玉米期货主力合约价格指数,Closing Price: Dalian Commodity Exchange: Corn Futures Main Contract Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,10,2010723610,收盘价:大商所:玉米期货价格指数,Closing Price: Dalian Commodity Exchange: Corn Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,11,2010723625,收盘价:大商所:玉米淀粉加工利润指数,Closing Price: Dalian Commodity Exchange: Corn Starch Processing Profit Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2014-12-19,2026-08-07,1,150.0
+801010,农林牧渔,12,2010723618,收盘价:大商所:玉米淀粉期货主力合约价格指数,Closing Price: Dalian Commodity Exchange: Corn Starch Futures Main Contract Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2014-12-19,2026-08-07,1,150.0
+801010,农林牧渔,13,2010723611,收盘价:大商所:玉米淀粉期货价格指数,Closing Price: Dalian Commodity Exchange: Corn Starch Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2014-12-19,2026-08-07,1,150.0
+801010,农林牧渔,14,2010723620,收盘价:大商所:豆粕期货主力合约价格指数,Closing Price: Dalian Commodity Exchange: Soybean Meal Main Contract Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,15,2010723613,收盘价:大商所:豆粕期货价格指数,Closing Price: Dalian Commodity Exchange: Soybean Meal Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,16,2010723609,收盘价:大商所:饲料类期货价格指数,Closing Price: Dalian Commodity Exchange: Feed Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-01-04,2026-08-07,1,150.0
+801010,农林牧渔,17,2010723623,收盘价:大商所:鸡蛋期货主力合约价格指数,Closing Price: Dalian Commodity Exchange: Egg Futures Price Main Contract Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-11-08,2026-08-07,1,150.0
+801010,农林牧渔,18,2010723616,收盘价:大商所:鸡蛋期货价格指数,Closing Price: Dalian Commodity Exchange: Egg Futures Price Index,日,点,当期值,全国,中国,大连商品交易所,getEcoDataIndAgricultural,2013-11-08,2026-08-07,1,150.0
+801010,农林牧渔,19,1040015395,农产品生产价格指数:渔业产品:海水养殖(上年同期=100),Price Index of Agricultural Produce: Fishery: Mariculture (CPPY=100),季,上年同期=100,当期值,全国,中国,国家统计局,getEcoDataChina,2011-03-31,2026-06-30,1,147.0
+801010,农林牧渔,20,1040015396,农产品生产价格指数:渔业产品:淡水养殖(上年同期=100),Price Index of Agricultural Produce: Fishery: Freshwater Aquaculture (CPPY=100),季,上年同期=100,当期值,全国,中国,国家统计局,getEcoDataChina,2011-03-31,2026-06-30,1,147.0
+801010,农林牧渔,21,1040001914,国内期货价格:强小麦,Domestic Futures Prices: Wheat Wh,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-04-08,2026-07-31,1,147.0
+801010,农林牧渔,22,1040001913,国内期货价格:棉花,Domestic Futures Prices: Cotton,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-04-08,2026-07-31,1,147.0
+801010,农林牧渔,23,1040001918,国内期货价格:玉米,Domestic Futures Prices: Corn,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2004-12-31,2026-07-31,1,147.0
+801010,农林牧渔,24,1040001912,国内期货价格:白糖,Domestic Futures Prices: White Sugar,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2006-03-03,2026-07-31,1,147.0
+801010,农林牧渔,25,1040001915,国内期货价格:硬小麦,Domestic Futures Prices: Wheat Pm,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-04-08,2026-07-31,1,147.0
+801010,农林牧渔,26,1040001919,国内期货价格:豆粕,Domestic Futures Prices: Soybean Meal,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2004-12-31,2026-07-31,1,147.0
+801010,农林牧渔,27,1040001861,国内现货价格:零售价:小包装大米,Domestic Spot Price: Retail Price: Small-Packaged Rice,周,元/公斤,当期值,全国,中国,商务部,getEcoDataChina,2004-01-02,2026-07-31,1,147.0
+801010,农林牧渔,28,1040001870,国内现货价格:零售价:鸡蛋,Domestic Spot Price: Retail Price: Egg,周,元/公斤,当期值,全国,中国,商务部,getEcoDataChina,2004-01-02,2026-07-31,1,147.0
+801010,农林牧渔,29,1040001943,国际期货价格:CBOT:小麦,International Futures Prices: Wheat (CBOT),周,美分/60磅,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801010,农林牧渔,30,1040001948,国际期货价格:CBOT:豆粕,International Futures Prices: Soybean Meal (CBOT),周,美元/短吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801030,基础化工,1,2030019739,中国塑料城价格指数:聚丙烯(PP),China Plastics City Price Index: Polypropylene (PP),日,点,当期值,全国,中国,中塑在线,getEcoDataIndChemical,2010-01-04,2026-08-07,1,150.0
+801030,基础化工,2,2030019742,中国塑料城价格指数:聚乙烯(PE),China Plastics City Price Index: Polyethylene (PE),日,点,当期值,全国,中国,中塑在线,getEcoDataIndChemical,2010-01-04,2026-08-07,1,150.0
+801030,基础化工,3,1040015380,生产资料价格:化肥:尿素:周环比,Spot Price: Chemical Fertilizer: Urea: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801030,基础化工,4,1040001999,国内现货价格:国产尿素,Domestic Spot Price: Domestic Urea,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2003-07-01,2026-07-31,1,147.0
+801030,基础化工,5,1040005412,生产资料价格:化工产品:聚氯乙烯:电石法生产:当月值,Price of Means of Production: Chemical Products: PVC: Calcium Carbide Production: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,147.0
+801030,基础化工,6,1040024019,生产资料价格:基础化学:聚丙烯:周环比,,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2006-09-01,2026-07-31,1,147.0
+801030,基础化工,7,1040015375,生产资料价格:基础化学原料:甲醇:周环比,Spot Price: Basic Chemical Raw Materials: Methanol: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,147.0
+801030,基础化工,8,1040015378,生产资料价格:基础化学原料:纯碱:周环比,Spot Price: Basic Chemical Raw Materials: Soda Ash: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,147.0
+801030,基础化工,9,2030637303,中价柴达木纯碱价格指数(CSI)价格指数:全国轻质纯碱:定基,Mid-Price Qaidam Soda Ash Price Index (CSI) Price Index: National Light Soda Ash: Fixed Base Index,旬,元/吨,当期值,全国,中国,发改委,getEcoDataIndChemical,2018-04-05,2026-06-15,1,145.0
+801030,基础化工,10,2030637307,中价柴达木纯碱价格指数(CSI)价格指数:全国轻质纯碱:环比,Mid-Price Qaidam Soda Ash Price Index (CSI) Price Index: National Light Soda Ash: Percent Change from Preceding Period,旬,%,环比指数,全国,中国,发改委,getEcoDataIndChemical,2018-04-15,2026-06-15,1,145.0
+801030,基础化工,11,2030637302,中价柴达木纯碱价格指数(CSI)价格指数:全国重质纯碱:定基,Mid-Price Qaidam Soda Ash Price Index (CSI) Price Index: National Heavy Soda Ash: Fixed Base Index,旬,元/吨,当期值,全国,中国,发改委,getEcoDataIndChemical,2018-04-05,2026-06-15,1,145.0
+801030,基础化工,12,2030637306,中价柴达木纯碱价格指数(CSI)价格指数:全国重质纯碱:环比,Mid-Price Qaidam Soda Ash Price Index (CSI) Price Index: National Heavy Soda Ash: Percent Change from Preceding Period,旬,%,环比指数,全国,中国,发改委,getEcoDataIndChemical,2018-04-15,2026-06-15,1,145.0
+801030,基础化工,13,1040005421,生产资料价格:化工产品:烧碱:液碱(离子膜法)含量≥30%:当月值,Price of Means of Production: Chemical Products: Caustic Soda: Caustic Soda Liquid (Ion-exchange Membrane Process) Content of ≥30%: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801030,基础化工,14,1040005406,生产资料价格:化工产品:甲醇:精甲醇:当月值,Price of Means of Production: Chemical Products: Methanol: Refined Methanol: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801030,基础化工,15,1040005427,生产资料价格:化工产品:线性低压聚乙烯:注塑级:当月值,Price of Means of Production: Chemical Products: Linear Low-pressure Polyethylene: Injection Molding Grade: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801030,基础化工,16,1040005409,生产资料价格:化工产品:聚丙烯:拉丝:当月值,Price of Means of Production: Chemical Products: Polypropylene: Drawing: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801030,基础化工,17,1040005400,生产资料价格:化工产品:高压聚乙烯:薄膜级:当月值,Price of Means of Production: Chemical Products: High-pressure Polyethylene: Film Grade: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801030,基础化工,18,2030728548,中国农药价格指数:农药,China Pesticide Price index(CAPI): Pesticide,月,,当期值,全国,中国,农药资讯网,getEcoDataIndChemical,2013-12-31,2026-06-30,1,143.0
+801030,基础化工,19,2030728551,中国农药价格指数:杀菌剂,China Pesticide Price index(CAPI): Fungicide,月,,当期值,全国,中国,农药资讯网,getEcoDataIndChemical,2013-12-31,2026-06-30,1,143.0
+801030,基础化工,20,2030728550,中国农药价格指数:杀虫剂,China Pesticide Price index(CAPI): Insecticide,月,,当期值,全国,中国,农药资讯网,getEcoDataIndChemical,2013-12-31,2026-06-30,1,143.0
+801030,基础化工,21,2030728549,中国农药价格指数:除草剂,China Pesticide Price index(CAPI): Herbicide,月,,当期值,全国,中国,农药资讯网,getEcoDataIndChemical,2013-12-31,2026-06-30,1,143.0
+801030,基础化工,22,1020001555,产量:氢氧化钠(烧碱)(折100%):当月值,Output: Sodium Hydroxide (Caustic Soda) (100% Off): Current,月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801030,基础化工,23,1020001554,产量:碳酸钠(纯碱):当月值,Output: Sodium Carbonate (Soda Ash): Current,月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801030,基础化工,24,2030768526,"出口数量:过氧化氢,不论是否用尿素固化(2847):当月值","Export Quantity: Hydrogen Peroxide, Whether Or Not Cured With Urea(2847): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,143.0
+801030,基础化工,25,2030768519,"出口金额(美元):过氧化氢,不论是否用尿素固化(2847):当月值","Export Value (USD): Hydrogen Peroxide, Whether Or Not Cured With Urea(2847): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,143.0
+801030,基础化工,26,1020001557,化学农药原药(折有效成分100%):产量:当月值,Output: Chemical Pesticide Original Drug (Active Ingredients 100% Off): Current,月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801030,基础化工,27,1040000979,工业生产者购进价格指数(PPIRM):化工原料类(上年同月=100),PPIRM: Chemical Raw Materials (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,1988-03-31,2026-06-30,1,143.0
+801030,基础化工,28,1040005391,生产资料价格:化工产品:ABS树脂:通用级:当月值,Price of Means of Production: Chemical Products: ABS Resin: General Purpose: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,143.0
+801030,基础化工,29,1040005433,生产资料价格:化工产品:乙醇:燃料乙醇:当月值,Price of Means of Production: Chemical Products: Ethanol: Fuel Ethanol: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,143.0
+801030,基础化工,30,1040005397,生产资料价格:化工产品:二甲苯:含量≥96%:当月值,Price of Means of Production: Chemical Products: Xylene: Content ≥96%: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,143.0
+801040,钢铁,1,2040601002,特钢指数:相对价格:不锈钢,Special Steel Index: Relative Price: Stainless Steel,日,点,当期值,全国,中国,我的钢铁网,getEcoDataIndSteel,2003-01-01,2026-08-07,1,150.0
+801040,钢铁,2,2040601004,钢材指数:相对价格:H型钢,Steel Index: Relative Price: H-Beam,日,点,当期值,全国,中国,我的钢铁网,getEcoDataIndSteel,2015-07-29,2026-08-07,1,150.0
+801040,钢铁,3,1040024020,生产资料价格:钢材:热轧带钢:周环比,,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2014-07-18,2026-07-31,1,149.0
+801040,钢铁,4,1040015368,生产资料价格:钢材:螺纹钢:周环比,Spot Price: Steel: Rebar: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801040,钢铁,5,1040015369,生产资料价格:钢材:高速线材:周环比,Spot Price: Steel: High-Speed Wire Rod: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-07-19,1,149.0
+801040,钢铁,6,2040000176,铁矿石指数:相对价格:进口矿,Index of Iron Ore: Ore Imports,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,7,2040000179,铁矿石指数:相对价格:进口矿:京唐港,Index of Iron Ore: Ore Imports: Jingtang Port,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,8,2040000182,铁矿石指数:相对价格:进口矿:岚山港,Index of Iron Ore: Ore Imports: Port of Lanshan,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,9,2040000181,铁矿石指数:相对价格:进口矿:日照港,Index of Iron Ore: Ore Imports: Rizhao Port,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,10,2040000180,铁矿石指数:相对价格:进口矿:曹妃甸,Index of Iron Ore: Ore Imports: Caofeidian,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,11,2040000183,铁矿石指数:相对价格:进口矿:连云港,Index of Iron Ore: Ore Imports: Lianyungang,日,2005年1月=100,当期值,,中国,Datayes!,getEcoDataIndSteel,2005-01-07,2026-08-07,1,148.0
+801040,钢铁,12,2040104245,中厚板社会库存,Plate Social Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2009-01-16,2026-08-05,1,147.0
+801040,钢铁,13,2040601007,价格:CSPI:螺纹钢(三级)HRB400Φ16,,周,元/吨,当期值,全国,中国,中国钢铁工业协会,getEcoDataIndSteel,2010-10-09,2026-08-07,1,147.0
+801040,钢铁,14,2040104244,冷轧卷板社会库存,Cold Rolled Coil Social Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2009-01-16,2026-08-05,1,147.0
+801040,钢铁,15,1040001980,国内现货价格:普通高速线材(φ6.5mm),Domestic Spot Price: Ordinary High-Speed Wire Φ6.5Mm,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2003-07-01,2026-07-31,1,147.0
+801040,钢铁,16,1040001988,国内现货价格:热轧带钢(180*2.5),Domestic Spot Price: Hot-Rolled Strip 180 * 2.5,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2006-07-01,2026-07-31,1,147.0
+801040,钢铁,17,1040001981,国内现货价格:螺纹钢(φ25mm),Domestic Spot Price: Rebar Φ25Mm,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2003-07-01,2026-07-31,1,147.0
+801040,钢铁,18,2040104243,热轧卷板社会库存,Hot Rolled Coil Social Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2007-12-29,2026-08-05,1,147.0
+801040,钢铁,19,1040005361,"生产资料价格:钢材:不锈钢板:2.0,304/2B冷轧:当月值","Price of Means of Production: Steel: Stainless Steel Plate: 2.0,304/2B Cold Rolled:Current",月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,147.0
+801040,钢铁,20,1040005382,"生产资料价格:钢材:热轧中厚板:20,Q235:当月值","Price of Means of Production: Steel: Hot Rolled Plate: 20, Q235: Current",月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,147.0
+801040,钢铁,21,2040104242,螺纹钢社会库存,Rebar Social Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2006-04-07,2026-08-05,1,147.0
+801040,钢铁,22,2040104240,钢材社会库存,Steel Social Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2006-04-07,2026-08-05,1,147.0
+801040,钢铁,23,2040104248,铁矿石港口库存,Iron Ore Port Inventory,周,万吨,当期值,全国,中国,兰格钢铁,getEcoDataIndSteel,2007-01-05,2026-08-05,1,147.0
+801040,钢铁,24,2040608869,产量:重点优特钢企业:冷轧钢材:累计值,Output: Key High Quality and Special Steel Companies: Cold Rolled Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2012-02-29,2026-03-31,1,145.0
+801040,钢铁,25,2040608868,产量:重点优特钢企业:热轧钢材:累计值,Output: Key High Quality and Special Steel Companies: Hot Rolled Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2012-02-29,2026-03-31,1,145.0
+801040,钢铁,26,2040608984,产量:重点优特钢企业:粗钢:不锈钢:累计值,Output: Key High Quality and Special Steel Companies: Crude Steel: Stainless Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2011-02-28,2026-05-31,1,145.0
+801040,钢铁,27,2040608987,产量:重点优特钢企业:粗钢:耐热不锈钢:累计值,Output: Key High Quality and Special Steel Companies: Crude Steel: Heat-resistant Stainless Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2011-02-28,2026-05-31,1,145.0
+801040,钢铁,28,2040608985,产量:重点优特钢企业:粗钢:铬系不锈钢:累计值,Output: Key High Quality and Special Steel Companies: Crude Steel: Chrome Stainless Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2011-02-28,2026-05-31,1,145.0
+801040,钢铁,29,2040608986,产量:重点优特钢企业:粗钢:铬镍系不锈钢:累计值,Output: Key High Quality and Special Steel Companies: Crude Steel: Chrome Nickel Stainless Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2011-02-28,2026-05-31,1,145.0
+801040,钢铁,30,2040608918,产量:重点优特钢企业:钢材:不锈钢:累计值,Output: Key High Quality and Special Steel Companies: Steel: Stainless Steel: Cumulative Value,月,吨,累计值,中国大陆,中国,兰格钢铁,getEcoDataIndSteel,2011-02-28,2026-03-31,1,145.0
+801050,有色金属,1,2030019767,价格:正极材料:磷酸铁锂,Price: Cathode Material: Lithium Iron Phosphate,日,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndChemical,2017-11-01,2026-08-07,1,150.0
+801050,有色金属,2,1040015389,生产资料价格:有色金属:铜:周环比,Spot Price: Non-Ferrous Metals: Copper: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801050,有色金属,3,1040015390,生产资料价格:有色金属:铝:周环比,Spot Price: Non-Ferrous Metals: Aluminum: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801050,有色金属,4,1040015392,生产资料价格:有色金属:锌:周环比,Spot Price: Non-Ferrous Metals: Zinc: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801050,有色金属,5,1040002010,国内期货价格:铜,Domestic Futures Prices: Copper,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-07,2026-07-31,1,147.0
+801050,有色金属,6,1040002011,国内期货价格:铝,Domestic Futures Prices: Aluminum,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-07,2026-07-31,1,147.0
+801050,有色金属,7,1040002004,国内现货价格:铜(1#),Domestic Spot Price: Copper (1 #),周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2006-06-15,2026-07-31,1,147.0
+801050,有色金属,8,1040002005,国内现货价格:铝(A00),Domestic Spot Price: Aluminum (A00),周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2006-06-15,2026-07-31,1,147.0
+801050,有色金属,9,1040002007,国内现货价格:锌(1#),Domestic Spot Price: Zinc (1 #),周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2006-06-15,2026-07-31,1,147.0
+801050,有色金属,10,1040005228,国际现货价格:白银(英),International Spot Price: Silver,周,美分/盎司,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,11,1040005219,国际现货价格:铜(A级),International Spot Price: Copper (Grade A),周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,12,1040005222,国际现货价格:铝,International Spot Price: Aluminum,周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,13,1040005229,国际现货价格:铝合金,International Spot Price: Aluminum Alloy,周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,14,1040005221,国际现货价格:锌,International Spot Price: Zinc,周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,15,1040005223,国际现货价格:镍,International Spot Price: Nickel,周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,16,1040005227,国际现货价格:黄金(英),International Spot Price: Gold (English),周,美元/盎司,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801050,有色金属,17,2030767397,出口金额(美元):人造刚玉;氧化铝;氢氧化铝(2818):当月值,Export Value (USD): Artificial Corundum;Alumina;Aluminum Hydroxide(2818): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801050,有色金属,18,1040005478,生产资料价格:有色金属:铅:1#铅锭:当月值,Price of Means of Production: Non-ferrous Metals: Lead: Lead Ingot 1#: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,19,1040005481,"生产资料价格:有色金属:铜:1#电解铜,阴极铜:当月值","Price of Means of Production: Non-ferrous Metals: Copper: 1# Electrolytic Copper, Copper Cathodes: Current",月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,20,1040005472,生产资料价格:有色金属:铝:AOO铝锭:当月值,Price of Means of Production: Non-ferrous Metals: Aluminium: AOO Aluminum Ingot: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,21,1040005487,生产资料价格:有色金属:锌:0#锌锭:当月值,Price of Means of Production: Non-ferrous Metals: Zinc: 0 # Zinc Ingot: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,22,1040005484,生产资料价格:有色金属:锡:1#锡锭:当月值,Price of Means of Production: Non-ferrous Metals: Tin: Tin Ingot 1#: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,23,1040005475,生产资料价格:有色金属:镍:1#:当月值,Price of Means of Production: Non-ferrous Metals: Nickel: 1#: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801050,有色金属,24,2030767399,进出口金额(美元):人造刚玉;氧化铝;氢氧化铝(2818):当月值,Import And Export Value (USD): Artificial Corundum;Alumina;Aluminum Hydroxide(2818): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801050,有色金属,25,2030767398,进口金额(美元):人造刚玉;氧化铝;氢氧化铝(2818):当月值,Import Value (USD): Artificial Corundum;Alumina;Aluminum Hydroxide(2818): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801050,有色金属,26,1020001631,产量:十种有色金属:当月同比,Output: Ten Non-Ferrous Metals: YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,1997-02-28,2026-06-30,1,143.0
+801050,有色金属,27,1020008741,产量:原铝(电解铝):当月同比,Output: Ten Non-Ferrous Metals: Primary Aluminum (Electrolytic Aluminum): Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2002-04-30,2026-06-30,1,143.0
+801050,有色金属,28,1020008681,产量:精炼铜(电解铜):当月值,Output: Ten Kinds of Non-Ferrous Metals: Refined Copper (Electrolyzed Copper): Current Value (Month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-01-31,2026-06-30,1,143.0
+801050,有色金属,29,1020008682,产量:铅:当月值,Output: Ten Kinds of Non-Ferrous Metals: Lead: Current Value (Month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1995-01-31,2026-06-30,1,143.0
+801050,有色金属,30,1020001568,产量:铝材:当月值,Output: Aluminum Products: Current Value (Month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801080,电子,1,2090103612,产量:光电子器件:当月值,Output: Optoelectronics: Current Value (Month),月,亿只,当期值,全国,中国,国家统计局,getEcoDataIndElectronic,2007-01-31,2026-06-30,1,145.0
+801080,电子,2,2090100994,产量:微型电子计算机:当月值,Micro Computer Equipments: Production,月,万台,当期值,全国,中国,国家统计局,getEcoDataIndElectronic,1989-02-28,2026-06-30,1,143.0
+801080,电子,3,2090714996,产量:智能手机:当月同比,Output: Smart Phone: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndElectronic,2016-03-31,2026-06-30,1,143.0
+801080,电子,4,2090100999,产量:电子计算机:当月同比,Electronic Computer: Output: YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndElectronic,1997-02-28,2026-06-30,1,143.0
+801080,电子,5,1020001593,产量:集成电路:当月值,Output: Integrated Circuit,月,亿块,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801080,电子,6,2090717191,出口金额(美元):二极管、晶体管及类似的半导体器件(8541):当月值,"Export Value (USD): Diodes, Transistors And Similar Semiconductor Devices(8541): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,7,2090717093,出口金额(美元):印刷电路(8534):当月值,Export Value (USD): Printed Circuit(8534): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,8,2090717205,出口金额(美元):集成电路(8542):当月值,Export Value (USD): Integrated Circuit(8542): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,9,1050000361,固定资产投资完成额:计算机、通信和其他电子设备制造业:累计同比,"Fixed Assets Investment Completed: Manufacturing: Computer, Communications And Other Electronic Equipment Manufacturing: Cumulative YoY",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,143.0
+801080,电子,10,1020010285,工业企业:投资收益:计算机、通信和其他电子设备制造业:累计值,"Investment Return: Computer, Communications and Other Electronic Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801080,电子,11,1050000443,民间固定资产投资完成额:计算机、通信和其他电子设备制造业:累计同比,"Private Investment In Fixed Assets Completed: Computer, Communications And Other Electronic Equipment Manufacturing: Cumulative YoY",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,143.0
+801080,电子,12,2090700315,电子信息制造业:固定资产投资:累计同比,Electronic Information Manufacturing Industry: Fixed Asset Investment: Cumulative YoY,月,%,累计同比,全国,中国,工信部,getEcoDataIndElectronic,2016-02-29,2026-06-30,1,143.0
+801080,电子,13,2090700305,规模以上电子信息制造业:出口交货值:当月同比,Electronic Information Manufacturing above Designated Size: Export Delivery Value: Month YoY,月,%,当期同比,全国,中国,工信部,getEcoDataIndElectronic,2010-10-31,2026-06-30,1,143.0
+801080,电子,14,2090717193,进出口金额(美元):二极管、晶体管及类似的半导体器件(8541):当月值,"Import And Export Value (USD): Diodes, Transistors And Similar Semiconductor Devices(8541): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,15,2090717095,进出口金额(美元):印刷电路(8534):当月值,Import And Export Value (USD): Printed Circuit(8534): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,16,2090717207,进出口金额(美元):集成电路(8542):当月值,Import And Export Value (USD): Integrated Circuit(8542): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,17,2090717192,进口金额(美元):二极管、晶体管及类似的半导体器件(8541):当月值,"Import Value (USD): Diodes, Transistors And Similar Semiconductor Devices(8541): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,18,2090717094,进口金额(美元):印刷电路(8534):当月值,Import Value (USD): Printed Circuit(8534): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,19,2090717206,进口金额(美元):集成电路(8542):当月值,Import Value (USD): Integrated Circuit(8542): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801080,电子,20,1040018946,PPI:电子元件及电子专用材料制造业(上年同月=100),PPI: Manufacturing of Electronic Components and Materials for Electronic Purpose (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2018-01-31,2026-06-30,1,135.0
+801080,电子,21,1040018945,PPI:电子器件制造业(上年同月=100),PPI: Electronic Parts (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-31,2026-06-30,1,135.0
+801080,电子,22,1040000869,PPI:计算机、通信和其他电子设备制造业(上年同月=100),"PPI: Computer, Communications and Other Electronic Equipment Manufacturing (CYoY=100)",月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,1996-10-31,2026-06-30,1,135.0
+801080,电子,23,2090726818,出口数量:机电产品:电子元件:二极管及类似半导体器件:太阳能电池:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801080,电子,24,2090726817,出口数量:机电产品:电子元件:二极管及类似半导体器件:当月环比,,月,%,当期环比,,中国,海关总署,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801080,电子,25,2090700311,规模以上电子信息制造业:利润总额:累计同比,Electronic Information Manufacturing above Designated Size: Total Profit: Cumulative YoY,月,%,累计同比,全国,中国,工信部,getEcoDataIndElectronic,2008-02-29,2026-06-30,1,135.0
+801080,电子,26,2090700304,规模以上电子信息制造业:增加值:当月同比,Electronic Information Manufacturing above Designated Size: Value Added: Month YoY,月,%,当期同比,全国,中国,工信部,getEcoDataIndElectronic,2009-02-28,2026-06-30,1,135.0
+801080,电子,27,2090717194,贸易差额(美元):二极管、晶体管及类似的半导体器件(8541):当月值,"Trade Balance (USD): Diodes, Transistors And Similar Semiconductor Devices(8541): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2017-01-31,2026-06-30,1,135.0
+801080,电子,28,2090717096,贸易差额(美元):印刷电路(8534):当月值,Trade Balance (USD): Printed Circuit(8534): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2017-01-31,2026-06-30,1,135.0
+801080,电子,29,2090715996,现货平均价:DRAM:DDR3 2Gb 256Mx8 1600MHz,Average Spot Price: DRAM: DDR3 2Gb 256Mx8 1600MHz,日,美元,当期值,全球,全球,全球半导体观察,getEcoDataIndElectronic,2011-12-01,2026-08-07,1,132.0
+801080,电子,30,2090715997,现货平均价:DRAM:DDR3 4Gb 512Mx8 1600MHz,Average Spot Price: DRAM: DDR3 4Gb 512Mx8 1600MHz,日,美元,当期值,全球,全球,全球半导体观察,getEcoDataIndElectronic,2013-05-29,2026-08-07,1,132.0
+801110,家用电器,1,2090102058,产量:家用洗衣机:当月值,Output: Household Washing Machine,月,万台,当期值,全国,中国,国家统计局,getEcoDataIndElectronic,1989-02-28,2026-06-30,1,143.0
+801110,家用电器,2,1020001598,产量:家用电冰箱:当月值,Output: Household Refrigerator: Current,月,万台,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801110,家用电器,3,1020001596,产量:彩电:当月值,Output: Color TV,月,万台,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801110,家用电器,4,2090102062,产量:空调:当月值,Output: Room Air Conditioner,月,万台,当期值,全国,中国,国家统计局,getEcoDataIndElectronic,1990-02-28,2026-06-30,1,143.0
+801110,家用电器,5,2090715149,出口数量:其他电热水器:当月值,Export Volume: Other Electric Water Heaters: Current Value (Month),月,个,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,6,2090715077,出口数量:抽油烟机、罩平面最大边长≤120cm:当月值,Export Volume: The Maximum Side Length of the Range Hood and Hood Plane≤120cm: Current Value (Month),月,台,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,7,2090715113,出口数量:热水器零件:当月值,Export Volume: Water Heater Components: Current Value (Month),月,千克,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,8,2090715089,出口数量:燃气快速热水器:当月值,Export Volume: Gas Instant Water Heater: Current Value (Month),月,台,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,9,2090715125,出口数量:电热的储存式热水器:当月值,Export Volume: Electric Storage Water Heater: Current Value (Month),月,个,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,10,2090715137,出口数量:电热的快速热水器:当月值,Export Volume: Electric Fast Water Heater: Current Value (Month),月,个,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,11,2090715155,出口金额(人民币):其他电热水器:当月值,Export Amount (CNY): Other Electric Water Heaters: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,12,2090715083,出口金额(人民币):抽油烟机、罩平面最大边长≤120cm:当月值,Export Amount (CNY): The Maximum Side Length of the Range Hood and Hood Plane≤120cm: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,13,2090715119,出口金额(人民币):热水器零件:当月值,Export Amount (CNY): Water Heater Components: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,14,2090715095,出口金额(人民币):燃气快速热水器:当月值,Export Amount (CNY): Gas Instant Water Heater: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,15,2090715131,出口金额(人民币):电热的储存式热水器:当月值,Export Amount (CNY): Electric Storage Water Heater: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,16,2090715143,出口金额(人民币):电热的快速热水器:当月值,Export Amount (CNY): Electric Fast Water Heater: Current Value (Month),月,元,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,17,2090716953,出口金额(美元):电热的快速热水器、储存式热水器等(8516):当月值,"Export Value (USD): Electric Fast Water Heater, Storage Water Heater, Etc(8516): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,18,2090716955,进出口金额(美元):电热的快速热水器、储存式热水器等(8516):当月值,"Import And Export Value (USD): Electric Fast Water Heater, Storage Water Heater, Etc(8516): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801110,家用电器,19,2090727470,出口:家电:抽油烟机,,季,万台,当期值,全国,中国,产业在线,getEcoDataIndElectronic,2016-03-31,2026-03-31,1,141.0
+801110,家用电器,20,2090727454,产量:抽油烟机:当季值,,季,万台,当期值,全国,中国,产业在线,getEcoDataIndElectronic,2016-03-31,2026-03-31,1,139.0
+801110,家用电器,21,2090727407,销量:抽油烟机:当季值,,季,万台,当期值,全国,中国,产业在线,getEcoDataIndElectronic,2016-03-31,2026-03-31,1,139.0
+801110,家用电器,22,2090726559,出口数量:机电产品:家用电器:冰箱:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801110,家用电器,23,2090726562,出口数量:机电产品:家用电器:微波炉:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801110,家用电器,24,2090726560,出口数量:机电产品:家用电器:洗衣机:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801110,家用电器,25,2090726551,出口数量:机电产品:家用电器:电视机:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801110,家用电器,26,2090726558,出口数量:机电产品:家用电器:空调:当月环比,,月,%,当期环比,,中国,Datayes!,getEcoDataIndElectronic,2014-07-31,2026-06-30,1,135.0
+801110,家用电器,27,2090716956,贸易差额(美元):电热的快速热水器、储存式热水器等(8516):当月值,"Trade Balance (USD): Electric Fast Water Heater, Storage Water Heater, Etc(8516): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2017-01-31,2026-06-30,1,135.0
+801110,家用电器,28,2090715146,进口数量:其他电热水器:当月值,Import Volume: Other Electric Water Heaters: Current Value (Month),月,个,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,135.0
+801110,家用电器,29,2090715074,进口数量:抽油烟机、罩平面最大边长≤120cm:当月值,Import Volume: The Maximum Side Length of the Range Hood and Hood Plane≤120cm: Current Value (Month),月,台,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,135.0
+801110,家用电器,30,2090715110,进口数量:热水器零件:当月值,Import Volume: Water Heater Components: Current Value (Month),月,千克,当期值,全国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,135.0
+801120,食品饮料,1,1040001910,国内现货价格:零售价:中老年奶粉,Domestic Spot Price: Retail Price: Milk Powder For Middle-Aged Adults,周,元/公斤,当期值,全国,中国,商务部,getEcoDataChina,2009-05-01,2026-07-31,1,147.0
+801120,食品饮料,2,1040001909,国内现货价格:零售价:国产品牌婴幼儿奶粉,Domestic Spot Price: Retail Price: Domestic-Branded Milk Powder For Infants,周,元/公斤,当期值,全国,中国,商务部,getEcoDataChina,2009-05-01,2026-07-31,1,147.0
+801120,食品饮料,3,1040001908,国内现货价格:零售价:国外品牌婴幼儿奶粉,Domestic Spot Price: Retail Price: Foreign-Branded Milk Powder For Infants,周,元/公斤,当期值,全国,中国,商务部,getEcoDataChina,2009-05-01,2026-07-31,1,147.0
+801120,食品饮料,4,1040001906,国内现货价格:零售价:牛奶,Domestic Spot Price: Retail Price: Milk,周,元/升,当期值,全国,中国,商务部,getEcoDataChina,2009-05-01,2026-07-31,1,147.0
+801120,食品饮料,5,2110732342,全国白酒定基价格指数:名酒,National Baijiu Fixed Base Price Index: Vintage Wine,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2013-01-10,2026-07-31,1,145.0
+801120,食品饮料,6,2110732343,全国白酒定基价格指数:地方酒,National Baijiu Fixed Base Price Index: Local Wine,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2013-01-10,2026-07-31,1,145.0
+801120,食品饮料,7,2110732344,全国白酒定基价格指数:基酒,National Baijiu Fixed Base Price Index: Base Wine,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2013-01-10,2026-07-31,1,145.0
+801120,食品饮料,8,2110732341,全国白酒定基价格指数:总指数,National Baijiu Fixed Base Price Index: Total Index,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2013-01-10,2026-07-31,1,145.0
+801120,食品饮料,9,2110735148,白酒批发价格指数:总指数:全国:中度:当旬值,,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2012-03-10,2026-07-31,1,145.0
+801120,食品饮料,10,2110735149,白酒批发价格指数:总指数:全国:低度:当旬值,,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2012-03-10,2026-07-31,1,145.0
+801120,食品饮料,11,2110735147,白酒批发价格指数:总指数:全国:高度:当旬值,,旬,2012年2月=100,当期值,全国,中国,泸州·中国白酒商品批发价格指数办公室,getEcoDataIndFoodbeverage,2012-03-10,2026-07-31,1,145.0
+801120,食品饮料,12,1040020165,iCPI:食品烟酒:茶及饮料:环比,"iCPI: Food, Tobacco and Alcohol: Tea and Beverages: DoM",日,%,当期环比,全国,中国,清华大学iCPI项目组,getEcoDataChina,2016-01-01,2026-08-06,1,144.0
+801120,食品饮料,13,2110100015,产量:乳制品:当月值,Dairy Products: Output,月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1989-01-31,2026-06-30,1,143.0
+801120,食品饮料,14,2110100041,产量:卷烟:当月值,Cigarette: Output,月,亿支,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1989-01-31,2026-06-30,1,143.0
+801120,食品饮料,15,2110100023,产量:啤酒:当月值,Beer: Output,月,万千升,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1989-01-31,2026-06-30,1,143.0
+801120,食品饮料,16,1020008661,"产量:白酒(折65度,商品量):当月值","Output: Liquor and Spirits (65%Vol Equivalent, Commodity Quantity): Current Value (Month)",月,万千升,当期值,全国,中国,国家统计局,getEcoDataChina,1989-01-31,2026-06-30,1,143.0
+801120,食品饮料,17,2110100025,产量:葡萄酒:当月值,Wine: Output,月,万千升,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,2000-05-31,2026-06-30,1,143.0
+801120,食品饮料,18,2110100043,产量:软饮料:当月值,Output: Soft Drinks: Current Value (Month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1997-02-28,2026-06-30,1,143.0
+801120,食品饮料,19,2110731591,产量:软饮料:当月值:全国,Output: Soft Drinks: Current Month Value: Nationwide,月,吨,当期值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1999-01-31,2026-06-30,1,143.0
+801120,食品饮料,20,2110731623,产量:软饮料:当月同比:全国,Output: Soft Drinks: Nationwide: YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndFoodbeverage,2000-01-31,2026-06-30,1,143.0
+801120,食品饮料,21,2110731655,产量:软饮料:累计值:全国,Output: Soft Drinks: Cumulative Value: Nationwide,月,吨,累计值,全国,中国,国家统计局,getEcoDataIndFoodbeverage,1999-01-31,2026-06-30,1,143.0
+801120,食品饮料,22,2110731687,产量:软饮料:累计同比:全国,Output: Soft Drinks: Nationwide: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataIndFoodbeverage,2000-01-31,2026-06-30,1,143.0
+801120,食品饮料,23,1020021369,农副食品加工业:利润总额:累计同比增减,,月,千元,累计同比增减,全国,中国,国家统计局,getEcoDataChina,1999-03-31,2026-06-30,1,143.0
+801120,食品饮料,24,1020000178,出口交货值:农副食品加工业:当月同比,Export Delivery Value: Agricultural Food Processing Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801120,食品饮料,25,1020000137,出口交货值:农副食品加工业:当期值,Export Delivery Value: Agricultural Food Processing Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801120,食品饮料,26,1020000180,出口交货值:酒、饮料和精制茶制造业:当月同比,"Export Delivery Value: Wine, Beverage And Refined Tea Manufacturing: Current YoY (Month)",月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,143.0
+801120,食品饮料,27,1020000139,出口交货值:酒、饮料和精制茶制造业:当期值,"Export Delivery Value: Wine, Beverage And Refined Tea Manufacturing: Current Value",月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,143.0
+801120,食品饮料,28,1020000179,出口交货值:食品制造业:当月同比,Export Delivery Value: Food Manufacturing Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801120,食品饮料,29,1020000138,出口交货值:食品制造业:当期值,Export Delivery Value: Food Manufacturing Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801120,食品饮料,30,2110720687,出口数量:乳制品:累计值,Export Volume: Dairy Products: Cumulative Value,月,吨,累计值,全国,中国,中国奶业协会,getEcoDataIndFoodbeverage,2018-01-31,2026-06-30,1,143.0
+801130,纺织服饰,1,1040001913,国内期货价格:棉花,Domestic Futures Prices: Cotton,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-04-08,2026-07-31,1,147.0
+801130,纺织服饰,2,1040002019,国际期货价格:棉花,International Futures Prices: Cotton,周,美分/磅,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801130,纺织服饰,3,1040002014,国际现货价格:原油(布),International Spot Price: Crude Oil (Cloth),周,美元/桶,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801130,纺织服饰,4,1020000183,出口交货值:纺织服装、鞋、帽制造业:当月同比,"Export Delivery Value: Textile And Garment, Shoes, Cap Manufacturing: Current YoY (Month)",月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801130,纺织服饰,5,1020000142,出口交货值:纺织服装、鞋、帽制造业:当期值,"Export Delivery Value: Textile And Garment, Shoes, Cap Manufacturing: Current Value",月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801130,纺织服饰,6,2120715757,出口数量:针织物或钩编织物制成的服装(6113):当月值,Export Quantity: A Garment Made of Knitted or Crocheted Fabric (6113): Current Month Value,月,件,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,7,2120714134,"出口金额(美元):化学纤维短纤纺制的纱线,供零售用(5511):当月值",Export Value (USD): Yarn Made of Chemical Staple Fibers For Retail Use (5511): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,8,2120713966,"出口金额(美元):化学纤维长丝纱线,供零售用(5406):当月值",Export Value (USD): Chemical Fiber Filament Yarn For Retail Use (5406): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,9,2120713686,"出口金额(美元):棉纱线,供零售用(5207):当月值",Export Value (USD): Cotton Yarn For Retail Use (5207): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,10,2120713672,"出口金额(美元):棉纱线,按重量计含棉量<85%,非供零售用(5206):当月值","Export Value (USD): Cotton Yarn, Cotton Content < 85% By Weight, Not For Retail Use (5206): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,11,2120713658,"出口金额(美元):棉纱线,按重量计含棉量≥85%,非供零售用(5205):当月值","Export Value (USD): Cotton Yarn, With Cotton Content ≥ 85% By Weight, Not For Retail Use (5205): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,12,2120714876,出口金额(美元):针织或钩编的其他服装(6114):当月值,Export Value (USD): Other Garments Knitted or Crocheted (6114): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,13,2120714848,出口金额(美元):针织或钩编的婴儿服装及衣着附件(6111):当月值,Export Value (USD): Knitted or Crocheted Baby Garments and Clothing Accessories (6111): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,14,2120714918,出口金额(美元):针织或钩编的衣着附件;服装或衣着附件的零件(6117):当月值,Export Value (USD): Knitted or Crocheted Clothing Accessories;Parts of Clothing or Clothing Accessories (6117): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,15,2120715750,出口金额(美元):针织物或钩编织物制成的服装(6113):当月值,Export Value (USD): A Garment Made of Knitted or Crocheted Fabric (6113): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,16,1020008226,工业企业:利润总额:纺织服装、服饰业:累计值,Total Profit: Textile and Apparel Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,145.0
+801130,纺织服饰,17,1020010181,工业企业:营业利润:纺织服装、服饰业:累计值,Operating Profit: Textile and Apparel Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,145.0
+801130,纺织服饰,18,1020000928,成本费用利润率:纺织服装、服饰业,"Profit-To-Cost Ratio: Textile And Garment, Shoes, Cap Manufacturing",月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,145.0
+801130,纺织服饰,19,1020000848,税前利润率:纺织服装、服饰业,"Pre-Tax Profit Margin: Textile And Garment, Shoes, Cap Manufacturing",月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2001-02-28,2026-06-30,1,145.0
+801130,纺织服饰,20,2120715759,进出口数量:针织物或钩编织物制成的服装(6113):当月值,Import and Export Quantity: A Garment Made of Knitted or Crocheted Fabric (6113): Current Month Value,月,件,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,21,2120714136,"进出口金额(美元):化学纤维短纤纺制的纱线,供零售用(5511):当月值",Import and Export Value (USD): Yarn Made of Chemical Staple Fibers For Retail Use (5511): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,22,2120713968,"进出口金额(美元):化学纤维长丝纱线,供零售用(5406):当月值",Import and Export Value (USD): Chemical Fiber Filament Yarn For Retail Use (5406): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,23,2120713688,"进出口金额(美元):棉纱线,供零售用(5207):当月值",Import and Export Value (USD): Cotton Yarn For Retail Use (5207): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,24,2120713674,"进出口金额(美元):棉纱线,按重量计含棉量<85%,非供零售用(5206):当月值","Import and Export Value (USD): Cotton Yarn, Cotton Content < 85% By Weight, Not For Retail Use (5206): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,25,2120713660,"进出口金额(美元):棉纱线,按重量计含棉量≥85%,非供零售用(5205):当月值","Import and Export Value (USD): Cotton Yarn, With Cotton Content ≥ 85% By Weight, Not For Retail Use (5205): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,26,2120714878,进出口金额(美元):针织或钩编的其他服装(6114):当月值,Import and Export Value (USD): Other Garments Knitted or Crocheted (6114): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,27,2120714850,进出口金额(美元):针织或钩编的婴儿服装及衣着附件(6111):当月值,Import and Export Value (USD): Knitted or Crocheted Baby Garments and Clothing Accessories (6111): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,28,2120714920,进出口金额(美元):针织或钩编的衣着附件;服装或衣着附件的零件(6117):当月值,Import and Export Value (USD): Knitted or Crocheted Clothing Accessories;Parts of Clothing or Clothing Accessories (6117): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,29,2120715752,进出口金额(美元):针织物或钩编织物制成的服装(6113):当月值,Import and Export Value (USD): A Garment Made of Knitted or Crocheted Fabric (6113): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTextileclothing,2015-01-31,2026-06-30,1,145.0
+801130,纺织服饰,30,2120200022,进口数量:棉纱线:当月同比,Cotton Yarn: Imports Quantity: YoY,月,%,当期同比,全国,中国,海关总署,getEcoDataIndTextileclothing,2000-01-31,2026-06-30,1,145.0
+801140,轻工制造,1,1040002021,国际期货价格:木材,International Futures Prices: Wood,周,美元/千板英尺,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801140,轻工制造,2,1020000189,出口交货值:文教体育用品制造业:当月同比,"Export Delivery Value: Culture, Education And Sporting Goods Manufacturing Industry: Current YoY (Month)",月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801140,轻工制造,3,1020000148,出口交货值:文教体育用品制造业:当期值,"Export Delivery Value: Culture, Education And Sporting Goods Manufacturing Industry: Current Value",月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801140,轻工制造,4,1040000980,工业生产者购进价格指数(PPIRM):木材及纸浆类(上年同月=100),PPIRM: Timber and Paper Pulp Categories (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,1988-03-31,2026-06-30,1,145.0
+801140,轻工制造,5,1040024029,市场价:林产品:纸浆(进口针叶浆):当期值,,旬,元/吨,当期值,全国,中国,国家统计局,getEcoDataChina,2013-12-31,2026-07-31,1,145.0
+801140,轻工制造,6,1040024036,市场价:林产品:纸浆(进口针叶浆):涨跌幅,,旬,%,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-10,2026-07-31,1,145.0
+801140,轻工制造,7,2130100008,产量:机制纸及纸板:当月值,Production: paperboard: current value (month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndLightmanufactue,2005-02-28,2026-06-30,1,143.0
+801140,轻工制造,8,1020000186,出口交货值:家具制造业:当月同比,Export Delivery Value: Furniture Manufacturing: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,9,1020000145,出口交货值:家具制造业:当期值,Export Delivery Value: Furniture Manufacturing: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,10,1020000185,出口交货值:木材加工及木、竹、藤、棕、草制品业:当月同比,"Export Delivery Value: Wood Processing And Wood, Bamboo, Rattan, Palm, Straw Products Industry: Current YoY (Month)",月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,11,1020000144,出口交货值:木材加工及木、竹、藤、棕、草制品业:当期值,"Export Delivery Value: Wood Processing And Wood, Bamboo, Rattan, Palm, Straw Products Industry: Current Value",月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,12,1020000187,出口交货值:造纸及纸制品业:当月同比,Export Delivery Value: Paper And Paper Products Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,13,1020000146,出口交货值:造纸及纸制品业:当期值,Export Delivery Value: Paper And Paper Products Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801140,轻工制造,14,2130712244,"出口数量:成卷或成张的复合纸及纸板,未经表面涂布或未浸渍(4807):当月值","Export Quantity: Composite Paper and Paperboard In Rolls or Sheets, Uncoated or Not Impregnated (4807): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,15,2130712264,出口数量:纸浆制的滤块、滤板及滤片(4812):当月值,"Export Quantity: Filter Block, Filter Plate and Filter Plate Made of Pulp (4812): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,16,2130711821,出口金额(美元):书写、印刷的未经涂布的纸及纸板;手工制纸及纸板(4802):当月值,Export Value (USD): Uncoated Paper and Paperboard For Writing and Printing;Handmade Paper and Paperboard (4802): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,17,2130711709,出口金额(美元):木浆及其他纤维状纤维素浆;回收纸及纸板(47):当月值,Export Value (USD): Wood Pulp and Other Fibrous Cellulosic Pulps; Recovered Paper and Board (47): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,18,2130711723,出口金额(美元):纸及纸板及其他纸板制品(48):当月值,Export Value (USD): Paper and Cardboard and Other Cardboard Products (48): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,19,2130712257,出口金额(美元):纸浆制的滤块、滤板及滤片(4812):当月值,"Export Value (USD): Filter Block, Filter Plate and Filter Plate Made of Pulp (4812): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndLightmanufactue,2015-01-31,2026-06-30,1,143.0
+801140,轻工制造,20,1020008235,工业企业:利润总额:家具制造业:累计值,Total Profit: Furniture Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801140,轻工制造,21,1020008244,工业企业:利润总额:文教、工美、体育和娱乐用品制造业:累计值,"Total Profit: Culture, Education, Arts and Crafts, Sports and Entertainment Products Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801140,轻工制造,22,1020008232,工业企业:利润总额:木材加工和木、竹、藤、棕、草制品业:累计值,"Total Profit: Wood Processing and Wood, Bamboo, Rattan, Palm and Straw Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801140,轻工制造,23,1020008238,工业企业:利润总额:造纸和纸制品业:累计值,Total Profit: pulp & paper industry: Cumulative value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801140,轻工制造,24,1020010184,工业企业:营业利润:家具制造业:累计值,Operating Profit: Furniture Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801140,轻工制造,25,1020010187,工业企业:营业利润:文教、工美、体育和娱乐用品制造业:累计值,"Operating Profit: Culture, Education, Arts and Crafts, Sports and Entertainment Products Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801140,轻工制造,26,1020010183,工业企业:营业利润:木材加工和木、竹、藤、棕、草制品业:累计值,"Operating Profit: Wood Processing and Wood, Bamboo, Rattan, Palm and Straw Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801140,轻工制造,27,1020010185,工业企业:营业利润:造纸和纸制品业:累计值,Operating Profit: Paper Making and Paper Products: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801140,轻工制造,28,1020000931,成本费用利润率:家具制造业,Profit-To-Cost Ratio: Furniture Manufacturing,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801140,轻工制造,29,1020000934,成本费用利润率:文教、工美、体育和娱乐用品制造业,"Profit-To-Cost Ratio: Culture, Education And Sporting Goods Manufacturing Industry",月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801140,轻工制造,30,1020000930,成本费用利润率:木材加工和木、竹、藤、棕、草制品业,"Profit-To-Cost Ratio: Wood Processing And Wood, Bamboo, Rattan, Palm, Straw Products Industry",月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801150,医药生物,1,2140001345,中药材价格指数:进口:定基,Traditional Chinese Medicine Price Index: Imports: Fixed Base,周,2012年8月=1000,当期值,全国,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2012-09-01,2026-08-02,1,155.0
+801150,医药生物,2,2140000935,中药材价格指数:总指数:定基,Traditional Chinese Medicine Price Index: General: Fixed Base,日,2012年8月=1000,当期值,全国,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2013-04-16,2026-08-08,1,150.0
+801150,医药生物,3,2140934365,价格指数:中药材:MA15日指数:定基,Price Index: Chinese Herbal Medicines: MA15 Daily Price Index: Fixed Base,日,2012年8月=1000,当期值,全国,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2013-05-04,2026-08-09,1,150.0
+801150,医药生物,4,2140934366,价格指数:中药材:MA30日指数:定基,Price Index: Chinese Herbal Medicines: MA30 Daily Price Index: Fixed Base,日,2012年8月=1000,当期值,全国,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2013-05-19,2026-08-09,1,150.0
+801150,医药生物,5,2140934364,价格指数:中药材:MA7日指数:定基,Price Index: Chinese Herbal Medicines: MA7 Daily Price Index: Fixed Base,日,2012年8月=1000,当期值,全国,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2013-04-23,2026-08-09,1,150.0
+801150,医药生物,6,2140006258,维生素:VA:50万IU/g:25kg:进口:最低价,Vitamine: VA: 50W IU/g: 25kg: Import: Lowest Price,日,元/千克,最低,全国,中国,博亚和讯,getEcoDataIndBiologicalmedicine,2008-03-10,2026-08-07,1,150.0
+801150,医药生物,7,2140006264,维生素:VE:50%:25kg:进口:最低价,Vitamine: VE: 50%: 25kg: Import: Lowest Price,日,元/千克,最低,全国,中国,博亚和讯,getEcoDataIndBiologicalmedicine,2008-03-10,2026-08-07,1,150.0
+801150,医药生物,8,2140006278,维生素:烟酰胺:99%:25kg:进口:最低价,Vitamine: Nicotinamide: 99%: 25kg: Import: Lowest Price,日,元/千克,最低,全国,中国,博亚和讯,getEcoDataIndBiologicalmedicine,2010-08-04,2026-08-07,1,150.0
+801150,医药生物,9,2140001259,中药材价格指数:进口:环比,Traditional Chinese Medicine Price Index: Imports: DoD,日,%,当期环比,,中国,康美中国中药材指数网,getEcoDataIndBiologicalmedicine,2013-04-17,2026-08-08,1,148.0
+801150,医药生物,10,2140100137,产量:化学药品原药:当月值,Output: Chemical Raw Medicine,月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndBiologicalmedicine,1997-01-31,2026-06-30,1,145.0
+801150,医药生物,11,1020000192,出口交货值:医药制造业:当月同比,Export Delivery Value: Pharmaceutical Manufacturing: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801150,医药生物,12,1020000151,出口交货值:医药制造业:当期值,Export Delivery Value: Pharmaceutical Manufacturing: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801150,医药生物,13,2140906286,出口金额(美元):两种或两种以上成分混合而成的治病或防病药品(3003):当月值,Export Value (USD): Medicine for Treating or Preventing Diseases Made by Mixing Two or More Ingredients(3003): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,14,2140906328,出口金额(美元):医药用品(3006):当月值,Export Value (USD): Medical Supplies(3006): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,15,2140906300,出口金额(美元):由混合或非混合产品构成的治病或防病用药品(3004):当月值,Export Value (USD): Medicine for Treating or Preventing Diseases Composed Of Mixed or Non Mixed Products(3004): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,16,2140906142,出口金额(美元):药品(30):当月值,Export Value (USD): Drugs(30): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,17,2140908332,"出口金额(美元):龙涎香等;供配制药用的,冻或用其他方法暂时保藏的(0510):当月值","Export Value (USD): Ambergris, Etc;Used for Preparing Medicine, Frozen or Temporarily Preserved by Other Methods (0510): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,18,1050000349,固定资产投资完成额:制造业:医药制造业:累计同比,Fixed Assets Investment Completed: Manufacturing: Pharmaceutical Manufacturing: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,143.0
+801150,医药生物,19,1020008253,工业企业:利润总额:医药制造业:累计值,Total Profit: Pharmaceutical Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801150,医药生物,20,1020010273,工业企业:投资收益:医药制造业:累计值,Investment Return: Pharmaceutical Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801150,医药生物,21,1020010190,工业企业:营业利润:医药制造业:累计值,Operating Profit: Pharmaceutical Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801150,医药生物,22,1020007119,工业企业:营业收入:医药制造业:累计值,Revenue from Operations: Pharmaceutical Manufacturing: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2016-02-29,2026-06-30,1,143.0
+801150,医药生物,23,1020000937,成本费用利润率:医药制造业,Profit-To-Cost Ratio: Pharmaceutical Manufacturing,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801150,医药生物,24,1020000617,收入增长率:医药制造业,Income Growth Rate: Pharmaceutical Manufacturing,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2011-02-28,2026-06-30,1,143.0
+801150,医药生物,25,1020000857,税前利润率:医药制造业,Pre-Tax Profit Margin: Pharmaceutical Manufacturing,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801150,医药生物,26,2140820663,药审中心受理新注册申请量:中药:进口再注册:当月值,,月,个,当期值,全国,中国,国家药品监督管理局,getEcoDataIndBiologicalmedicine,2010-03-31,2026-06-30,1,143.0
+801150,医药生物,27,2140906288,进出口金额(美元):两种或两种以上成分混合而成的治病或防病药品(3003):当月值,Import and Export Value (USD): Medicine for Treating or Preventing Diseases Made by Mixing Two or More Ingredients(3003): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,28,2140906330,进出口金额(美元):医药用品(3006):当月值,Import and Export Value (USD): Medical Supplies(3006): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,29,2140906302,进出口金额(美元):由混合或非混合产品构成的治病或防病用药品(3004):当月值,Import and Export Value (USD): Medicine for Treating or Preventing Diseases Composed Of Mixed or Non Mixed Products(3004): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801150,医药生物,30,2140906144,进出口金额(美元):药品(30):当月值,Import and Export Value (USD): Drugs(30): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBiologicalmedicine,2015-01-31,2026-06-30,1,143.0
+801160,公用事业,1,2020105036,发电设备装机容量:核电:累计值,Installed Capacity of Power Generation Equipment: Nuclear Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,145.0
+801160,公用事业,2,2020657644,发电设备装机容量:水电:累计值,Installed Capacity of Power Generation Equipment: Hydro Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,145.0
+801160,公用事业,3,2020105035,发电设备装机容量:火电:累计值,Installed Capacity of Power Generation Equipment: Thermal Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,145.0
+801160,公用事业,4,2020657645,发电设备装机容量:风电:累计值,Installed Capacity of Power Generation Equipment: Wind Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,145.0
+801160,公用事业,5,2020101562,(全国)发电设备平均利用小时:累计值,Power Generation Equipment Average Utilization Hours: Cumulative,月,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,143.0
+801160,公用事业,6,2020101578,(全国)发电设备平均利用小时:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: Cumulative Per Cent Change,月,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,143.0
+801160,公用事业,7,1020008711,产量:发电量:核能:当月同比,Electricity Generating Capacity: Nuclear Power: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,1997-01-31,2026-06-30,1,143.0
+801160,公用事业,8,1020008655,产量:发电量:风力:当月值,Output of Electricity: Wind Power: Current Value (Month),月,亿千瓦时,当期值,全国,中国,国家统计局,getEcoDataChina,2009-09-30,2026-06-30,1,143.0
+801160,公用事业,9,1020005915,利润总额:电力、热力、燃气及水生产和供应业:累计值,"Industrial Enterprises: Total Profit: Electricity, Heat and Water Production and Supply Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2015-10-31,2026-06-30,1,143.0
+801160,公用事业,10,2020105037,发电设备装机容量:太阳能发电:累计值,Installed Capacity of Power Generation Equipment: Solar Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,143.0
+801160,公用事业,11,1020010425,投资收益:电力、热力、燃气及水生产和供应业:累计值,"Industrial Enterprises: Investment Return: Electricity, Heat and Water Production and Supply Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801160,公用事业,12,1020010419,营业利润:电力、热力、燃气及水生产和供应业:累计值,"Industrial Enterprises: Operating Profit: Electricity, Heat and Water Production and Supply Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801160,公用事业,13,2020101565,(全国)发电设备平均利用小时:核电:累计值,(National) Power Generation Equipment Average Utilization Hours: Nuclear Power: YTD,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,141.0
+801160,公用事业,14,2020101581,(全国)发电设备平均利用小时:核电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: Nuclear Power: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,141.0
+801160,公用事业,15,2020101563,(全国)发电设备平均利用小时:水电:累计值,Power Generation Equipment Average Utilization Hours: HydroPower: Cumulative,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,141.0
+801160,公用事业,16,2020101579,(全国)发电设备平均利用小时:水电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: HydroPower: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,141.0
+801160,公用事业,17,2020101564,(全国)发电设备平均利用小时:火电:累计值,Power Generation Equipment Average Utilization Hours: Rmal Power: Cumulative,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,141.0
+801160,公用事业,18,2020101580,(全国)发电设备平均利用小时:火电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours:rmal Power: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,141.0
+801160,公用事业,19,2020101566,(全国)发电设备平均利用小时:风电:累计值,(National) Power Generation Equipment Average Utilization Hours: Wind Power: YTD,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,141.0
+801160,公用事业,20,2020101582,(全国)发电设备平均利用小时:风电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: Wind Power: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,141.0
+801160,公用事业,21,2020105038,发电设备平均利用小时:太阳能发电:累计值,Power Generation Equipment Average Utilization Hours: Solar Power: Cumulative,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2012-12-31,2026-06-30,1,139.0
+801160,公用事业,22,2020766782,核电设备利用小时数:累计值,,季,小时,累计值,全国,中国,中国核能行业协会,getEcoDataIndEnergy,2014-06-30,2026-03-31,1,139.0
+801160,公用事业,23,2020640997,风电并网:利用小时数:合计,Wind Power Integration to Power Grid: Number of Utilization Hours: Total,季,小时,累计值,全国,中国,能源局,getEcoDataIndEnergy,2014-03-31,2026-06-30,1,139.0
+801160,公用事业,24,2020101525,全社会用电量:城乡居民生活用电量:当月值,Total Electricity Consumption: Electricity Consumption of Urban and Rural Residents Living: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,25,2020101526,全社会用电量:工业用电:当月值,Total Electricity Consumption: Industrial Electricity: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,26,2020101521,全社会用电量:当月值,Total Electricity Consumption: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,27,2020101522,全社会用电量:第一产业:当月值,Total Electricity Consumption: Primary Industry: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,28,2020101524,全社会用电量:第三产业:当月值,Total Electricity Consumption: Tertiary Industry: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,29,2020101523,全社会用电量:第二产业:当月值,Total Electricity Consumption: Secondary Industry: Current Value (Month),月,亿千瓦时,当期值,全国,中国,能源局,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,137.0
+801160,公用事业,30,1020001545,发电量:水电:当月值,Output: Hydropower: Current,月,亿千瓦时,当期值,全国,中国,国家统计局,getEcoDataChina,1986-02-28,2026-06-30,1,137.0
+801170,交通运输,1,2160606526,北方国际干散货运价指数(TBI),Tianjin Bulk Freight Index (TBI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-03-05,2026-08-07,1,152.0
+801170,交通运输,2,2160606527,北方国际集装箱运价指数(TCI),Tianjin Container Freight Index (TCI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-03-05,2026-08-07,1,152.0
+801170,交通运输,3,2160606461,北方国际集装箱运价指数(TCI):天津-中南美基本港,Tianjin Container Freight Index (TCI): Tianjin-Central and South America (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,4,2160606460,北方国际集装箱运价指数(TCI):天津-南美东基本港,Tianjin Container Freight Index (TCI): Tianjin-East Coast of South America (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,5,2160606459,北方国际集装箱运价指数(TCI):天津-南美西基本港,Tianjin Container Freight Index (TCI): Tianjin-West Coast of South America (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,6,2160606455,北方国际集装箱运价指数(TCI):天津-地中海东部基本港,Tianjin Container Freight Index (TCI): Tianjin-Eastern of Mediterranean (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,7,2160606456,北方国际集装箱运价指数(TCI):天津-地中海西部基本港,Tianjin Container Freight Index (TCI): Tianjin-Western of Mediterranean (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,8,2160606454,北方国际集装箱运价指数(TCI):天津-欧洲基本港,Tianjin Container Freight Index (TCI): Tianjin-Europe (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,9,2160606468,北方国际集装箱运价指数(TCI):天津-波斯湾基本港,Tianjin Container Freight Index (TCI): Tianjin-Persian Gulf (Base Port),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,10,2160606470,沿海集装箱出港运价指数(TDOI),Tianjin Domestic Container Outward Freight Index (TDOI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,11,2160606528,沿海集装箱运价指数(TDI),Tianjin Domestic Container Freight Index (TDI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-10-26,2026-08-07,1,152.0
+801170,交通运输,12,2160606474,沿海集装箱进港运价指数(TDII),Tianjin Domestic Container Inward Freight Index (TDII),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2012-11-08,2026-08-07,1,152.0
+801170,交通运输,13,2160004307,中国公路物流运价指数:东北:周环比,Logistics Area Index: Northeast China: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,14,2160004310,中国公路物流运价指数:东南沿海:周环比,Logistics Area Index: Southeast Coast: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,15,2160004313,中国公路物流运价指数:华中:周环比,Logistics Area Index: Central China: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,16,2160004306,中国公路物流运价指数:华北:周环比,Logistics Area Index: North China: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,17,2160004825,中国公路物流运价指数:呼和浩特-拉萨:周环比,Transportation Route Index: Hohhot-Lhasa: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,18,2160004812,中国公路物流运价指数:呼和浩特-石家庄:周环比,Transportation Route Index: Hohhot-Shijiazhuang: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,19,2160005438,中国公路物流运价指数:拉萨-呼和浩特:周环比,Transportation Route Index: Lhasa-Hohhot: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,20,2160005442,中国公路物流运价指数:拉萨-石家庄:周环比,Transportation Route Index: Lhasa-Shijiazhuang: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,21,2160004314,中国公路物流运价指数:珠三角:周环比,Logistics Area Index: Pearl River Delta: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,22,2160004957,中国公路物流运价指数:石家庄-呼和浩特:周环比,Transportation Route Index: Shijiazhuang-Hohhot: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,23,2160004973,中国公路物流运价指数:石家庄-拉萨:周环比,Transportation Route Index: Shijiazhuang-Lhasa: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,24,2160004311,中国公路物流运价指数:西北:周环比,Logistics Area Index: Northwest China: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,25,2160004312,中国公路物流运价指数:西南:周环比,Logistics Area Index: Southwest China: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,26,2160004309,中国公路物流运价指数:长三角:周环比,Logistics Area Index: Yangtze River Delta: WoW,周,%,当期环比,中国大陆,中国,中国公路物流运价指数,getEcoDataIndTraffictransport,2013-01-02,2026-08-05,1,151.0
+801170,交通运输,27,2160606442,北方国际煤运价指数(TBCI),Tianjin Bulk Coal Freight Index (TBCI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2014-08-28,2026-08-07,1,150.0
+801170,交通运输,28,2160606445,北方国际粮食运价指数(TBGI),Tianjin Bulk Grain Freight Index (TBGI),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2014-08-28,2026-08-07,1,150.0
+801170,交通运输,29,2160606447,北方国际粮食运价指数(TBGI):南美东岸(桑托斯)-天津(大豆),Tianjin Bulk Grain Freight Index (TBGI): Santos (East Coast of South America)-Tianjin (China) (Soybean),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2016-02-05,2026-08-07,1,150.0
+801170,交通运输,30,2160606446,北方国际粮食运价指数(TBGI):美湾-天津(大豆),Tianjin Bulk Grain Freight Index (TBGI): US Gulf-Tianjin (China) (Soybean),日,点,当期值,全国,中国,天津国际贸易与航运服务中心,getEcoDataIndTraffictransport,2014-08-28,2026-08-07,1,150.0
+801180,房地产,1,2170742175,商品房竣工面积:住宅:当月同比,Floor Area Completed of Commodity Housing: Household: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-08-31,2026-06-30,1,155.0
+801180,房地产,2,2170742191,商品房销售面积:住宅:当月同比,Sales Area of Commercial Housing: Residential: Current Value (Month): YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-08-31,2026-06-30,1,155.0
+801180,房地产,3,2170925026,房地产开发投资:住宅:东部地区:当月同比,Real Estate Investment: Residential: East Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,155.0
+801180,房地产,4,2170925022,房地产开发投资:住宅:中部地区:当月同比,Real Estate Investment: Residential: Central Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,155.0
+801180,房地产,5,2170742151,房地产开发投资:住宅:当月同比,Real Estate Development Investment: Residential: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-03-31,2026-06-30,1,155.0
+801180,房地产,6,2170925024,房地产开发投资:住宅:西部地区:当月同比,Real Estate Investment: Residential: Western Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,155.0
+801180,房地产,7,2170742161,商品房新开工面积:办公楼:当月同比,Newly-built Area of Commercial Housing: Office Building: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,8,2170742163,商品房新开工面积:商业营业用房:当月同比,Newly-built Area of Commercial Housing: Housing for Business Operation: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,9,2170742159,商品房新开工面积:当月同比,Newly-built Area of Commercial Housing: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,10,2170742167,商品房施工面积:住宅:当月同比,Construction Area of Commodity Housing: Household: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-08-31,2026-06-30,1,153.0
+801180,房地产,11,2170742177,商品房竣工面积:办公楼:当月同比,Floor Area Completed of Commodity Housing: Office Building: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,12,2170742179,商品房竣工面积:商业营业用房:当月同比,Floor Area Completed of Commodity Housing: Commercial Premises: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,13,2170742173,商品房竣工面积:当月同比,Floor Area Completed of Commodity Housing: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-08-31,2026-06-30,1,153.0
+801180,房地产,14,2170744841,商品房销售面积:东北地区:累计同比,Sales Area of Commercial Housing: Northeast Area: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataIndRealestate,2017-03-31,2026-06-30,1,153.0
+801180,房地产,15,2170742189,商品房销售面积:办公楼:当月同比,Sales Area of Commercial Housing: Office Building: Current Value (Month): YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,16,2170742187,商品房销售面积:商业营业用房:当月同比,Sales Area of Commercial Housing: Commercial Premises: Current Value (Month): YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2000-03-31,2026-06-30,1,153.0
+801180,房地产,17,2170742203,商品房销售面积:当月同比,Sales Area of Commercial Housing: Current Value (Month): YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-08-31,2026-06-30,1,153.0
+801180,房地产,18,2170002024,商品房销售额:住宅:累计同比,Sales of Commercial Housing: Residential: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-02-28,2026-06-30,1,153.0
+801180,房地产,19,2170925032,房地产开发投资:东部地区:当月同比,Real Estate Investment: East Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,153.0
+801180,房地产,20,2170925028,房地产开发投资:中部地区:当月同比,Real Estate Investment: Central Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,153.0
+801180,房地产,21,2170742155,房地产开发投资:商业营业用房:当月同比,Real Estate Development Investment: Commercial Premises: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-03-31,2026-06-30,1,153.0
+801180,房地产,22,2170742149,房地产开发投资:当月同比,Real Estate Development Investment: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1995-03-31,2026-06-30,1,153.0
+801180,房地产,23,2170925030,房地产开发投资:西部地区:当月同比,Real Estate Investment: Western Area: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,153.0
+801180,房地产,24,2170742153,房地产开发投资完成额:办公楼:当月同比,Real Estate Development Investment: Office Building: Month YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,1999-03-31,2026-06-30,1,153.0
+801180,房地产,25,1050000035,房地产开发投资完成额:当月同比,Real Estate Development Investment Completed Amount: YoY,月,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1992-03-31,2026-06-30,1,153.0
+801180,房地产,26,2170915530,二手住宅价格指数:一线城市:当月同比,,月,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2006-01-31,2026-06-30,1,151.0
+801180,房地产,27,2170915531,二手住宅价格指数:三线城市:当月同比,,月,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2006-01-31,2026-06-30,1,151.0
+801180,房地产,28,2170915532,二手住宅价格指数:二线城市:当月同比,,月,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2006-01-31,2026-06-30,1,151.0
+801180,房地产,29,2170915526,二手住宅价格指数:环比,,月,上月=100,当期环比,全国,中国,国家统计局,getEcoDataIndRealestate,2006-01-31,2026-06-30,1,151.0
+801180,房地产,30,2170000524,全国:二手住宅价格指数:同比,(Discontinued)National: Price Index of Second-hand Residence: YoY,月,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataIndRealestate,2006-01-31,2026-06-30,1,151.0
+801200,商贸零售,1,2200000457,全国百家重点大型零售企业商品零售额:化妆品:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: Cosmetic: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2011-03-31,2026-04-30,1,145.0
+801200,商贸零售,2,2200000460,全国百家重点大型零售企业商品零售额:家用电器:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: Household Appliances: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2007-04-30,2026-03-31,1,145.0
+801200,商贸零售,3,2200000454,全国百家重点大型零售企业商品零售额:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2007-04-30,2026-06-30,1,145.0
+801200,商贸零售,4,2200000458,全国百家重点大型零售企业商品零售额:日用品:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: Commodity: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2011-03-31,2026-04-30,1,145.0
+801200,商贸零售,5,2200000459,全国百家重点大型零售企业商品零售额:金银珠宝:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: Gold and Silver Jewelry: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2007-04-30,2026-05-31,1,145.0
+801200,商贸零售,6,2200000455,全国百家重点大型零售企业商品零售额:食品:当月同比,Merchandise Sales of National Hundred Key Large-Scale Enterprise: Food: YoY,月,%,当期同比,,中国,中华全国商业信息中心,getEcoDataIndCommercialtrade,2007-04-30,2026-04-30,1,145.0
+801200,商贸零售,7,1050000370,固定资产投资完成额:批发和零售业:累计同比,Fixed Assets Investment Realized: Cumulative YoY: Wholesale and Retail,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,143.0
+801200,商贸零售,8,1010008421,GDP:不变价:批发和零售业:当季同比,GDP: at Constant Price: Wholesale and Retail Trades: Current Quarter YoY,季,%,当期同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,9,1010000025,GDP:不变价:批发和零售业:累计同比,GDP: at Constant Price: Wholesale and Retail Trades: Cumulative YoY,季,%,累计同比,全国,中国,国家统计局,getEcoDataChina,1953-12-31,2026-06-30,1,139.0
+801200,商贸零售,10,1010017950,GDP:现价:初步核算数:批发和零售业:当季同比,GDP: at Current Price: Preliminary Accounting Results: Wholesale and Retail Trades: Current Quarter YoY,季,%,初值同比,全国,中国,Datayes!,getEcoDataChina,2016-09-30,2026-06-30,1,139.0
+801200,商贸零售,11,1010017977,GDP:现价:初步核算数:批发和零售业:累计同比,GDP: at Current Price: Preliminary Accounting Results: Wholesale and Retail Trades: Cumulative YoY,季,%,累计同比(初值),全国,中国,Datayes!,getEcoDataChina,2013-09-30,2026-06-30,1,139.0
+801200,商贸零售,12,1010015487,GDP:现价:批发和零售业:当季同比,GDP: at Current Price: Wholesale and Retail Trades: Current Quarter YoY,季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,13,1010015488,GDP:现价:批发和零售业:累计同比,GDP: at Current Price: Wholesale and Retail Trades: Cumulative YoY,季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,1953-12-31,2026-06-30,1,139.0
+801200,商贸零售,14,1010014354,GDP平减指数:批发和零售业:当季同比,GDP Deflators Index: Wholesale and Retail Trades: Current Quarter YoY,季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,15,1010014342,GDP平减指数:批发和零售业:累计同比,GDP Deflators Index: Wholesale and Retail Trades: Cumulative YoY,季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,16,1010000049,GDP累计同比贡献率:批发和零售业,Share of the Contributions to the Increase of the Accumulated GDP: Wholesale and Retail Trades,季,%,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,17,1010000061,对GDP累计同比的拉动:批发和零售业,Contribution to the Accumulated GDP Growth: Wholesale and Retail Trades,季,百分点,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801200,商贸零售,18,1010014281,GDP指数:批发和零售业:当季值,Indices of GDP: Wholesale and Retail Trades: Current Quarter Value,季,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801200,商贸零售,19,1010014297,GDP指数:批发和零售业:累计值,Indices of GDP: Wholesale and Retail Trades: Cumulative Value,季,上年同期=100,累计同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801200,商贸零售,20,1030000473,企业景气指数:即期指数:批发和零售业,Business Climate Index: Current: Wholesale And Retail Trade,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,131.0
+801200,商贸零售,21,1030000130,企业景气指数:批发和零售业,Corporate Boom Index: Wholesale and Retail Trade Industry,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,1999-03-31,2026-06-30,1,131.0
+801200,商贸零售,22,1030000533,企业景气指数:预期指数:批发和零售业,Business Climate Index: Expectation: Wholesale And Retail Trade,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,131.0
+801200,商贸零售,23,1030000169,大额商品消费意愿比例,Large Purchasing Intent Ratio,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2010-12-31,2025-12-31,1,131.0
+801200,商贸零售,24,1030000164,消费意愿比例,Consumption Intention Ratio,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2009-03-31,2025-12-31,1,131.0
+801200,商贸零售,25,1030002264,消费者信心指数,Consumer Confidence Index,季,%,当期值,全国,中国,Datayes!,getEcoDataChina,1998-09-30,2026-06-30,1,131.0
+801200,商贸零售,26,3240008663,OECD消费者信心指数:幅度调节型:G7,OECD Standardised CCI: Amplitude Adjusted: G7,月,长期平均=100,季调,,G7国家,OECD,getEcoDataGlobeRest,1973-01-31,2026-06-30,1,105.0
+801200,商贸零售,27,3240008670,OECD消费者信心指数:幅度调节型:中国,OECD Standardised CCI: Amplitude Adjusted: China (People's Republic of),月,长期平均=100,季调,,中国,OECD,getEcoDataGlobeRest,1990-01-31,2026-03-31,1,105.0
+801200,商贸零售,28,3240008682,OECD消费者信心指数:幅度调节型:丹麦,OECD Standardised CCI: Amplitude Adjusted: Denmark,月,长期平均=100,季调,,丹麦,OECD,getEcoDataGlobeRest,1974-01-31,2026-06-30,1,105.0
+801200,商贸零售,29,3240008664,OECD消费者信心指数:幅度调节型:五个主要亚洲国家,OECD Standardised CCI: Amplitude Adjusted: Major Five Asia,月,长期平均=100,季调,,,OECD,getEcoDataGlobeRest,1990-01-31,2026-04-30,1,105.0
+801200,商贸零售,30,3240008705,OECD消费者信心指数:幅度调节型:以色列,OECD Standardised CCI: Amplitude Adjusted: Israel,月,长期平均=100,季调,,以色列,OECD,getEcoDataGlobeRest,2011-03-31,2026-04-30,1,105.0
+801210,社会服务,1,2180708870,国内旅游人数:累计值,Number of Domestic Tourists: Cumulative Value,季,亿人次,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,2,2180708872,国内旅游人数:累计值:农村居民,Domestic Tourist Number: Cumulative Value: Rural Resident,季,亿人次,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,3,2180708871,国内旅游人数:累计值:城镇居民,Domestic Tourist Number: Cumulative Value: Urban Resident,季,亿人次,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,4,2180708873,国内旅游消费:累计值,Domestic Tourism Consumption: Cumulative Value,季,万亿元,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,5,2180708875,国内旅游消费:累计值:农村居民,Domestic Tourism Consumption: Cumulative Value: Rural Resident,季,万亿元,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,6,2180708874,国内旅游消费:累计值:城镇居民,Domestic Tourism Consumption: Cumulative Value: Urban Resident,季,万亿元,累计值,全国,中国,中华人民共和国文化和旅游部,getEcoDataIndCateringtourism,2002-12-31,2026-03-31,1,141.0
+801210,社会服务,7,1040005237,CPI:教育文化和娱乐:教育服务(上年同月=100),CPI: Educational Culture and Entertainment: Educational Services (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2001-01-31,2026-06-30,1,135.0
+801210,社会服务,8,1040000057,CPI:教育文化和娱乐:旅行社及其他旅游服务(上年同月=100),CPI: Educational Culture and Entertainment: Travel Services and Other Tourism-related Services (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2001-01-31,2026-06-30,1,135.0
+801210,社会服务,9,1050000378,固定资产投资完成额:住宿和餐饮业:累计同比,Fixed Assets Investment Realized: Cumulative YoY: Accommodation and Catering,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,135.0
+801210,社会服务,10,1010008423,GDP:不变价:住宿和餐饮业:当季同比,GDP: at Constant Price: Accommodation and Restaurants: Current Quarter YoY,季,%,当期同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,11,1010000026,GDP:不变价:住宿和餐饮业:累计同比,GDP: at Constant Price: Accommodation and Restaurants: Cumulative YoY,季,%,累计同比,全国,中国,国家统计局,getEcoDataChina,1953-12-31,2026-06-30,1,131.0
+801210,社会服务,12,1010008406,GDP:现价:住宿和餐饮业:当季值,GDP: at Current Price: Accommodation and Restaurants: Current Quarter Value,季,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,1992-03-31,2026-06-30,1,131.0
+801210,社会服务,13,1010000013,GDP:现价:住宿和餐饮业:累计值,GDP: at Current Price: Accommodation and Restaurants: Cumulative Value,季,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,1952-12-31,2026-06-30,1,131.0
+801210,社会服务,14,1010017937,GDP:现价:初步核算数:住宿和餐饮业:当季值,GDP: at Current Price: Preliminary Accounting Results: Accommodation and Restaurants: Current Quarter Value,季,亿元,初值,全国,中国,国家统计局,getEcoDataChina,2015-09-30,2026-06-30,1,131.0
+801210,社会服务,15,1010017964,GDP:现价:初步核算数:住宿和餐饮业:累计值,GDP: at Current Price: Preliminary Accounting Results: Accommodation and Restaurants: Cumulative Value,季,亿元,累计值(初值),全国,中国,国家统计局,getEcoDataChina,2012-09-30,2026-06-30,1,131.0
+801210,社会服务,16,1010014356,GDP平减指数:住宿和餐饮业:当季同比,GDP Deflators Index: Accommodation and Restaurants: Current Quarter YoY,季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,17,1010014344,GDP平减指数:住宿和餐饮业:累计同比,GDP Deflators Index: Accommodation and Restaurants: Cumulative YoY,季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,18,1010014283,GDP指数:住宿和餐饮业:当季值,Indices of GDP: Accommodation and Restaurants: Current Quarter Value,季,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,19,1010014299,GDP指数:住宿和餐饮业:累计值,Indices of GDP: Accommodation and Restaurants: Cumulative Value,季,上年同期=100,累计同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,20,1010000050,GDP累计同比贡献率:住宿和餐饮业,Share of the Contributions to the Increase of the Accumulated GDP: Accommodation and Restaurants,季,%,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,21,1030000131,企业景气指数:住宿和餐饮业,Industry Prosperity Index: Accommodation and Catering Industry: Value in Current Quarter,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2002-03-31,2026-06-30,1,131.0
+801210,社会服务,22,1030000475,企业景气指数:即期指数:住宿和餐饮业,Business Climate Index: Current: Accommodation And Catering Trade,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,131.0
+801210,社会服务,23,1030000535,企业景气指数:预期指数:住宿和餐饮业,Business Climate Index: Expectation: Accommodation And Catering Trade,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,131.0
+801210,社会服务,24,1010000062,对GDP累计同比的拉动:住宿和餐饮业,Contribution to the Accumulated GDP Growth: Accommodation and Restaurants,季,百分点,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,131.0
+801210,社会服务,25,3190000996,南非:每间客房收入:现价:酒店:同比:未季调,South Africa: Income Per Stay Unit Nights Sold: At Current Prices: Hotels: YoY: NSA,月,%,当期同比,南非,南非,南非统计局,getEcoDataGlobeRest,2008-01-31,2026-05-31,1,121.0
+801210,社会服务,26,3190000956,南非:每间客房收入:现价:酒店:季调,South Africa: Income Per Stay Unit Nights Sold: At Current Prices: Hotels: SA,月,兰特,季调,南非,南非,南非统计局,getEcoDataGlobeRest,2007-01-31,2026-05-31,1,121.0
+801210,社会服务,27,3190000921,南非:每间客房收入:现价:酒店:未季调,South Africa: Income Per Stay Unit Nights Sold: At Current Prices: Hotels: NSA,月,兰特,当期值,南非,南非,南非统计局,getEcoDataGlobeRest,2007-01-31,2026-05-31,1,121.0
+801210,社会服务,28,3190001031,南非:每间客房收入:现价:酒店:环比:季调,South Africa: Income Per Stay Unit Nights Sold: At Current Prices: Hotels: MoM: SA,月,%,环比(季调),南非,南非,南非统计局,getEcoDataGlobeRest,2007-02-28,2026-05-31,1,121.0
+801210,社会服务,29,3190001006,南非:住宿收入:现价:酒店:同比:未季调,South Africa: Income from Accommodation: At Current Prices: Hotels: YoY: NSA,月,%,当期同比,南非,南非,南非统计局,getEcoDataGlobeRest,2008-01-31,2026-05-31,1,113.0
+801210,社会服务,30,3190000966,南非:住宿收入:现价:酒店:季调,South Africa: Income from Accommodation: At Current Prices: Hotels: SA,月,百万兰特,季调,南非,南非,南非统计局,getEcoDataGlobeRest,2007-01-31,2026-05-31,1,113.0
+801710,建筑材料,1,2060819342,出口金额(美元):水泥、混凝土或人造石制品(6810):当月值,"Export Value (USD): Cement, Concrete or Artificial Stone Products (6810): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,145.0
+801710,建筑材料,2,2060819202,出口金额(美元):石料、石膏、水泥、石棉、云母及类似材料的制品(68):当月值,"Export Value (USD): Articles of Stone, Gypsum, Cement, Asbestos, Mica and Similar Materials (68): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,145.0
+801710,建筑材料,3,1040005448,"生产资料价格:建材:普通硅酸盐水泥:42.5强度,散装:当月值","Price of Means of Production: Building Materials: Ordinary Portland Cement: 42.5 Strength, in Bulk: Current",月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801710,建筑材料,4,1040005451,"生产资料价格:建材:普通硅酸盐水泥:52.5强度,散装:当月值","Price of Means of Production: Building Materials: Portland Cement: 52.5 Strength, in Bulk: Current",月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801710,建筑材料,5,1040005436,生产资料价格:建材:浮法平板玻璃:5mm:当月值,Price of Means of Production: Building Materials: Float Glass: 5mm: Current,月,元/平方米,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801710,建筑材料,6,1040005445,生产资料价格:建材:矿渣硅酸盐水泥:42.5强度:当月值,Price of Means of Production: Building Material: Portland Slag Cement: 42.5 Strength: Current,月,元/吨,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801710,建筑材料,7,1040005442,生产资料价格:建材:钢化平板玻璃:5mm:当月值,Price of Means of Production: Building Materials: Tempered Glass: 5mm: Current,月,元/平方米,当期值,全国,中国,发改委,getEcoDataChina,2015-05-31,2026-06-30,1,145.0
+801710,建筑材料,8,2060819344,进出口金额(美元):水泥、混凝土或人造石制品(6810):当月值,"Import and Export Value (USD): Cement, Concrete or Artificial Stone Products (6810): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,145.0
+801710,建筑材料,9,2060819204,进出口金额(美元):石料、石膏、水泥、石棉、云母及类似材料的制品(68):当月值,"Import and Export Value (USD): Articles of Stone, Gypsum, Cement, Asbestos, Mica and Similar Materials (68): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,145.0
+801710,建筑材料,10,1020000195,出口交货值:非金属矿物制品业:当月同比,Export Delivery Value: Non-Metallic Mineral Products Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801710,建筑材料,11,1020000154,出口交货值:非金属矿物制品业:当期值,Export Delivery Value: Non-Metallic Mineral Products Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801710,建筑材料,12,2060810247,出口数量:石灰石助熔剂;制造石灰或水泥的钙质石(2521):当月值,Export Quantity: Limestone Flux; Calcareous Stone (2521) For Manufacturing Lime Or Cement: Current Month Value,月,千克,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,13,2060809995,出口金额(人民币):玻璃纤维及其制品(7019):当月值,Export Amount (Rmb) : Glass Fiber And Its Products (7019) : Value During The Month,月,元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,14,2060811226,出口金额(美元):其他玻璃制品(7020):当月值,Export Value (USD): Other Glass Products(7020): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,15,2060809996,出口金额(美元):玻璃纤维及其制品(7019):当月值,Export Amount (Us $) : Glass Fiber And Its Products (7019) : Value During The Month,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,16,2060819356,出口金额(美元):石棉水泥、纤维素水泥或类似材料的制品(6811):当月值,"Export Value (USD): Products of Asbestos Cement, Cellulose Cement or Similar Materials (6811): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,17,2060810240,出口金额(美元):石灰石助熔剂;制造石灰或水泥的钙质石(2521):当月值,Export Value (USD): Limestone Flux; Calcareous Stone For Manufacturing Lime Or Cement (2521): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,18,2060819328,出口金额(美元):石膏制品及以石膏为基本成分的混合材料制品(6809):当月值,Export Value (USD): Gypsum Products and Mixed Material Products With Gypsum As The Basic Component (6809): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,19,2060810274,出口金额(美元):硅酸盐水泥、矾土水泥等类似的水凝水泥(2523):当月值,"Export Value (USD): Portland Cement, Bauxite Cement And Similar Hydraulic Cement (2523): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,20,2060819412,出口金额(美元):耐火砖瓦及类似耐火陶瓷建材制品(6902):当月值,"Export Value (USD): Refractory Bricks, Tiles and Similar Refractory Ceramic Building Materials (6902): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,21,1020008262,工业企业:利润总额:非金属矿物制品业:累计值,Total Profit: Non-Metallic Mineral Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801710,建筑材料,22,1020010193,工业企业:营业利润:非金属矿物制品业:累计值,Operating Profit: Non-Metallic Mineral Manufacturing Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801710,建筑材料,23,1020001570,平板玻璃:产量:当月值,Output: Plate Glass,月,万重量箱,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801710,建筑材料,24,1020000941,成本费用利润率:非金属矿物制品业,Profit-To-Cost Ratio: Non-Metallic Mineral Products Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801710,建筑材料,25,1020001569,水泥:产量:当月值,Output: Cement: Current Value (Month),月,万吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801710,建筑材料,26,1020000861,税前利润率:非金属矿物制品业,Pre-Tax Profit Margin: Non-Metallic Mineral Products Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801710,建筑材料,27,2060810249,进出口数量:石灰石助熔剂;制造石灰或水泥的钙质石(2521):当月值,Import And Export Quantity: Limestone Flux; Calcareous Stone For Manufacturing Lime Or Cement (2521): Current Month Value,月,千克,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,28,2060811228,进出口金额(美元):其他玻璃制品(7020):当月值,Import And Export Value (USD): Other Glass Products(7020): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,29,2060811214,进出口金额(美元):玻璃纤维及其制品(7019):当月值,Import And Export Value (USD): Glass Fiber And Its Products(7019): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801710,建筑材料,30,2060819358,进出口金额(美元):石棉水泥、纤维素水泥或类似材料的制品(6811):当月值,"Import and Export Value (USD): Products of Asbestos Cement, Cellulose Cement or Similar Materials (6811): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndBuildingmaterials,2015-01-31,2026-06-30,1,143.0
+801720,建筑装饰,1,2170923949,建筑业企业本年新签合同额:累计同比,Value of Newly Signed Constructional Enterprises Contract This Year: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2005-03-31,2026-06-30,1,157.0
+801720,建筑装饰,2,1050021433,固定资产投资完成额:基础设施建设投资:累计同比,Fixed Assets Investment Completed: Infrastructure Construction Investment: Cumulative YoY,月,%,累计同比,全国,中国,Datayes!,getEcoDataChina,2004-02-29,2026-06-30,1,151.0
+801720,建筑装饰,3,1050000369,固定资产投资完成额:建筑业:累计同比,Fixed Assets Investment Realized: Cumulative YoY: Construction Industry ,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,151.0
+801720,建筑装饰,4,1050000056,固定资产投资完成额:建筑安装工程:累计同比,Fixed Assets Investment Completed: Construction And Installation Work: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,151.0
+801720,建筑装饰,5,1050007874,基础设施建设投资:当月同比,Infrastructure Development Investment: Month YoY,月,%,当期同比,全国,中国,Datayes!,getEcoDataChina,2004-03-31,2026-06-30,1,151.0
+801720,建筑装饰,6,1050000446,民间固定资产投资完成额:建筑业:累计同比,Private Investment In Fixed Assets Completed: Construction Industry: Cumulative YoY,月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,151.0
+801720,建筑装饰,7,2170923944,建筑业安装工程产值:累计同比,Output of Installation Engineering: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2004-06-30,2026-06-30,1,147.0
+801720,建筑装饰,8,2170923945,建筑业建筑工程产值:累计同比,Output of Constructional Engineering: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2004-06-30,2026-06-30,1,147.0
+801720,建筑装饰,9,2170923943,建筑业总产值:累计同比,Output of Construction Industry: YOY Quarterly,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2004-06-30,2026-06-30,1,147.0
+801720,建筑装饰,10,2170700008,建筑业竣工产值:累计值,Output of Construction Completion: Cumulative,季,亿元,累计值,全国,中国,国家统计局,getEcoDataIndRealestate,2003-06-30,2026-06-30,1,147.0
+801720,建筑装饰,11,2170923947,房屋建筑施工面积:累计同比,Housing Construction Area: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2004-06-30,2026-06-30,1,147.0
+801720,建筑装饰,12,2170923946,房屋建筑竣工面积:累计同比,Floor Space of Completed Building: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2005-03-31,2026-06-30,1,147.0
+801720,建筑装饰,13,1030000727,非制造业PMI:建筑业:新订单,Non-manufacturing PMI: Construction Industry: New Orders,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2008-02-29,2026-07-31,1,145.0
+801720,建筑装饰,14,2170700010,建筑业企业上年结转合同额:累计值,Value of Constructional Enterprises Contact Settlement and Transfer During Last Year: Cumulative,季,亿元,累计值,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,141.0
+801720,建筑装饰,15,2170700009,建筑业企业签订合同金额:累计值,Value of Constructional Enterprises Contracts: Cumulative,季,亿元,累计值,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,141.0
+801720,建筑装饰,16,1010008420,GDP:不变价:建筑业:当季同比,GDP: at Constant Price: Construction: Current Quarter YoY,季,%,当期同比,全国,中国,国家统计局,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,17,1010000022,GDP:不变价:建筑业:累计同比,GDP: at Constant Price: Construction: Cumulative YoY,季,%,累计同比,全国,中国,国家统计局,getEcoDataChina,1953-12-31,2026-06-30,1,139.0
+801720,建筑装饰,18,1010017949,GDP:现价:初步核算数:建筑业:当季同比,GDP: at Current Price: Preliminary Accounting Results: Construction: Current Quarter YoY,季,%,初值同比,全国,中国,Datayes!,getEcoDataChina,2016-09-30,2026-06-30,1,139.0
+801720,建筑装饰,19,1010017976,GDP:现价:初步核算数:建筑业:累计同比,GDP: at Current Price: Preliminary Accounting Results: Construction: Cumulative YoY,季,%,累计同比(初值),全国,中国,Datayes!,getEcoDataChina,2013-09-30,2026-06-30,1,139.0
+801720,建筑装饰,20,1010015483,GDP:现价:建筑业:当季同比,GDP: at Current Price: Construction: Current Quarter YoY,季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,21,1010015484,GDP:现价:建筑业:累计同比,GDP: at Current Price: Construction: Cumulative YoY,季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,1953-12-31,2026-06-30,1,139.0
+801720,建筑装饰,22,1010014353,GDP平减指数:建筑业:当季同比,GDP Deflators Index: Construction: Current Quarter YoY,季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,23,1010014341,GDP平减指数:建筑业:累计同比,GDP Deflators Index: Construction: Cumulative YoY,季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,24,1010000047,GDP累计同比贡献率:建筑业,Share of the Contributions to the Increase of the Accumulated GDP: Construction,季,%,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,25,2170700063,其他未列明的房屋建筑物竣工价值:累计值,Value of Completed Other Unlisted Buildings: Cumulative,季,亿元,累计值,全国,中国,国家统计局,getEcoDataIndRealestate,2004-12-31,2026-06-30,1,139.0
+801720,建筑装饰,26,2170700042,其他未列明的房屋建筑物竣工面积:累计值,Floor Space of Completed Other Unlisted Buildings: Cumulative,季,万平方米,累计值,全国,中国,国家统计局,getEcoDataIndRealestate,2004-03-31,2026-06-30,1,139.0
+801720,建筑装饰,27,1010000059,对GDP累计同比的拉动:建筑业,Contribution to the Accumulated GDP Growth: Construction,季,百分点,当期值,全国,中国,Datayes!,getEcoDataChina,1993-03-31,2026-06-30,1,139.0
+801720,建筑装饰,28,2170923948,房屋建筑新开工面积:累计同比,New Construction Area: Cumulative,季,%,累计同比,中国,中国,Datayes!,getEcoDataIndRealestate,2004-06-30,2026-06-30,1,139.0
+801720,建筑装饰,29,1030002380,非制造业PMI:建筑业:土木工程,Non-Manufacturing PMI: Construction Industry: Civil Engineering,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2016-08-31,2026-02-28,1,139.0
+801720,建筑装饰,30,1030000729,非制造业PMI:建筑业:业务活动预期,Non-Manufacturing PMI: Construction Industry: Business Activity Expect,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2008-02-29,2026-07-31,1,137.0
+801730,电力设备,1,2020656318,光伏产品价格指数(SPI):综合,PV Product Price Index(SPI):Composite,周,,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2014-04-04,2026-08-03,1,147.0
+801730,电力设备,2,2080110940,产量:发电机组(发电设备):当月值,Output: Generators (Power Generation Equipment): Current Value (Month),月,万千瓦,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,1989-02-28,2026-06-30,1,145.0
+801730,电力设备,3,1020008700,产量:太阳能电池:当月值,Output: Solar Battery: Current Value (Month),月,万千瓦,当期值,全国,中国,国家统计局,getEcoDataChina,2010-01-31,2026-06-30,1,143.0
+801730,电力设备,4,2087007021,出口金额(美元):发电机组及旋转式变流机(8502):当月值,Export Value (USD): Generator Set and Rotary Converter(8502): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801730,电力设备,5,2087007049,出口金额(美元):变压器、静止式变流器(例如整流器)及电感器(8504):当月值,"Export Value (USD): Transformers, Static Converters (E.G. Rectifiers) and Inductors(8504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801730,电力设备,6,2080200815,出口金额:变压器:累计同比,Transformer: Exportss Value: YTD: YoY,月,%,累计同比,全国,中国,海关总署,getEcoDataIndMachineryequipment,1999-01-31,2026-06-30,1,143.0
+801730,电力设备,7,2020105037,发电设备装机容量:太阳能发电:累计值,Installed Capacity of Power Generation Equipment: Solar Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,143.0
+801730,电力设备,8,2020105036,发电设备装机容量:核电:累计值,Installed Capacity of Power Generation Equipment: Nuclear Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,143.0
+801730,电力设备,9,2020657644,发电设备装机容量:水电:累计值,Installed Capacity of Power Generation Equipment: Hydro Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,143.0
+801730,电力设备,10,2020105035,发电设备装机容量:火电:累计值,Installed Capacity of Power Generation Equipment: Thermal Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,143.0
+801730,电力设备,11,2020657645,发电设备装机容量:风电:累计值,Installed Capacity of Power Generation Equipment: Wind Power: Cumulative,月,万千瓦,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2008-12-31,2026-06-30,1,143.0
+801730,电力设备,12,2020104973,电源工程投资完成:累计值,Completed Investments in Power Generation Projects: Cumulative Value,月,亿元,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,143.0
+801730,电力设备,13,2087007023,进出口金额(美元):发电机组及旋转式变流机(8502):当月值,Import and Export Value (USD): Generator Set and Rotary Converter(8502): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801730,电力设备,14,2087007051,进出口金额(美元):变压器、静止式变流器(例如整流器)及电感器(8504):当月值,"Import and Export Value (USD): Transformers, Static Converters (E.G. Rectifiers) and Inductors(8504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801730,电力设备,15,2020101562,(全国)发电设备平均利用小时:累计值,Power Generation Equipment Average Utilization Hours: Cumulative,月,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,135.0
+801730,电力设备,16,2020101578,(全国)发电设备平均利用小时:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: Cumulative Per Cent Change,月,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,135.0
+801730,电力设备,17,2087007024,贸易差额(美元):发电机组及旋转式变流机(8502):当月值,Trade Balance (USD): Generator Set and Rotary Converter(8502): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,135.0
+801730,电力设备,18,2087007052,贸易差额(美元):变压器、静止式变流器(例如整流器)及电感器(8504):当月值,"Trade Balance (USD): Transformers, Static Converters (E.G. Rectifiers) and Inductors(8504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,135.0
+801730,电力设备,19,2087007022,进口金额(美元):发电机组及旋转式变流机(8502):当月值,Import Value (USD): Generator Set and Rotary Converter(8502): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,135.0
+801730,电力设备,20,2087007050,进口金额(美元):变压器、静止式变流器(例如整流器)及电感器(8504):当月值,"Import Value (USD): Transformers, Static Converters (E.G. Rectifiers) and Inductors(8504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,135.0
+801730,电力设备,21,2080200369,出口数量:变压器:当月同比,Transformer: Exports Quantity: YoY,月,%,当期同比,,中国,海关总署,getEcoDataIndMachineryequipment,2000-01-31,2026-06-30,1,133.0
+801730,电力设备,22,2080200377,出口数量:太阳能电池:当月同比,Solar Battery: Exports Quantity: YoY,月,%,当期同比,,中国,海关总署,getEcoDataIndMachineryequipment,2013-01-31,2026-06-30,1,133.0
+801730,电力设备,23,2080200822,出口金额:太阳能电池:当月同比,Solar Battery: Exportss Value: YoY,月,%,当期同比,,中国,海关总署,getEcoDataIndMachineryequipment,2013-01-31,2026-06-30,1,133.0
+801730,电力设备,24,2080100199,销量:内燃机:发电机组:累计值,Consumption: Internal Combustion Engine: Generator: YTD,月,万台,累计值,,中国,中国内燃机工业协会,getEcoDataIndMachineryequipment,2014-01-31,2026-06-30,1,133.0
+801730,电力设备,25,2020101565,(全国)发电设备平均利用小时:核电:累计值,(National) Power Generation Equipment Average Utilization Hours: Nuclear Power: YTD,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,131.0
+801730,电力设备,26,2020101581,(全国)发电设备平均利用小时:核电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: Nuclear Power: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-12-31,2026-06-30,1,131.0
+801730,电力设备,27,2020101563,(全国)发电设备平均利用小时:水电:累计值,Power Generation Equipment Average Utilization Hours: HydroPower: Cumulative,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,131.0
+801730,电力设备,28,2020101579,(全国)发电设备平均利用小时:水电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours: HydroPower: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,131.0
+801730,电力设备,29,2020101564,(全国)发电设备平均利用小时:火电:累计值,Power Generation Equipment Average Utilization Hours: Rmal Power: Cumulative,季,小时,累计值,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,131.0
+801730,电力设备,30,2020101580,(全国)发电设备平均利用小时:火电:累计同比增减,(National) Power Generation Equipment Average Utilization Hours:rmal Power: Cumulative Per Cent Change,季,小时,累计同比增减,全国,中国,中国电力企业联合会,getEcoDataIndEnergy,2009-07-31,2026-06-30,1,131.0
+801740,国防军工,1,2160029360,全国造船手持订单量:出口占比,National Volume of Ship Building Handheld Orders: Proportion of Export,月,%,累计占比,,中国,中国船舶工业行业协会,getEcoDataIndTraffictransport,2013-12-31,2026-03-31,1,149.0
+801740,国防军工,2,1020000202,出口交货值:铁路、船舶、航空航天和其他运输设备制造业:当月同比,"Export Delivery Value: Railway, Marine, Aerospace And Other Transportation Equipment Manufacturing: Current YoY (Month)",月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,145.0
+801740,国防军工,3,1020000161,出口交货值:铁路、船舶、航空航天和其他运输设备制造业:当期值,"Export Delivery Value: Railway, Marine, Aerospace And Other Transportation Equipment Manufacturing: Current Value",月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,145.0
+801740,国防军工,4,1050000359,固定资产投资完成额:制造业:铁路、船舶、航空航天和其他运输设备制造业:累计同比,"Fixed Assets Investment Completed: Manufacturing: Railway, Marine, Aerospace And Other Transportation Equipment Manufacturing: Cumulative YoY",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,145.0
+801740,国防军工,5,1020010283,工业企业:投资收益:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Investment Return: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,145.0
+801740,国防军工,6,1050000441,民间固定资产投资完成额:铁路、船舶、航空航天和其他运输设备制造业:累计同比,"Private Investment In Fixed Assets Completed: Railway, Marine, Aerospace And Other Transportation Equipment Manufacturing: Cumulative YoY",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,145.0
+801740,国防军工,7,1020001585,产量:民用钢质船舶:当月值,Output: Civil Steel Ships: Current,月,万载重吨,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801740,国防军工,8,2087007385,"出口金额(美元):其他航空器;航天器及运载工具,亚轨道运载工具(8802):当月值","Export Value (USD): Other Aircraft;Spacecraft and Vehicles, Suborbital Vehicles(8802): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,9,2087007371,出口金额(美元):气球及飞艇;滑翔机、悬挂滑翔机等无动力航空器(8801):当月值,Export Value (USD): Balloons and Airships;Unpowered Aircraft such as Glider and Hang Glider(8801): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,10,2087005765,出口金额(美元):航空器、航天器及其零件(88):当月同比,"Export Value (USD): Aircraft, Spacecraft And Their Parts(88): Mom",月,%,当期同比,中国,中国,海关总署,getEcoDataIndMachineryequipment,2016-01-31,2026-06-30,1,143.0
+801740,国防军工,11,2087007413,出口金额(美元):航空器的发射装置、甲板停机装置等及其零件(8805):当月值,"Export Value (USD): Aunching Device, Deck Stop Device, Etc. of 8805 Aircraft and Their Parts(8805): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,12,2160712475,出口金额(美元):船舶及浮动结构体(89):当月值,Export Value (USD): Ships And Floating Structures (Transportation)(89): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTraffictransport,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,13,2087007387,"进出口金额(美元):其他航空器;航天器及运载工具,亚轨道运载工具(8802):当月值","Import and Export Value (USD): Other Aircraft;Spacecraft and Vehicles, Suborbital Vehicles(8802): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,14,2087007373,进出口金额(美元):气球及飞艇;滑翔机、悬挂滑翔机等无动力航空器(8801):当月值,Import and Export Value (USD): Balloons and Airships;Unpowered Aircraft such as Glider and Hang Glider(8801): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,15,2087005763,进出口金额(美元):航空器、航天器及其零件(88):当月值,"Import And Export Value (USD): Aircraft, Spacecraft And Their Parts(88): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,16,2087007415,进出口金额(美元):航空器的发射装置、甲板停机装置等及其零件(8805):当月值,"Import and Export Value (USD): Aunching Device, Deck Stop Device, Etc. of 8805 Aircraft and Their Parts(8805): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,17,2160712477,进出口金额(美元):船舶及浮动结构体(89):当月值,Import And Export Value (USD): Ships And Floating Structures (Transportation)(89): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndTraffictransport,2015-01-31,2026-06-30,1,143.0
+801740,国防军工,18,2160029358,全国造船完工量:出口占比,National Completion Quantity of Ship Building: Proportion of Export,月,%,累计占比,,中国,中国船舶工业行业协会,getEcoDataIndTraffictransport,2013-12-31,2026-03-31,1,141.0
+801740,国防军工,19,2160029351,全国造船手持订单量:累计同比,National Volume of Ship Building Handheld Orders: Cumulative YoY,月,%,累计同比,,中国,中国船舶工业行业协会,getEcoDataIndTraffictransport,2013-12-31,2026-03-31,1,141.0
+801740,国防军工,20,1040015524,PPI:铁路、船舶、航空航天和其他运输设备制造业(上年同月=100),"PPI: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry (CYoY=100)",月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2013-08-31,2026-06-30,1,137.0
+801740,国防军工,21,1020000667,三项期间费用率:铁路、船舶、航空航天和其他运输设备制造业,Three Types Of Expenses Rate: Transportation Equipment Manufacturing,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2011-02-28,2026-06-30,1,137.0
+801740,国防军工,22,1020008409,工业企业:亏损企业亏损额:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Loss of Money-Losing Enterprises: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801740,国防军工,23,1020006267,工业企业:亏损企业单位数:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Number of Loss-Making Enterprises: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,个,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801740,国防军工,24,1020006771,工业企业:产成品存货:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Finished Goods Inventory: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801740,国防军工,25,1020008283,工业企业:利润总额:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Total Profit: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801740,国防军工,26,1020006161,工业企业:单位数:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Number of Enterprises: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,个,累计值,全国,中国,国家统计局,getEcoDataChina,2001-02-28,2026-06-30,1,137.0
+801740,国防军工,27,1020006645,工业企业:存货:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Inventory: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2011-02-28,2026-06-30,1,137.0
+801740,国防军工,28,1020006519,工业企业:应收账款:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Accounts Receivable: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801740,国防军工,29,1020006393,工业企业:流动资产合计:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Total Current Assets: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2011-02-28,2026-06-30,1,137.0
+801740,国防军工,30,1020007905,工业企业:管理费用:铁路、船舶、航空航天和其他运输设备制造业:累计值,"Management Expenses: Railway, Ship, Aerospace and Other Transportation Equipment Manufacturing Industry: Cumulative Value",月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,137.0
+801750,计算机,1,1050000379,固定资产投资完成额:信息传输、软件和信息技术服务业:累计同比,"Fixed Assets Investment Realized: Cumulative YoY: Information Transmission, Software and Information Technology Services",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2004-02-29,2026-06-30,1,145.0
+801750,计算机,2,1040018939,PPI:计算机制造业(上年同月=100),PPI: Computers Manufacturing (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-31,2026-06-30,1,135.0
+801750,计算机,3,1010012052,GDP:不变价:信息传输、软件和信息技术服务业:当季同比,"GDP: at Constant Price: Information Transmission, Software and Information Technology Services: Current Quarter YoY",季,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,4,1010012056,GDP:不变价:信息传输、软件和信息技术服务业:累计同比,"GDP: at Constant Price: Information Transmission, Software and Information Technology Services: Cumulative YoY",季,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,5,1010012050,GDP:现价:信息传输、软件和信息技术服务业:当季值,"GDP: at Current Price: Information Transmission, Software and Information Technology Services: Current Quarter Value",季,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,6,1010012054,GDP:现价:信息传输、软件和信息技术服务业:累计值,"GDP: at Current Price: Information Transmission, Software and Information Technology Services: Cumulative Value",季,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,7,1010017940,GDP:现价:初步核算数:信息传输、软件和信息技术服务业:当季值,"GDP: at Current Price: Preliminary Accounting Results: Information Transmission, Software and Information Technology Services: Current Quarter Value",季,亿元,初值,全国,中国,国家统计局,getEcoDataChina,2017-03-31,2026-06-30,1,133.0
+801750,计算机,8,1010017967,GDP:现价:初步核算数:信息传输、软件和信息技术服务业:累计值,"GDP: at Current Price: Preliminary Accounting Results: Information Transmission, Software and Information Technology Services: Cumulative Value",季,亿元,累计值(初值),全国,中国,国家统计局,getEcoDataChina,2017-03-31,2026-06-30,1,133.0
+801750,计算机,9,1010014359,GDP平减指数:信息传输、软件和信息技术服务业:当季同比,"GDP Deflators Index: Information Transmission, Software and Information Technology Services: Current Quarter YoY",季,%,当期同比,全国,中国,Datayes!,getEcoDataChina,2016-03-31,2026-06-30,1,133.0
+801750,计算机,10,1010014347,GDP平减指数:信息传输、软件和信息技术服务业:累计同比,"GDP Deflators Index: Information Transmission, Software and Information Technology Services: Cumulative YoY",季,%,累计同比,全国,中国,Datayes!,getEcoDataChina,2016-03-31,2026-06-30,1,133.0
+801750,计算机,11,1010014286,GDP指数:信息传输、软件和信息技术服务业:当季值,"Indices of GDP: Information Transmission, Software and Information Technology Services: Current Quarter Value",季,上年同期=100,当期同比,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,12,1010014302,GDP指数:信息传输、软件和信息技术服务业:累计值,"Indices of GDP: Information Transmission, Software and Information Technology Services: Cumulative Value",季,上年同期=100,累计同比,全国,中国,国家统计局,getEcoDataChina,2015-03-31,2026-06-30,1,133.0
+801750,计算机,13,1010012058,GDP累计同比贡献率:信息传输、软件和信息技术服务业,"Share of the Contributions to the Increase of the Accumulated GDP: Information Transmission, Software and Information Technology Services",季,%,当期值,全国,中国,Datayes!,getEcoDataChina,2016-03-31,2026-06-30,1,133.0
+801750,计算机,14,1030000129,企业景气指数:信息传输、软件和信息技术服务业,Corporate Boom Index: InformationTransmission、Softwareand Information Technology Services Industry,季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2002-03-31,2026-06-30,1,133.0
+801750,计算机,15,1030000476,企业景气指数:即期指数:信息传输、软件和信息技术服务业,"Business Climate Index: Current: Information Transmission, Computer Service And Software Service",季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,133.0
+801750,计算机,16,1030000536,企业景气指数:预期指数:信息传输、软件和信息技术服务业,"Business Climate Index: Expectation: Information Transmission, Computer Service And Software Service",季,%,当期值,全国,中国,国家统计局,getEcoDataChina,2012-03-31,2026-06-30,1,133.0
+801750,计算机,17,1010012060,对GDP累计同比的拉动:信息传输、软件和信息技术服务业,"Contribution to the Accumulated GDP Growth: Information Transmission, Software and Information Technology Services",季,百分点,当期值,全国,中国,Datayes!,getEcoDataChina,2016-03-31,2026-06-30,1,133.0
+801750,计算机,18,1010011709,经常账户(SDR):货物和服务:服务:电信、计算机和信息服务:借方,Current Account (SDR): Goods and Services: Services: Telecommunication and Computerand Information Services: Debit,季,亿SDR,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2016-03-31,2026-03-31,1,133.0
+801750,计算机,19,1010011707,经常账户(SDR):货物和服务:服务:电信、计算机和信息服务:差额,Current Account (SDR): Goods and Services: Services: Telecommunication and Computerand Information Services: Balance,季,亿SDR,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2016-03-31,2026-03-31,1,133.0
+801750,计算机,20,1010011708,经常账户(SDR):货物和服务:服务:电信、计算机和信息服务:贷方,Current Account (SDR): Goods and Services: Services: Telecommunication and Computerand Information Services: Credit,季,亿SDR,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2016-03-31,2026-03-31,1,133.0
+801750,计算机,21,1010007994,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:借方:当季值,"Current Account (in RMB): Goods and Services: Services: Telecommunications, Computer and information Services: Debit",季,亿元,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,22,1010013816,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:借方:累计值,"Current Account (RMB): Goods and Services: Services: Telecommunication, Computer and Information Services: Debit: Cumulative Value",季,亿元,累计值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,23,1010013814,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:差额:累计值,"Current Account (RMB): Goods and Services: Services: Telecommunication, Computer and Information Services: Balance: Cumulative Value",季,亿元,累计值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,24,1010007992,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:当季值,"Current Account (in RMB): Services And Goods: Services: Telecommunication, Computer And Information Services: Balance",季,亿元,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,25,1010007993,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:贷方:当季值,"Current Account (in RMB): Goods and Services: Services: Telecommunications, Computer and information Services: Credit",季,亿元,期末值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,26,1010013815,经常账户(人民币):货物和服务:服务:电信、计算机和信息服务:贷方:累计值,"Current Account (RMB): Goods and Services: Services: Telecommunication, Computer and Information Services: Credit: Cumulative Value",季,亿元,累计值,全国,中国,国家外汇管理局,getEcoDataChina,2010-03-31,2026-03-31,1,133.0
+801750,计算机,27,1010007673,经常账户(美元):货物和服务:服务:电信、计算机和信息服务:借方:当季值,Current Account(USD):Goods and Services: Services:Telecommunication、Computerand Information Services: Debit,季,亿美元,期末值,全国,中国,国家外汇管理局,getEcoDataChina,1998-03-31,2026-03-31,1,133.0
+801750,计算机,28,1010013685,经常账户(美元):货物和服务:服务:电信、计算机和信息服务:借方:累计值,"Current Account (USD): Goods and Services: Services: Telecommunication, Computer and Information Services: Debit: Cumulative Value",季,亿美元,累计值,全国,中国,国家外汇管理局,getEcoDataChina,1998-03-31,2026-03-31,1,133.0
+801750,计算机,29,1010013683,经常账户(美元):货物和服务:服务:电信、计算机和信息服务:差额:累计值,"Current Account (USD): Goods and Services: Services: Telecommunication, Computer and Information Services: Balance: Cumulative Value",季,亿美元,累计值,全国,中国,国家外汇管理局,getEcoDataChina,1998-03-31,2026-03-31,1,133.0
+801750,计算机,30,1010007671,经常账户(美元):货物和服务:服务:电信、计算机和信息服务:当季值,Current Account(USD):Goods and Services: Services:Telecommunication、Computerand Information Services: Balance,季,亿美元,期末值,全国,中国,国家外汇管理局,getEcoDataChina,1998-03-31,2026-03-31,1,133.0
+801760,传媒,1,2100001806,全国电影票房收入:当日值,National Film Box Office Income: Current Value (Day),日,万元,当期值,全国,中国,艺恩数据,getEcoDataIndCulture,2008-01-01,2026-08-07,1,152.0
+801760,传媒,2,2100726810,全国电影票房:当日人次,National Film Box Office: Daily Attendance,日,人,当期值,全国,中国,中国电影数据信息网,getEcoDataIndCulture,2015-09-30,2026-08-07,1,144.0
+801760,传媒,3,2100726809,全国电影票房:当日场次,National Film Box Office: Daily Screening Sessions,日,场,当期值,全国,中国,中国电影数据信息网,getEcoDataIndCulture,2015-09-30,2026-08-07,1,144.0
+801760,传媒,4,2100726811,全国电影票房:当日票房,National Film Box Office: Daily Box Office Revenue,日,万元,当期值,全国,中国,中国电影数据信息网,getEcoDataIndCulture,2015-09-30,2026-08-07,1,144.0
+801760,传媒,5,2100001808,全国电影票房人次:当日值,National Film Visitors: Current Value (Day),日,万人,当期值,全国,中国,艺恩数据,getEcoDataIndCulture,2015-06-12,2026-08-07,1,144.0
+801760,传媒,6,2100001807,全国电影票房场次:当日值,National Film Screening: Current Value (Day),日,场,当期值,全国,中国,艺恩数据,getEcoDataIndCulture,2015-06-12,2026-08-07,1,144.0
+801760,传媒,7,1050000380,固定资产投资完成额:电信、广播电视和卫星传输服务业:累计同比,"Fixed Assets Investment Completed: Information Transmission, Software And Information Technology Services: Telecommunications, Radio And Television And Satellite Transmission Services: Cumulative YoY",月,%,累计同比,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,143.0
+801760,传媒,8,2100001826,全国电影票房收入:国产影片:累计值,National Film Sales Statistics: Domestic Films: YTD,季,万元,累计值,全国,中国,国家广播电影电视总局,getEcoDataIndCulture,2010-03-31,2025-12-31,1,141.0
+801760,传媒,9,2100603474,全国电影票房收入:当季值,National Film Box Office Income: Current Value (Quarter),季,万元,当期值,全国,中国,艺恩数据,getEcoDataIndCulture,2008-03-31,2026-06-30,1,141.0
+801760,传媒,10,2190817044,全国电影剧本(梗概)备案数:中外合拍影片同意立项数,Number of National Screenplays (Synopsis) Filed: Number of Projects Approved for Chinese and Foreign Co-Production,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-03-31,2026-06-30,1,137.0
+801760,传媒,11,2190817040,全国电影剧本(梗概)备案数:动画影片,Number of National Screenplays (Synopsis) Filed: Animation Film,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-01-31,2026-05-31,1,137.0
+801760,传媒,12,2190817035,全国电影剧本(梗概)备案数:故事影片,Number of National Screenplays (Synopsis) Filed: Story Film,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-01-31,2026-06-30,1,137.0
+801760,传媒,13,2190817043,全国电影剧本(梗概)备案数:特种影片,Number of National Screenplays (Synopsis) Filed: Special Film,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-05-31,2026-05-31,1,137.0
+801760,传媒,14,2190817042,全国电影剧本(梗概)备案数:科教影片,Number of National Screenplays (Synopsis) Filed: Science Educational Film,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-04-10,2026-05-31,1,137.0
+801760,传媒,15,2190817041,全国电影剧本(梗概)备案数:纪录影片,Number of National Screenplays (Synopsis) Filed: Documentary Film,旬,部,当期值,全国,中国,国家电影局,getEcoDataIndCulture,2011-01-31,2026-05-31,1,137.0
+801760,传媒,16,1040018941,PPI:广播电视设备制造业(上年同月=100),PPI: Broadcasting and Tv Equipment (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-31,2026-06-30,1,135.0
+801760,传媒,17,2190813326,出口数量:游戏机及零附件:当月同比,Export Volume: Game Consoles and Accessories: Month YoY,月,%,当期同比,全国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,18,2190822462,出口金额(美元):一般的体育活动、体操等游戏用品及设备(9506):当月值,"Export Value (USD): General Sports Activities, Gymnastics And Other Game Supplies And Equipment(9506): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,19,2190822322,出口金额(美元):玩具、游戏品、运动用品及其零件、附件(95):当月值,"Export Value (USD): Toys, Games, Sporting Goods And Their Parts And Accessories (Mechanical Equipment)(95): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,20,2190822434,出口金额(美元):视频游戏控制器及设备、游艺场所等游戏用品(9504):当月值,"Export Value (USD): Video Game Controller And Equipment, Entertainment Places And Other Game Supplies(9504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,21,2190813478,出口金额:游戏机及零附件:当月值,Export Amount: Game Consoles and Accessories: Current Value (Month),月,万美元,当期值,全国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,22,2190703706,广告刊例花费:全媒体:同比,Advertising Examples Spend: All Media: YoY,月,%,当期同比,全国,中国,CTR媒介智讯,getEcoDataIndCulture,2014-07-31,2026-06-30,1,135.0
+801760,传媒,23,1060000115,文化体育与传媒支出:当月值,"Culture, Sports And Media Expenditure: Current",月,亿元,当期值,全国,中国,财政部,getEcoDataChina,2007-01-31,2026-06-30,1,135.0
+801760,传媒,24,2190822465,贸易差额(美元):一般的体育活动、体操等游戏用品及设备(9506):当月值,"Trade Balance (USD): General Sports Activities, Gymnastics And Other Game Supplies And Equipment(9506): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,25,2190822325,贸易差额(美元):玩具、游戏品、运动用品及其零件、附件(95):当月值,"Trade Balance (USD): Toys, Games, Sporting Goods And Their Parts And Accessories (Mechanical Equipment)(95): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,26,2190822437,贸易差额(美元):视频游戏控制器及设备、游艺场所等游戏用品(9504):当月值,"Trade Balance (USD): Video Game Controller And Equipment, Entertainment Places And Other Game Supplies(9504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,27,2190822464,进出口金额(美元):一般的体育活动、体操等游戏用品及设备(9506):当月值,"Import And Export Value (USD): General Sports Activities, Gymnastics And Other Game Supplies And Equipment(9506): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,28,2190822324,进出口金额(美元):玩具、游戏品、运动用品及其零件、附件(95):当月值,"Import And Export Value (USD): Toys, Games, Sporting Goods And Their Parts And Accessories (Mechanical Equipment)(95): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,29,2190822436,进出口金额(美元):视频游戏控制器及设备、游艺场所等游戏用品(9504):当月值,"Import And Export Value (USD): Video Game Controller And Equipment, Entertainment Places And Other Game Supplies(9504): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801760,传媒,30,2190822463,进口金额(美元):一般的体育活动、体操等游戏用品及设备(9506):当月值,"Import Value (USD): General Sports Activities, Gymnastics And Other Game Supplies And Equipment(9506): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndCulture,2015-01-31,2026-06-30,1,135.0
+801770,通信,1,2080617139,产量:光缆:当月值,Output: Optical Cables: Current Value (Month),月,万芯千米,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2004-01-31,2026-06-30,1,143.0
+801770,通信,2,2090100780,产量:移动通信基站设备:当月值,Output: Mobile Communication Base Station Equipment,月,万信道,当期值,全国,中国,国家统计局,getEcoDataIndElectronic,1990-02-28,2026-06-30,1,143.0
+801770,通信,3,2090717303,出口金额(美元):光导纤维及光导纤维束;光缆(9001):当月值,Export Value (USD): Optical Fiber And Optical Fiber Bundle;Optical Cable(9001): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801770,通信,4,2090716967,出口金额(美元):电话机;其他声音、图像或其他数据用设备(8517):当月值,"Export Value (USD): Telephone;Other Devices For Sound, Image Or Other Data(8517): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801770,通信,5,2090717305,进出口金额(美元):光导纤维及光导纤维束;光缆(9001):当月值,Import And Export Value (USD): Optical Fiber And Optical Fiber Bundle;Optical Cable(9001): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801770,通信,6,2090716969,进出口金额(美元):电话机;其他声音、图像或其他数据用设备(8517):当月值,"Import And Export Value (USD): Telephone;Other Devices For Sound, Image Or Other Data(8517): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,143.0
+801770,通信,7,1040018933,PPI:电线、电缆、光缆及电工器材制造业(上年同月=100),"PPI: Wires, Cables, Optical Cables and Electrician Tools and Materials (CYoY=100)",月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-31,2026-06-30,1,135.0
+801770,通信,8,1040018940,PPI:通信设备制造业(上年同月=100),PPI: Communications Equipment (CYoY=100),月,上年同月=100,当期值,全国,中国,国家统计局,getEcoDataChina,2014-01-31,2026-06-30,1,135.0
+801770,通信,9,2090717306,贸易差额(美元):光导纤维及光导纤维束;光缆(9001):当月值,Trade Balance (USD): Optical Fiber And Optical Fiber Bundle;Optical Cable(9001): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2017-01-31,2026-06-30,1,135.0
+801770,通信,10,2090716970,贸易差额(美元):电话机;其他声音、图像或其他数据用设备(8517):当月值,"Trade Balance (USD): Telephone;Other Devices For Sound, Image Or Other Data(8517): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2017-01-31,2026-06-30,1,135.0
+801770,通信,11,2090717304,进口金额(美元):光导纤维及光导纤维束;光缆(9001):当月值,Import Value (USD): Optical Fiber And Optical Fiber Bundle;Optical Cable(9001): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,135.0
+801770,通信,12,2090716968,进口金额(美元):电话机;其他声音、图像或其他数据用设备(8517):当月值,"Import Value (USD): Telephone;Other Devices For Sound, Image Or Other Data(8517): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,135.0
+801770,通信,13,2090720446,"出口数量:光纤、光纤束及光缆,但8544的货品除外(900110):当月值","Export Quantity: Optical Fiber, Optical Fiber Bundle And Optical Cable, Except Goods of 8544(900110): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,14,2090720226,"出口数量:由每根被覆光纤组成的光缆,(854470):当月值","Export Quantity: An Optical Cable Consisting of Each Coated Optical Fiber,(854470): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,15,2090720439,"出口金额(美元):光纤、光纤束及光缆,但8544的货品除外(900110):当月值","Export Value (USD): Optical Fiber, Optical Fiber Bundle And Optical Cable, Except Goods of 8544(900110): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,16,2090720219,"出口金额(美元):由每根被覆光纤组成的光缆,(854470):当月值","Export Value (USD): An Optical Cable Consisting of Each Coated Optical Fiber,(854470): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,17,2090720448,"进出口数量:光纤、光纤束及光缆,但8544的货品除外(900110):当月值","Import And Export Quantity: Optical Fiber, Optical Fiber Bundle And Optical Cable, Except Goods of 8544(900110): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,18,2090720228,"进出口数量:由每根被覆光纤组成的光缆,(854470):当月值","Import And Export Quantity: An Optical Cable Consisting of Each Coated Optical Fiber,(854470): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,19,2090720441,"进出口金额(美元):光纤、光纤束及光缆,但8544的货品除外(900110):当月值","Import And Export Value (USD): Optical Fiber, Optical Fiber Bundle And Optical Cable, Except Goods of 8544(900110): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,20,2090720221,"进出口金额(美元):由每根被覆光纤组成的光缆,(854470):当月值","Import And Export Value (USD): An Optical Cable Consisting of Each Coated Optical Fiber,(854470): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,125.0
+801770,通信,21,2090719746,出口数量:光导纤维、光导纤维束或光缆用连接器(853670):当月值,"Export Quantity: Connector for Optical Fiber, Optical Fiber Bundle or Optical Cable(853670): Current Month Value",月,千克,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,22,2087044872,出口数量:光纤通讯及光纤性能测试仪(90318010):当月值,Export Quantity: Optical Fiber Communication And Optical Fiber Performance Tester(90318010): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,123.0
+801770,通信,23,2090721506,出口数量:其他基站(85176190):当月值,Export Quantity: Other Base Stations(85176190): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,24,2090719010,出口数量:其他电话机(851718):当月值,Export Quantity: Other Telephones(851718): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,25,2090718990,出口数量:无绳电话机(851711):当月值,Export Quantity: Cordless Telephone(851711): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,26,2087036653,出口数量:玻璃纤维拉丝机(光纤拉丝机除外)(84752912):当月值,Export Quantity: Glass Fiber Drawing Machine (Except Optical Fiber Drawing Machine)(84752912): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,123.0
+801770,通信,27,2090721486,出口数量:移动通信基站(85176110):当月值,Export Quantity: Mobile Communication Base Station(85176110): Current Month Value,月,台,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,28,2090719739,出口金额(美元):光导纤维、光导纤维束或光缆用连接器(853670):当月值,"Export Value (USD): Connector for Optical Fiber, Optical Fiber Bundle or Optical Cable(853670): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801770,通信,29,2087044865,出口金额(美元):光纤通讯及光纤性能测试仪(90318010):当月值,Export Value (USD): Optical Fiber Communication And Optical Fiber Performance Tester(90318010): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,123.0
+801770,通信,30,2090721499,出口金额(美元):其他基站(85176190):当月值,Export Value (USD): Other Base Stations(85176190): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndElectronic,2015-01-31,2026-06-30,1,123.0
+801780,银行,1,1010016038,宏观经济指标预测:货币和准货币(M2):预测值:同比,Prediction of Macroeconomic Indicators: Monetary and Quasi Monetary (M2): Predicted Value: YoY,月,%,当期同比,全国,中国,中国经济信息网,getEcoDataChina,2011-07-31,2026-08-31,1,143.0
+801780,银行,2,1030000187,中型企业贷款需求指数,Medium-Sized Enterprises Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2012-03-31,2025-12-31,1,139.0
+801780,银行,3,1030000184,制造业贷款需求指数,Manufacturing Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2009-03-31,2025-12-31,1,139.0
+801780,银行,4,1030002280,基础设施贷款需求指数,Infrastructure Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2015-09-30,2025-12-31,1,139.0
+801780,银行,5,1030000186,大型企业贷款需求指数,Large Enterprises Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2012-03-31,2025-12-31,1,139.0
+801780,银行,6,1030000188,小微型企业贷款需求指数,Small and Micro-Sized Enterprise Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2012-03-31,2025-12-31,1,139.0
+801780,银行,7,1030000183,贷款需求指数,Loan Demand Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2004-03-31,2025-12-31,1,139.0
+801780,银行,8,1030001005,货币政策感受指数,Monetary Policy Sensory Index,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2012-09-30,2025-12-31,1,131.0
+801780,银行,9,1030000182,货币政策感受指数:偏松,Monetary Policy Sentiment Index:Loose,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2014-12-31,2025-12-31,1,131.0
+801780,银行,10,1030000181,货币政策感受指数:适度,Monetary Policy Sentiment Index:Moderate,季,%,当期值,全国,中国,中国人民银行,getEcoDataChina,2004-03-31,2025-12-31,1,131.0
+801780,银行,11,2170744856,个人住房贷款余额:同比,Loan Balance of Individual Housing: YoY,季,%,当期同比,全国,中国,中国人民银行,getEcoDataIndRealestate,2005-06-30,2026-03-31,1,127.0
+801780,银行,12,2170002073,商业性房地产贷款余额,Loan Balance Of Commercial Real Estate,季,亿元,当期值,全国,中国,中国人民银行,getEcoDataIndRealestate,2004-12-31,2026-03-31,1,119.0
+801780,银行,13,2170002074,商业性房地产贷款余额:当季同比,Loan Balance Of Commercial Real Estate: YoY,季,%,当期同比,,中国,中国人民银行,getEcoDataIndRealestate,2004-12-31,2026-03-31,1,117.0
+801780,银行,14,3190000039,南非:M1:同比,South Africa: M1:YoY,月,%,当期同比,南非,南非,南非储备银行,getEcoDataGlobeRest,1966-03-31,2026-06-30,1,113.0
+801780,银行,15,3190000040,南非:M2:同比,South Africa: M2:YoY,月,%,当期同比,南非,南非,南非储备银行,getEcoDataGlobeRest,1966-03-31,2026-06-30,1,113.0
+801780,银行,16,3230000058,泰国:M2:同比,Thailand: M2: YoY,月,%,当期同比,泰国,泰国,泰国央行,getEcoDataGlobeRest,1998-01-31,2026-06-30,1,113.0
+801780,银行,17,3220000036,土耳其:M1,Turkey: M1,周,千土耳其里拉,当期值,土耳其,土耳其,土耳其央行,getEcoDataGlobeRest,2005-12-30,2026-07-24,1,109.0
+801780,银行,18,3220000037,土耳其:M2,Turkey: M2,周,千土耳其里拉,当期值,土耳其,土耳其,土耳其央行,getEcoDataGlobeRest,2005-12-30,2026-07-24,1,109.0
+801780,银行,19,3020203914,土耳其:营建许可:多户型住房:有效建筑面积:同比:原始数据,"building permits(quartely data):two-and more dweling buildings:building permits-m2 of useful fllor area:Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data):index,2010=100:Turkey",季,%,当期同比,土耳其,土耳其,欧盟统计局,getEcoDataGlobeEu,1993-03-31,2025-12-31,1,109.0
+801780,银行,20,3230000056,泰国:M2:狭义货币(M1),Thailand: M2: Narrow Money (M1),月,百万泰铢,当期值,泰国,泰国,泰国央行,getEcoDataGlobeRest,1997-01-31,2026-06-30,1,107.0
+801780,银行,21,3230000057,泰国:M2:准货币,Thailand: M2: Quasi-money,月,百万泰铢,当期值,泰国,泰国,泰国央行,getEcoDataGlobeRest,1997-01-31,2026-06-30,1,105.0
+801780,银行,22,3230000055,泰国:广义货币(M2),Thailand: Broad Money (M2),月,百万泰铢,当期值,泰国,泰国,泰国央行,getEcoDataGlobeRest,1997-01-31,2026-06-30,1,105.0
+801780,银行,23,3130000014,瑞士:M1,Switzerland: M1,月,十亿瑞士法郎,当期值,瑞士,瑞士,瑞士国际银行,getEcoDataGlobeRest,2008-01-31,2026-05-31,1,105.0
+801780,银行,24,3130000015,瑞士:M2,Switzerland: M2,月,十亿瑞士法郎,当期值,瑞士,瑞士,瑞士国际银行,getEcoDataGlobeRest,2015-11-30,2026-05-31,1,105.0
+801780,银行,25,3200000026,马来西亚:M1,Malaysia: M1,月,百万马来西亚林吉特,当期值,马来西亚,马来西亚,马来西亚央行,getEcoDataGlobeRest,1998-01-31,2026-06-30,1,105.0
+801780,银行,26,3200000027,马来西亚:M2,Malaysia: M2,月,百万马来西亚林吉特,当期值,马来西亚,马来西亚,马来西亚央行,getEcoDataGlobeRest,1998-01-31,2026-06-30,1,105.0
+801780,银行,27,2120734568,"出口数量:其他化纤长丝无纺织物,70g<平方米重≤150g(56031390):当月同比","Export Quantity: Other Chemical Fiber Filament Non-Woven Fabrics, 70G < M2, Weight ≤ 150G (56031390): MoY",月,%,当期同比,中国,中国,海关总署,getEcoDataIndTextileclothing,2016-01-31,2026-06-30,1,103.0
+801780,银行,28,2130713221,"出口数量:其他未涂布的牛皮纸,150g<平米重<250g(480449):当月同比","Export Quantity: Other Uncoated Kraft Paper, 150G < M2, Weight < 250G (480449): MoY",月,%,当期同比,中国,中国,海关总署,getEcoDataIndLightmanufactue,2016-01-31,2026-06-30,1,103.0
+801780,银行,29,2130713181,"出口数量:其他未涂未漂白牛皮纸,150g<平米重<250g(480441):当月同比","Export Quantity: Other Uncoated Unbleached Kraft Paper, 150G < M2, Weight < 250G (480441): MoY",月,%,当期同比,中国,中国,海关总署,getEcoDataIndLightmanufactue,2016-01-31,2026-06-30,1,103.0
+801780,银行,30,2120734728,"出口数量:未浸涂其他材料制无纺布,70g<平米重≤150g(56039390):当月同比","Export Quantity: Non Woven Fabric Made of Other Materials Without Dip Coating, 70G < M2, Weight ≤ 150G (56039390): MoY",月,%,当期同比,中国,中国,海关总署,getEcoDataIndTextileclothing,2016-01-31,2026-06-30,1,103.0
+801790,非银金融,1,2210900116,原保险保费收入:人身意外伤害险:累计同比,Original Insurance Premium Income: The Person Accident Injury Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,2,2210900113,原保险保费收入:人身险:累计同比,Original Insurance Premium Income: Personal Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,3,2210900115,原保险保费收入:健康险:累计同比,Original Insurance Premium Income: Health Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,4,2210900129,原保险保费收入:农业保险:累计同比,Original Insurance Premium Income: Agriculture Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2013-04-30,2026-06-30,1,153.0
+801790,非银金融,5,2211002704,原保险保费收入:原保险:当月同比,Original Insurance Premium Income: Original Insurance: YoY,月,%,当期同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,6,2210900114,原保险保费收入:寿险:累计同比,Original Insurance Premium Income: Life Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,7,2210900112,原保险保费收入:财产险:累计同比,Original Insurance Premium Income: Property Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,153.0
+801790,非银金融,8,2210900119,原保险赔付支出:人身险:累计同比,Claims Paid: Personal Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,145.0
+801790,非银金融,9,2210900117,原保险赔付支出:原保险:累计同比,Claims Paid: Original Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,145.0
+801790,非银金融,10,2210900118,原保险赔付支出:财产险:累计同比,Claims Paid: Property Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2000-01-31,2026-06-30,1,145.0
+801790,非银金融,11,1070006934,人身保险公司保户投资款新增交费:累计值,Personal Insurance Company Investment Accounts New Payment: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2013-04-30,2026-06-30,1,143.0
+801790,非银金融,12,1070006935,人身保险公司投连险独立账户新增交费:累计值,Personal Insurance Companies Lianliankao Independent Account New Fee: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2013-04-30,2026-06-30,1,143.0
+801790,非银金融,13,1070005231,保费收入:人身意外伤害险:累计值,Original Insurance Premium Income: Life Accidental Injury Insurance: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,1999-01-31,2026-06-30,1,143.0
+801790,非银金融,14,1070005228,保费收入:人身险:累计值,Original Insurance Premium Income: Life Insurance: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,1999-01-31,2026-06-30,1,143.0
+801790,非银金融,15,1070005230,保费收入:健康险:累计值,Original Insurance Premium Income: Health Insurance: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,1999-01-31,2026-06-30,1,143.0
+801790,非银金融,16,1070005229,保费收入:寿险:累计值,Original Insurance Premium Income: Life Insurance: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,1999-01-31,2026-06-30,1,143.0
+801790,非银金融,17,1070005227,保费收入:财产险:累计值,Original Insurance Premium Income: Property: Cumulative Value,月,万元,累计值,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,1999-01-31,2026-06-30,1,143.0
+801790,非银金融,18,2210900132,保险公司:风险保障金额(保额):人身险:累计同比,Insurance Company: Risk Protection Amount (Insured): Personal Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,19,2210900135,保险公司:风险保障金额(保额):农险:累计同比,Insurance Company: Risk Protection Amount (Insured): Insured Amount of Agricultural Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,20,2210900130,保险公司:风险保障金额(保额):累计同比,Insurance Company: Risk Protection Amount (Insured): YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,21,2210900131,保险公司:风险保障金额(保额):财产险:累计同比,Insurance Company: Risk Protection Amount (Insured): Property Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,22,2210900134,保险公司:风险保障金额(保额):责任险:累计同比,Insurance Company: Risk Protection Amount (Insured): Liability Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,23,2210900133,保险公司:风险保障金额(保额):车险:累计同比,Insurance Company: Risk Protection Amount (Insured): Motor Insurance: YoY,月,%,累计同比,全国,中国,中国保险业监督管理委员会,getEcoDataIndFinancialservices,2018-06-30,2026-06-30,1,143.0
+801790,非银金融,24,2210500105,银行理财产品发行数量:当月值,Number of Bank Financial Products Issued: Current Value (Month),月,款,当期值,全国,中国,Datayes!,getEcoDataIndFinancialservices,2000-03-31,2026-07-31,1,143.0
+801790,非银金融,25,2210100846,中国人寿:国寿个人税收优惠型健康保险A款(2016版)年化收益,China Life Insurance: China Life Individual Tax-Type Health Insurance A Paragraph (2016 Version) Annualized Earnings,月,%,当期值,全国,中国,中国人寿,getEcoDataIndFinancialservices,2016-05-31,2026-07-31,1,135.0
+801790,非银金融,26,2210500106,银行理财产品平均预期年化收益率:当月值,The Average Annualized Expected Rate of Return of Bank Financial Product: Current Value (Month),月,%,当期值,全国,中国,Datayes!,getEcoDataIndFinancialservices,2000-03-31,2026-06-30,1,135.0
+801790,非银金融,27,2060709413,期货成交额(活跃):玻璃,Futures Turnover (Active): Glass,日,元,当期值,全国,中国,郑州商品交易所,getEcoDataIndBuildingmaterials,2012-12-03,2026-08-07,1,130.0
+801790,非银金融,28,2060709421,期货成交额(连三):玻璃,Futures Turnover (Continuous Three): Glass,日,元,当期值,全国,中国,郑州商品交易所,getEcoDataIndBuildingmaterials,2012-12-03,2026-08-07,1,130.0
+801790,非银金融,29,2060709416,期货成交额(连续):玻璃,Futures Turnover (Continuous): Glass,日,元,当期值,全国,中国,郑州商品交易所,getEcoDataIndBuildingmaterials,2012-12-03,2026-08-06,1,130.0
+801790,非银金融,30,2060709411,期货成交量(活跃):玻璃,Futures Trading Volume (Active): Glass,日,手,当期值,全国,中国,郑州商品交易所,getEcoDataIndBuildingmaterials,2012-12-03,2026-08-07,1,122.0
+801880,汽车,1,2070928295,当周日均销量:乘用车:厂家零售,,周,辆,当期值,全国,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2015-03-06,2026-07-31,1,155.0
+801880,汽车,2,2070133158,汽车经销商库存预警指数:销量指数,Automobile Inventory Warning Index: Sales Volume Index,月,%,当期值,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,151.0
+801880,汽车,3,2070133164,汽车经销商库存预警指数:销量指数:环比增减,Automobile Inventory Warning Index: Sales Volume Index: Net Change from Preceding Period,月,%,环比增减,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,151.0
+801880,汽车,4,2070936194,销量:新能源乘用车:零售:累计同比,Sales: New Energy Passenger Vehicles: Retail: Cumulative YoY,月,%,累计同比,全国,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2018-05-31,2026-06-30,1,151.0
+801880,汽车,5,1020008694,产量:汽车:运动型多用途乘用车(SUV):当月值,Output: Automobile: Sports Utility Automobile s (SUV): Current Value (Month),月,万辆,当期值,全国,中国,国家统计局,getEcoDataChina,2009-01-31,2026-06-30,1,147.0
+801880,汽车,6,2070928296,当周日均销量:乘用车:厂家批发,,周,辆,当期值,全国,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2015-03-06,2026-07-31,1,147.0
+801880,汽车,7,1020021235,产量:新能源汽车:当月值,Output: New Energy Vehicles: Current Value,月,万辆,当期值,全国,中国,国家统计局,getEcoDataChina,2016-03-31,2026-06-30,1,145.0
+801880,汽车,8,2070200023,专用汽车:进口数量:当月值,Special purpose Automobile: Imports Quantity,月,辆,当期值,全国,中国,海关总署,getEcoDataIndAutomobile,1998-01-31,2026-05-31,1,143.0
+801880,汽车,9,2070200096,专用汽车:进口金额:累计同比,Special purpose Automobile: Imports Value: YTD: YoY,月,%,累计同比,全国,中国,海关总署,getEcoDataIndAutomobile,1998-01-31,2026-06-30,1,143.0
+801880,汽车,10,2070100971,乘用车销量:广义乘用车:当月同比,Passenger Car Sales Volume: Generalized Passenger: YoY,月,%,当期同比,全国,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2009-03-31,2026-06-30,1,143.0
+801880,汽车,11,1020001586,产量:汽车:当月值,Output: Automobile: Current Value (Month),月,万辆,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801880,汽车,12,1020008695,产量:汽车:载货汽车:当月值,Output: Automobile: Truck: Current Value (Month),月,万辆,当期值,全国,中国,国家统计局,getEcoDataChina,1989-01-31,2026-06-30,1,143.0
+801880,汽车,13,1020001606,产量:轿车:当月值,Output: Basic passenger car(car),月,万辆,当期值,全国,中国,国家统计局,getEcoDataChina,1989-02-28,2026-06-30,1,143.0
+801880,汽车,14,1020000201,出口交货值:汽车制造业:当月同比,Export Delivery Value: Automotive Manufacturing: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,143.0
+801880,汽车,15,1020000160,出口交货值:汽车制造业:当期值,Export Delivery Value: Automotive Manufacturing: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2012-02-29,2026-06-30,1,143.0
+801880,汽车,16,2070936196,出口数量:汽车整车:当月同比,Export Quantity: Automobile Vehicles: YoY,月,%,当期同比,全国,中国,工信部,getEcoDataIndAutomobile,2009-03-31,2026-06-30,1,143.0
+801880,汽车,17,2070133167,汽车经销商库存系数:同比,Automobile Dealers Inventory Ration: YoY,月,%,当期同比,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-06-30,1,143.0
+801880,汽车,18,2070133155,汽车经销商库存预警指数,Automobile Inventory Warning Index,月,%,当期值,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,19,2070133159,汽车经销商库存预警指数:从业人员指数,Automobile Inventory Warning Index: Employment Index,月,%,当期值,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,20,2070133165,汽车经销商库存预警指数:从业人员指数:环比增减,Automobile Inventory Warning Index: Employee Index: Net Change from Preceding Period,月,%,环比增减,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,21,2070133156,汽车经销商库存预警指数:市场总需求指数,Automobile Inventory Warning Index: Total Market Demand Index,月,%,当期值,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,22,2070133162,汽车经销商库存预警指数:市场总需求指数:环比增减,Automobile Inventory Warning Index: Total Market Demand Index: Net Change from Preceding Period,月,%,环比增减,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,23,2070133157,汽车经销商库存预警指数:库存指数,Vehicle Inventory Alert Index: Inventory Index,月,%,当期值,全国,中国,中国汽车流通协会,getEcoDataIndAutomobile,2014-01-31,2026-07-31,1,143.0
+801880,汽车,24,2070900005,轮胎经销商价格指数:卡客车,TBR-Distributor Price Index,月,2011年5月=100,当期值,全国,中国,我的轮胎网,getEcoDataIndAutomobile,2011-05-31,2026-06-30,1,143.0
+801880,汽车,25,2070900004,轮胎经销商价格指数:轿车,PCR-Distributor Price Index,月,2011年5月=100,当期值,全国,中国,我的轮胎网,getEcoDataIndAutomobile,2011-05-31,2026-06-30,1,143.0
+801880,汽车,26,2070200020,进口数量:卡车(包括整套散件):累计值,Trucks(incl. Complete Set of Parts): Imports Quantity: YTD,月,辆,累计值,全国,中国,海关总署,getEcoDataIndAutomobile,1998-01-31,2026-06-30,1,143.0
+801880,汽车,27,2070100936,乘用车周销量:同比上年同周,Passenger Car Sales Volume of Week: Year Same Week Last Year:YoY,周,%,当期同比,,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2010-11-05,2026-07-31,1,137.0
+801880,汽车,28,2070100935,乘用车周销量:环比上月同周,Passenger Car Sales Volume of Week: Same Week Last Month:WoW,周,%,当期环比,,中国,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2010-11-05,2026-07-31,1,137.0
+801880,汽车,29,2070100958,乘用车产量:MPV:当月值,Passenger Car Output: MPV: Current Value (Month),月,辆,当期值,,,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2008-03-31,2026-06-30,1,135.0
+801880,汽车,30,2070100953,乘用车产量:SUV:当月值,Passenger Car Output: SUV: Current Value (Month),月,辆,当期值,,,全国乘用车市场信息联席会,getEcoDataIndAutomobile,2008-03-31,2026-06-30,1,135.0
+801890,机械设备,1,2080100030,产量:中型拖拉机:当月值,Output: Medium Tractor,月,台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2009-02-28,2026-06-30,1,143.0
+801890,机械设备,2,2080100028,产量:大型拖拉机:当月值,Output: Large Tractor,月,台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2009-02-28,2026-06-30,1,143.0
+801890,机械设备,3,2080100032,产量:小型拖拉机:当月值,Output: Small Tractor,月,万台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,1989-02-28,2026-06-30,1,143.0
+801890,机械设备,4,1020008693,产量:工业机器人:当月值,Output: Industrial Robots: Current Value (Month),月,套,当期值,全国,中国,国家统计局,getEcoDataChina,2016-03-31,2026-06-30,1,143.0
+801890,机械设备,5,2080100060,产量:挖掘机:当月值,Output: Excavator,月,台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2007-01-31,2026-06-30,1,143.0
+801890,机械设备,6,2080617129,产量:电梯、自动扶梯及升降机:当月值,"Output: Elevators, Escalators and Lifts: Current Value (Month)",月,万台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2015-02-28,2026-06-30,1,143.0
+801890,机械设备,7,2080100004,产量:金属切削机床:当月值,Output: Metal Cutting Machine Tool,月,万台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,1989-02-28,2026-06-30,1,143.0
+801890,机械设备,8,2080106991,产量:金属成形机床:当月值,Output: Metal Forming Machines: Current Value (Month),月,万台,当期值,全国,中国,国家统计局,getEcoDataIndMachineryequipment,2000-07-31,2026-06-30,1,143.0
+801890,机械设备,9,2087006727,出口金额(美元):专用于或主要用于加工机床等机器的零件、附件(8466):当月值,Export Value (USD): Parts and Accessories Specially or Mainly Used for Processing Machines such as Machine Tools(8466): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,10,2087006951,出口金额(美元):传动轴及曲柄;轴承座及滑动轴承(8483):当月值,Export Value (USD): Transmission Shaft and Crank;Bearing Pedestal and Sliding Bearing(8483): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,11,2087006657,出口金额(美元):切削金属或金属陶瓷的精加工机床(8461):当月值,Export Value (USD): Finishing Machine Tool for Cutting Metal or Cermet(8461): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,12,2087006629,出口金额(美元):切削金属的钻床、镗床、铣床、攻丝机床(8459):当月值,"Export Value (USD): Drilling Machine, Boring Machine, Milling Machine and Tapping Machine for Cutting Metal(8459): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,13,2087006601,出口金额(美元):加工金属的加工中心、单工位组合机床等(8457):当月值,"Export Value (USD): Metal Processing Center, Single Station Modular Machine Tool, Etc(8457): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,14,2087006671,出口金额(美元):加工金属的锻造或冲压机床(8462):当月值,Export Value (USD): forging or Stamping Machine Tool for Processing Metal(8462): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,15,2087006643,出口金额(美元):去毛刺、刃磨等精加工的机床(8460):当月值,"Export Value (USD): Deburring, Grinding and Other Finishing Machine Tools(8460): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,16,2087006181,出口金额(美元):叉车;其他装有升降或搬运装置的工作车(8427):当月值,Export Value (USD): forklift;Other Work Vehicles Equipped with Lifting or Handling Devices(8427): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,17,2087006713,出口金额(美元):木材、软木等或类似硬质材料的加工机床(8465):当月值,"Export Value (USD): Machine Tool for Processing Wood, Cork, Etc. or Similar Hard Materials(8465): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,18,2087005985,"出口金额(美元):液体泵,不论是否装有计量装置;液体提升机(8413):当月值","Export Value (USD): Liquid Pumps, Whether or Not Equipped with Metering Devices;Liquid Elevator(8413): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,19,2087006937,出口金额(美元):滚动轴承(8482):当月值,Export Value (USD): Rolling Bearing(8482): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,20,2087006587,出口金额(美元):用激光、其他光等或等离子弧处理材料的加工机床(8456):当月值,"Export Value (USD): Machine Tool for Processing Materials with Laser, Other Light, Etc. or Plasma Arc(8456): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,21,2087006699,出口金额(美元):石料、陶瓷等或类似矿物材料的加工机床(8464):当月值,"Export Value (USD): Machine Tools for Processing Stone, Ceramics, Etc. or Similar Mineral Materials(8464): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,22,2087005999,出口金额(美元):空气泵或真空泵、空气及其他气体压缩机、风机等(8414):当月值,"Export Value (USD): Air Pump or Vacuum Pump, Air and Other Gas Compressor, Fan, Etc(8414): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,23,2087006167,出口金额(美元):船用桅杆式起重机;起重机(8426):当月值,Export Value (USD): Marine Mast Crane;Crane(8426): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,24,2087006685,出口金额(美元):金属或金属陶瓷的其他非切削加工机床(8463):当月值,Export Value (USD): Other Non Cutting Machine Tools for Metal or Cermet(8463): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,25,2087006729,进出口金额(美元):专用于或主要用于加工机床等机器的零件、附件(8466):当月值,Import and Export Value (USD): Parts and Accessories Specially or Mainly Used for Processing Machines such as Machine Tools(8466): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,26,2087006953,进出口金额(美元):传动轴及曲柄;轴承座及滑动轴承(8483):当月值,Import and Export Value (USD): Transmission Shaft and Crank;Bearing Pedestal and Sliding Bearing(8483): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,27,2087006659,进出口金额(美元):切削金属或金属陶瓷的精加工机床(8461):当月值,Import and Export Value (USD): Finishing Machine Tool for Cutting Metal or Cermet(8461): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,28,2087006631,进出口金额(美元):切削金属的钻床、镗床、铣床、攻丝机床(8459):当月值,"Import and Export Value (USD): Drilling Machine, Boring Machine, Milling Machine and Tapping Machine for Cutting Metal(8459): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,29,2087006603,进出口金额(美元):加工金属的加工中心、单工位组合机床等(8457):当月值,"Import and Export Value (USD): Metal Processing Center, Single Station Modular Machine Tool, Etc(8457): Current Month Value",月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801890,机械设备,30,2087006183,进出口金额(美元):叉车;其他装有升降或搬运装置的工作车(8427):当月值,Import and Export Value (USD): forklift;Other Work Vehicles Equipped with Lifting or Handling Devices(8427): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndMachineryequipment,2015-01-31,2026-06-30,1,143.0
+801950,煤炭,1,1040015371,生产资料价格:煤炭:炼焦煤:周环比,Spot Price: Coal: Coking Coal: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,151.0
+801950,煤炭,2,2020761919,库存量:炼焦煤:国内独立焦化厂(230家):合计,Inventory: Coking Coal: Independent Coking Plants in China (230 Households): Total,周,万吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2016-06-24,2026-08-07,1,149.0
+801950,煤炭,3,1040015372,生产资料价格:煤炭:动力煤:周环比,Spot Price: Coal: Thermal Coal: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,149.0
+801950,煤炭,4,1040015373,生产资料价格:煤炭:无烟煤:周环比,Spot Price: Coal: Anthracite: WoW,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2017-03-19,2026-08-02,1,147.0
+801950,煤炭,5,2020100004,产量:原煤(国有重点煤矿):当月值,Coal(State-Owned Key Coal Mines): Output,月,万吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2009-06-30,2026-06-30,1,145.0
+801950,煤炭,6,2020100020,产量:原煤:当月值,Raw Coal: Output,月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndEnergy,1989-01-31,2026-06-30,1,143.0
+801950,煤炭,7,1020000171,出口交货值:煤炭开采和洗选业:当月同比,Export Delivery Value: Coal Mining And Washing Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801950,煤炭,8,1020000130,出口交货值:煤炭开采和洗选业:当期值,Export Delivery Value: Coal Mining And Washing Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,143.0
+801950,煤炭,9,1020008190,工业企业:利润总额:煤炭开采和洗选业:累计值,Total Profit: Coal Mining and Dressing: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801950,煤炭,10,1020010169,工业企业:营业利润:煤炭开采和洗选业:累计值,Operating Profit: Coal Mining and Dressing: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,143.0
+801950,煤炭,11,1020000917,成本费用利润率:煤炭开采和洗选业,Profit-To-Cost Ratio: Coal Mining And Washing Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,143.0
+801950,煤炭,12,1020000837,税前利润率:煤炭开采和洗选业,Pre-Tax Profit Margin: Coal Mining And Washing Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,143.0
+801950,煤炭,13,2020200018,进口数量:煤及褐煤(煤炭):当月同比,Coal and Lignite: Imports Quantity: YoY,月,%,当期同比,全国,中国,海关总署,getEcoDataIndEnergy,2010-04-30,2026-06-30,1,143.0
+801950,煤炭,14,2020200014,进口金额:煤及褐煤(煤炭):当月同比,Coal and Lignite: Imports Value: YoY,月,%,当期同比,全国,中国,海关总署,getEcoDataIndEnergy,2013-01-31,2026-06-30,1,143.0
+801950,煤炭,15,2020004587,蒙西煤炭价格指数:焦煤,West Inner Mongolia Coal Price Index: Coking Coal,周,元/吨,当期值,蒙西,中国,内蒙古煤炭交易中心,getEcoDataIndEnergy,2015-07-17,2026-08-07,1,141.0
+801950,煤炭,16,2020749327,CCI:动力煤价格指数:5000K,CCI: Thermal Coal Price Index: 5000K,日,元/吨,当期值,,中国,动力煤价格,getEcoDataIndEnergy,2015-08-11,2026-08-07,1,140.0
+801950,煤炭,17,1020021161,利润总额:煤炭开采和洗选业:当季值,Total Profits: Coal Mining and Dressing: Current Value (Quarter),季,亿元,当期值,全国,中国,Datayes!,getEcoDataChina,2000-03-31,2026-06-30,1,139.0
+801950,煤炭,18,1020021179,利润总额:石油、煤炭和其他燃料加工业:当季值,"Total Profits: Petroleum, Coal and Other Fuel Processing Industries: Current Value (Quarter)",季,亿元,当期值,全国,中国,Datayes!,getEcoDataChina,2000-03-31,2026-06-30,1,139.0
+801950,煤炭,19,2020746426,炼焦煤库存:三港口合计,Coking coal inventory: total of three ports,周,万吨,当期值,,中国,Datayes!,getEcoDataIndEnergy,2011-07-08,2026-08-07,1,139.0
+801950,煤炭,20,2020746424,炼焦煤库存:京唐港,Coking Coal Inventory: Jingtang Port,周,万吨,当期值,京唐港,中国,Datayes!,getEcoDataIndEnergy,2011-07-08,2026-08-07,1,139.0
+801950,煤炭,21,2020746425,炼焦煤库存:六港口合计,Coking coal inventory: total of six ports,周,万吨,当期值,,中国,Datayes!,getEcoDataIndEnergy,2013-11-22,2026-08-07,1,139.0
+801950,煤炭,22,2020746422,炼焦煤库存:日照港,Coking Coal Inventory: Rizhao Port,周,万吨,当期值,日照港,中国,Datayes!,getEcoDataIndEnergy,2011-07-08,2026-08-07,1,139.0
+801950,煤炭,23,2020746421,炼焦煤库存:连云港,Coking Coal Inventory: Lianyungang,周,万吨,当期值,连云港,中国,Datayes!,getEcoDataIndEnergy,2011-07-08,2026-08-07,1,139.0
+801950,煤炭,24,2020657632,现货交易平仓价:CCTD秦皇岛动力煤(Q4500),Exit Price(Spot): CCTD Steam Coal in Qinhuangdao (Q4500),周,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2018-03-26,2026-08-07,1,139.0
+801950,煤炭,25,2020657631,现货交易平仓价:CCTD秦皇岛动力煤(Q5000),Exit Price(Spot): CCTD Steam Coal in Qinhuangdao (Q5000),周,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2018-03-26,2026-08-07,1,139.0
+801950,煤炭,26,2020657627,综合交易价:CCTD秦皇岛动力煤(Q4500),Comprehensive Transaction Price: CCTD Steam Coal in Qinhuangdao (Q4500),周,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2006-01-09,2026-08-07,1,139.0
+801950,煤炭,27,2020657628,综合交易价:CCTD秦皇岛动力煤(Q5000),Comprehensive Transaction Price: CCTD Steam Coal in Qinhuangdao (Q5000),周,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,2006-01-09,2026-08-07,1,139.0
+801950,煤炭,28,2020657629,综合交易价:CCTD秦皇岛动力煤(Q5500),Comprehensive Transaction Price: CCTD Steam Coal in Qinhuangdao (Q5500),周,元/吨,当期值,全国,中国,Datayes!,getEcoDataIndEnergy,1994-07-04,2026-08-07,1,139.0
+801950,煤炭,29,2020004552,蒙东煤炭价格指数:褐煤,East Inner Mongolia Coal Price Index: Brown Coal,周,元/吨,当期值,蒙东,中国,内蒙古煤炭交易中心,getEcoDataIndEnergy,2015-07-17,2026-08-07,1,139.0
+801950,煤炭,30,2020004566,蒙东煤炭价格指数:褐煤(Q3200):车板价:同比:呼伦贝尔,East Inner Mongolia Coal Price Index: Brown Coal (Q3200): Free on Truck Price: YoY: Hulunbeir,周,%,当期同比,呼伦贝尔市,中国,内蒙古煤炭交易中心,getEcoDataIndEnergy,2016-07-15,2026-08-07,1,139.0
+801960,石油石化,1,2030019741,中国塑料城价格指数:丙烯腈-丁二烯-苯乙烯共聚物(ABS),China Plastics City Price Index: Acrylonitrile-Butadiene-Styrene Copolymer (ABS),日,点,当期值,全国,中国,中塑在线,getEcoDataIndChemical,2010-01-04,2026-08-07,1,150.0
+801960,石油石化,2,2030019742,中国塑料城价格指数:聚乙烯(PE),China Plastics City Price Index: Polyethylene (PE),日,点,当期值,全国,中国,中塑在线,getEcoDataIndChemical,2010-01-04,2026-08-07,1,150.0
+801960,石油石化,3,1040024023,生产资料价格:成品油:0号柴油:周环比,,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2016-01-01,2026-07-31,1,149.0
+801960,石油石化,4,1040024022,生产资料价格:成品油:92号汽油:周环比,,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2016-01-01,2026-07-31,1,149.0
+801960,石油石化,5,1040024021,生产资料价格:成品油:95号汽油:周环比,,周,%,当期环比,全国,中国,商务部,getEcoDataChina,2016-01-01,2026-07-31,1,149.0
+801960,石油石化,6,1040002009,国内期货价格:燃料油,Domestic Futures Prices: Fuel Oil,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-07,2026-07-31,1,147.0
+801960,石油石化,7,1040001962,国内现货价格:批发价:柴油(0#),Domestic Spot Price: Wholesale Price: Diesel 0 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2008-06-15,2026-07-31,1,147.0
+801960,石油石化,8,1040001968,国内现货价格:批发价:汽油(93#),Domestic Spot Price: Wholesale Price: Gasoline 93 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2008-06-15,2026-07-31,1,147.0
+801960,石油石化,9,1040001966,国内现货价格:批发价:汽油(97#),Domestic Spot Price: Wholesale Price: Gasoline 97 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2008-06-15,2026-07-31,1,147.0
+801960,石油石化,10,1040001963,国内现货价格:零售价:柴油(0#),Domestic Spot Price: Retail Price: Diesel 0 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2003-06-15,2026-07-31,1,147.0
+801960,石油石化,11,1040001969,国内现货价格:零售价:汽油(93#),Domestic Spot Price: Retail Price: Gasoline 93 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2004-01-01,2026-07-31,1,147.0
+801960,石油石化,12,1040001967,国内现货价格:零售价:汽油(97#),Domestic Spot Price: Retail Price: Gasoline 97 #,周,元/吨,当期值,全国,中国,商务部,getEcoDataChina,2004-01-01,2026-07-31,1,147.0
+801960,石油石化,13,1040002016,国际期货价格:原油,International Futures Prices: Crude Oil,周,美元/桶,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,14,1040002020,国际期货价格:天然气,International Futures Prices: Natural Gas,周,美元/百万英热,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,15,1040002017,国际期货价格:燃料油,International Futures Prices: Fuel Oil,周,美分/加仑,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,16,1040002018,国际期货价格:轻柴油,International Futures Prices: Light Diesel Oil,周,美元/吨,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,17,1040002014,国际现货价格:原油(布),International Spot Price: Crude Oil (Cloth),周,美元/桶,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,18,1040005215,国际现货价格:柴油,International Spot Price: Diesel,周,美元/桶,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,19,1040005216,国际现货价格:汽油,International Spot Price: Gasoline,周,美元/桶,当期值,全国,中国,商务部,getEcoDataChina,2005-01-21,2026-07-31,1,147.0
+801960,石油石化,20,2020102327,产量:液化石油气:当月值,Liquefied Petroleum Gas: Output,月,万吨,当期值,全国,中国,国家统计局,getEcoDataIndEnergy,2000-07-31,2026-06-30,1,145.0
+801960,石油石化,21,1020000172,出口交货值:石油和天然气开采业:当月同比,Export Delivery Value: Oil And Gas Exploration Industry: Current YoY (Month),月,%,当期同比,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801960,石油石化,22,1020000131,出口交货值:石油和天然气开采业:当期值,Export Delivery Value: Oil And Gas Exploration Industry: Current Value,月,亿元,当期值,全国,中国,国家统计局,getEcoDataChina,2007-02-28,2026-06-30,1,145.0
+801960,石油石化,23,2030763079,出口数量:石油原油及从沥青矿物提取的原油(2709):当月值,Export Quantity: Petroleum Crude Oil And Crude Oil Extracted From Bituminous Minerals (2709): Current Month Value,月,千克,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801960,石油石化,24,2030763072,出口金额(美元):石油原油及从沥青矿物提取的原油(2709):当月值,Export Value (USD): Petroleum Crude Oil And Crude Oil Extracted From Bituminous Minerals (2709): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801960,石油石化,25,2030763106,出口金额(美元):石油气及其他烃类气(2711):当月值,Export Value (USD): Petroleum Gas And Other Hydrocarbon Gas (2711): Current Month Value,月,美元,当期值,中国,中国,海关总署,getEcoDataIndChemical,2015-01-31,2026-06-30,1,145.0
+801960,石油石化,26,1020008193,工业企业:利润总额:石油和天然气开采业:累计值,Total Profit: Oil and Gas Extraction Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,145.0
+801960,石油石化,27,1020010170,工业企业:营业利润:石油和天然气开采业:累计值,Operating Profit: Oil and Gas Extraction Industry: Cumulative Value,月,亿元,累计值,全国,中国,国家统计局,getEcoDataChina,2017-02-28,2026-06-30,1,145.0
+801960,石油石化,28,1020000918,成本费用利润率:石油和天然气开采业,Profit-To-Cost Ratio: Oil And Gas Exploration Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2003-02-28,2026-06-30,1,145.0
+801960,石油石化,29,2020102329,液化石油气:产量:当月同比,Liquefied Petroleum Gas: Production: YoY,月,%,当期同比,全国,中国,国家统计局,getEcoDataIndEnergy,2000-07-31,2026-06-30,1,145.0
+801960,石油石化,30,1020000838,税前利润率:石油和天然气开采业,Pre-Tax Profit Margin: Oil And Gas Exploration Industry,月,%,当期值,全国,中国,国家统计局,getEcoDataChina,2000-02-29,2026-06-30,1,145.0

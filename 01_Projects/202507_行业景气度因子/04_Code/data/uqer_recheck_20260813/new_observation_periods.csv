@@ -1,0 +1,62 @@
+﻿indicID,publishDate_old,periodDate,dataValue_old,updateTime_old,publishDate_new,dataValue_new,updateTime_new,_merge,same_value,same_publish_date,same_update_time,value_changed
+1040020165,,2026-08-11,,,2026-08-12 00:00:00,-0.2,2026-08-12 16:32:59,right_only,False,False,False,False
+1040024019,,2026-08-07,,,,-0.14,2026-08-12 17:08:22,right_only,False,False,False,False
+1040024020,,2026-08-07,,,,-0.7,2026-08-12 17:08:24,right_only,False,False,False,False
+1040024021,,2026-08-07,,,,3.93,2026-08-12 17:08:22,right_only,False,False,False,False
+1040024022,,2026-08-07,,,,3.62,2026-08-12 17:08:23,right_only,False,False,False,False
+1040024023,,2026-08-07,,,,3.73,2026-08-12 17:08:20,right_only,False,False,False,False
+2010000983,,2026-08-12,,,2026-08-12 15:06:47,114.43,2026-08-12 15:14:07,right_only,False,False,False,False
+2010000984,,2026-08-12,,,2026-08-12 15:06:48,114.75,2026-08-12 15:14:07,right_only,False,False,False,False
+2010711926,,2026-08-12,,,2026-08-12 13:54:00,10.81,2026-08-12 15:19:38,right_only,False,False,False,False
+2010711979,,2026-08-12,,,2026-08-12 13:54:00,19.66,2026-08-12 15:19:38,right_only,False,False,False,False
+2010712032,,2026-08-12,,,2026-08-12 13:54:00,17.5,2026-08-12 15:19:38,right_only,False,False,False,False
+2010723605,,2026-08-12,,,,2190.11,2026-08-12 18:15:27,right_only,False,False,False,False
+2010723606,,2026-08-12,,,,1955.0,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723608,,2026-08-12,,,,2045.1,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723609,,2026-08-12,,,,2003.61,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723610,,2026-08-12,,,,1099.12,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723611,,2026-08-12,,,,879.58,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723613,,2026-08-12,,,,3127.97,2026-08-12 18:15:30,right_only,False,False,False,False
+2010723616,,2026-08-12,,,,539.27,2026-08-12 18:15:29,right_only,False,False,False,False
+2010723617,,2026-08-12,,,,2263.0,2026-08-12 18:15:29,right_only,False,False,False,False
+2010723618,,2026-08-12,,,,2589.0,2026-08-12 18:15:29,right_only,False,False,False,False
+2010723620,,2026-08-12,,,2026-08-12 00:00:00,3142.0,2026-08-12 21:16:32,right_only,False,False,False,False
+2010723623,,2026-08-12,,,,3878.0,2026-08-12 18:15:29,right_only,False,False,False,False
+2010723625,,2026-08-12,,,,-579.2,2026-08-12 18:15:29,right_only,False,False,False,False
+2020656318,,2026-08-10,,,2026-08-12 18:05:50,11.78,2026-08-12 18:05:50,right_only,False,False,False,False
+2020749327,,2026-08-11,,,2026-08-11 00:00:00,770.0,2026-08-12 17:46:08,right_only,False,False,False,False
+2020749327,,2026-08-12,,,2026-08-12 00:00:00,771.0,2026-08-12 17:46:50,right_only,False,False,False,False
+2030019741,,2026-08-12,,,2026-08-12 14:30:13,928.0,2026-08-12 14:30:21,right_only,False,False,False,False
+2030019742,,2026-08-12,,,2026-08-12 17:30:37,804.54,2026-08-12 17:30:38,right_only,False,False,False,False
+2030019767,,2026-08-13,,,,56906.0,2026-08-13 08:59:29,right_only,False,False,False,False
+2040000176,,2026-08-12,,,,95.45,2026-08-12 14:01:05,right_only,False,False,False,False
+2040104240,,2026-08-12,,,2026-08-12 10:02:18,1113.0,2026-08-12 12:02:36,right_only,False,False,False,False
+2040104242,,2026-08-12,,,2026-08-12 10:00:18,462.7,2026-08-12 12:00:19,right_only,False,False,False,False
+2040104243,,2026-08-12,,,2026-08-12 10:02:20,313.2,2026-08-12 12:02:36,right_only,False,False,False,False
+2040104244,,2026-08-12,,,2026-08-12 10:01:19,125.6,2026-08-12 12:02:07,right_only,False,False,False,False
+2040104245,,2026-08-12,,,2026-08-12 10:02:16,139.5,2026-08-12 12:02:35,right_only,False,False,False,False
+2040601002,,2026-08-12,,,2026-08-12 00:00:00,81.89,2026-08-13 09:03:06,right_only,False,False,False,False
+2040601004,,2026-08-12,,,2026-08-12 00:00:00,90.09,2026-08-12 16:56:18,right_only,False,False,False,False
+2060709411,,2026-08-12,,,,1685747.0,2026-08-12 16:35:28,right_only,False,False,False,False
+2060709413,,2026-08-12,,,,30084752500.0,2026-08-12 16:35:28,right_only,False,False,False,False
+2060709421,,2026-08-12,,,,3970466600.0,2026-08-12 16:35:28,right_only,False,False,False,False
+2090715996,,2026-08-12,,,2026-08-11 19:10:00,7.65,2026-08-12 18:44:39,right_only,False,False,False,False
+2090715997,,2026-08-12,,,2026-08-11 19:10:00,13.982,2026-08-12 18:44:39,right_only,False,False,False,False
+2100001806,,2026-08-12,,,2026-08-12 00:00:00,15339.0,2026-08-13 02:51:12,right_only,False,False,False,False
+2100001807,,2026-08-12,,,2026-08-12 00:00:00,388653.0,2026-08-13 00:51:09,right_only,False,False,False,False
+2100001808,,2026-08-12,,,2026-08-12 00:00:00,427.0,2026-08-13 00:51:09,right_only,False,False,False,False
+2100726809,,2026-08-12,,,,334217.0,2026-08-13 05:55:43,right_only,False,False,False,False
+2100726810,,2026-08-12,,,,4282223.0,2026-08-13 08:56:46,right_only,False,False,False,False
+2100726811,,2026-08-12,,,,15489.2,2026-08-13 08:56:46,right_only,False,False,False,False
+2140000935,,2026-08-13,,,,1511.52,2026-08-13 01:24:28,right_only,False,False,False,False
+2140001259,,2026-08-13,,,,0.0,2026-08-13 07:54:56,right_only,False,False,False,False
+2140934364,,2026-08-13,,,,1512.66,2026-08-13 01:24:28,right_only,False,False,False,False
+2140934365,,2026-08-13,,,,1514.85,2026-08-13 01:24:28,right_only,False,False,False,False
+2140934366,,2026-08-13,,,,1517.15,2026-08-13 01:24:28,right_only,False,False,False,False
+2160606442,,2026-08-12,,,2026-08-12 15:10:51,996.52,2026-08-12 15:10:51,right_only,False,False,False,False
+2160606445,,2026-08-12,,,2026-08-12 15:10:51,1088.77,2026-08-12 15:10:51,right_only,False,False,False,False
+2160606446,,2026-08-12,,,2026-08-12 15:10:51,1257.04,2026-08-12 15:10:51,right_only,False,False,False,False
+2160606447,,2026-08-12,,,2026-08-12 15:10:51,999.02,2026-08-12 15:10:51,right_only,False,False,False,False
+2160606526,,2026-08-12,,,2026-08-12 15:10:51,1361.9,2026-08-12 15:10:51,right_only,False,False,False,False
+3220000036,,2026-07-31,,,,10962341889.88,2026-08-12 15:31:36,right_only,False,False,False,False
+3220000037,,2026-07-31,,,,27974997771.45,2026-08-12 15:31:36,right_only,False,False,False,False

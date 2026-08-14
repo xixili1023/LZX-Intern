@@ -1,0 +1,16 @@
+{
+  "old_raw_unique_rows": 336384,
+  "new_raw_unique_rows": 336445,
+  "exact_raw_rows_in_both": 321739,
+  "exact_raw_rows_only_old": 14645,
+  "exact_raw_rows_only_new": 14706,
+  "old_unique_indicator_periods": 336384,
+  "new_unique_indicator_periods": 336445,
+  "common_indicator_periods": 336384,
+  "common_periods_same_latest_value": 323572,
+  "common_periods_changed_latest_value": 12812,
+  "new_indicator_periods": 61,
+  "old_indicator_periods_missing_in_new": 0,
+  "changed_value_indicator_ids": 14,
+  "new_period_indicator_ids": 60
+}

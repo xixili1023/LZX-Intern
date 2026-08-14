@@ -23,6 +23,65 @@ def load_module():
 
 
 class ReadProjectDataTest(unittest.TestCase):
+    def test_read_dynamic_leaders_prunes_months_and_filters_before_pandas(self):
+        module = load_module()
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for month, rows in {
+                "01": [
+                    ("2026-01-30", "801010", "REAL", "000001"),
+                    ("2026-01-30", "801020", "SYNTH", "SYNTH_2"),
+                ],
+                "02": [
+                    ("2026-02-02", "801010", "SYNTH", "SYNTH_1"),
+                    ("2026-02-03", "801010", "REAL", "000002"),
+                ],
+                "03": [("2026-03-02", "801010", "REAL", "000003")],
+            }.items():
+                month_dir = root / "leader_pool_daily" / "year=2026" / f"month={month}"
+                month_dir.mkdir(parents=True)
+                pd.DataFrame(
+                    rows,
+                    columns=["trade_date", "industry_code", "asset_type", "asset_id"],
+                ).assign(trade_date=lambda x: pd.to_datetime(x.trade_date)).to_parquet(
+                    month_dir / f"2026{month}.parquet", index=False
+                )
+
+            result = module.read_dynamic_leaders(
+                "leader_pool",
+                "2026-01-31",
+                "2026-02-02",
+                columns=["trade_date", "asset_id"],
+                industry_codes=["801010"],
+                asset_types=["SYNTH"],
+                root=root,
+            )
+
+        self.assertEqual(result.columns.tolist(), ["trade_date", "asset_id"])
+        self.assertEqual(result["asset_id"].tolist(), ["SYNTH_1"])
+
+    def test_read_dynamic_components_uses_selection_date(self):
+        module = load_module()
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            month = root / "synthetic_components_daily/year=2026/month=02"
+            month.mkdir(parents=True)
+            pd.DataFrame(
+                {
+                    "selection_date": pd.to_datetime(["2026-02-02"]),
+                    "industry_code": ["801010"],
+                    "component_ticker": ["000001"],
+                }
+            ).to_parquet(month / "202602.parquet", index=False)
+
+            result = module.read_dynamic_leaders(
+                "synthetic_components", "2026-02-02", "2026-02-02", root=root
+            )
+
+        self.assertEqual(result["component_ticker"].tolist(), ["000001"])
+
     def test_read_data_concatenates_files_and_keeps_requested_dates(self):
         module = load_module()
 

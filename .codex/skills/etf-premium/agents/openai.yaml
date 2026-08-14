@@ -1,0 +1,5 @@
+interface:
+  display_name: "ETF 折溢价分析"
+  short_description: "核验 NAV 与价格时点并分析 ETF 折溢价"
+  default_prompt: "Use $etf-premium to analyze this ETF's premium or discount with traceable timestamps and sources."
+

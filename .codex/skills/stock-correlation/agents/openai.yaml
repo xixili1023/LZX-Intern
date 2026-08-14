@@ -1,0 +1,5 @@
+interface:
+  display_name: "基金与资产相关性"
+  short_description: "分析基金、ETF、持仓及基准的相关性与稳定性"
+  default_prompt: "Use $stock-correlation to evaluate dependence and diversification with aligned, traceable return data."
+

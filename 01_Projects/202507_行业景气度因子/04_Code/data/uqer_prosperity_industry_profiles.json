@@ -1,0 +1,229 @@
+{
+  "801010": {
+    "industry_name": "农林牧渔",
+    "core_terms": ["生猪", "猪肉", "仔猪", "能繁母猪", "肉鸡", "白羽鸡", "鸡蛋", "玉米", "大豆", "豆粕", "小麦", "稻谷", "大米", "棉花", "白糖", "水产品", "农产品", "饲料", "屠宰"],
+    "support_terms": ["产量", "销量", "价格", "库存", "进口", "出口", "养殖", "利润", "开工率", "消费量"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndAgricultural", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801030": {
+    "industry_name": "基础化工",
+    "core_terms": ["PTA", "MDI", "TDI", "PVC", "聚氯乙烯", "聚乙烯", "聚丙烯", "尿素", "纯碱", "烧碱", "钛白粉", "甲醇", "乙二醇", "化肥", "农药", "涤纶", "氨纶", "化工"],
+    "support_terms": ["价格", "价差", "产量", "库存", "开工率", "产能利用率", "进口", "出口", "利润"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndChemical", "getEcoDataIndEnergy", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801040": {
+    "industry_name": "钢铁",
+    "core_terms": ["钢材", "粗钢", "生铁", "铁矿石", "焦炭", "螺纹钢", "热轧", "冷轧", "中厚板", "不锈钢", "钢坯", "线材"],
+    "support_terms": ["产量", "价格", "库存", "开工率", "产能利用率", "出口", "进口", "利润"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndSteel", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801050": {
+    "industry_name": "有色金属",
+    "core_terms": ["铜", "铝", "锌", "铅", "镍", "锡", "黄金", "白银", "稀土", "钴", "锂", "氧化铝", "有色金属"],
+    "support_terms": ["产量", "价格", "库存", "开工率", "出口", "进口", "利润", "加工费"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndChemical", "getEcoDataChina", "getEcoDataGlobeRest"],
+    "global_scope_allowed": true
+  },
+  "801080": {
+    "industry_name": "电子",
+    "core_terms": ["半导体", "集成电路", "芯片", "DRAM", "NAND", "液晶面板", "显示面板", "印刷电路", "PCB", "电子元件", "电子器件", "智能手机", "手机产量", "光电子", "电子计算机", "电子信息制造业", "计算机、通信和其他电子设备制造业"],
+    "support_terms": ["产量", "销量", "价格", "库存", "出口", "进口", "销售额", "出货量", "投资"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndElectronic", "getEcoDataChina"],
+    "global_scope_allowed": true,
+    "max_per_core_term": 4
+  },
+  "801110": {
+    "industry_name": "家用电器",
+    "core_terms": ["空调", "冰箱", "洗衣机", "家用电器", "彩电", "电视机", "热水器", "微波炉", "油烟机", "小家电", "厨电", "家电"],
+    "support_terms": ["产量", "销量", "零售额", "零售量", "出口", "库存", "价格", "销售"],
+    "exclude_terms": ["中央空调", "临沂商城", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndElectronic", "getEcoDataIndCommercialtrade", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801120": {
+    "industry_name": "食品饮料",
+    "core_terms": ["白酒", "啤酒", "乳制品", "牛奶", "奶粉", "肉制品", "食品", "饮料", "卷烟", "调味品", "葡萄酒", "食用油"],
+    "support_terms": ["产量", "销量", "零售额", "价格", "库存", "出口", "进口", "利润", "收入"],
+    "exclude_terms": ["京东", "单品价格", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndFoodbeverage", "getEcoDataChina", "getEcoDataIndCommercialtrade"],
+    "global_scope_allowed": false
+  },
+  "801130": {
+    "industry_name": "纺织服饰",
+    "core_terms": ["纺织业", "纺织服装", "服装", "布", "纱", "棉纱", "棉花", "涤纶", "粘胶", "氨纶", "坯布", "印染", "鞋帽", "针织", "化学纤维"],
+    "support_terms": ["产量", "销量", "零售额", "价格", "库存", "出口", "进口", "开工率", "利润"],
+    "exclude_terms": ["石棉", "灯芯", "炉芯", "打火机芯", "帘子布", "橡胶线", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndTextileclothing", "getEcoDataIndChemical", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801140": {
+    "industry_name": "轻工制造",
+    "core_terms": ["纸浆", "纸及纸板", "造纸", "生活用纸", "文化纸", "包装纸", "家具", "木材", "包装", "文教", "体育用品", "玩具", "自行车"],
+    "support_terms": ["产量", "销量", "零售额", "价格", "库存", "出口", "进口", "利润"],
+    "exclude_terms": ["小包装大米", "小包装面粉", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndLightmanufactue", "getEcoDataIndCommercialtrade", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801150": {
+    "industry_name": "医药生物",
+    "core_terms": ["医药", "药品", "中药", "化学药", "生物药", "疫苗", "医疗器械", "维生素", "抗生素", "制药"],
+    "support_terms": ["产量", "销量", "零售额", "价格", "出口", "进口", "利润", "收入", "投资"],
+    "exclude_terms": ["单味药材", "太子参", "股票", "公司公告", "医院床位"],
+    "preferred_apis": ["getEcoDataIndBiologicalmedicine", "getEcoDataChina", "getEcoDataIndCommercialtrade"],
+    "global_scope_allowed": false
+  },
+  "801160": {
+    "industry_name": "公用事业",
+    "core_terms": ["发电量", "全社会用电量", "用电量", "电力消费", "发电设备装机容量", "平均利用小时", "火电", "水电", "核电", "风电", "燃气供应", "供水", "煤耗", "电力行业", "电力、热力、燃气及水生产和供应业"],
+    "support_terms": ["产量", "利用小时", "装机容量", "投资", "利润", "价格", "消费量", "供给"],
+    "exclude_terms": ["核电厂", "号机组", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataChina", "getEcoDataIndEnergy", "getEcoDataIndOthers"],
+    "global_scope_allowed": false
+  },
+  "801170": {
+    "industry_name": "交通运输",
+    "core_terms": ["货运", "客运", "铁路", "公路", "港口", "集装箱", "吞吐量", "航运", "运价", "快递", "航空", "机场", "民航", "物流"],
+    "support_terms": ["业务量", "周转量", "价格", "指数", "出口", "进口", "投资", "收入"],
+    "exclude_terms": ["运输设备制造业", "具体航线", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndTraffictransport", "getEcoDataChina"],
+    "global_scope_allowed": true
+  },
+  "801180": {
+    "industry_name": "房地产",
+    "core_terms": ["房地产", "商品房", "住宅", "房价", "土地成交", "销售面积", "新开工", "竣工面积", "待售面积", "开发投资", "购置土地", "租金"],
+    "support_terms": ["销售额", "价格", "面积", "库存", "投资", "资金来源", "同比", "环比"],
+    "exclude_terms": ["股票", "公司公告", "单个城市"],
+    "preferred_apis": ["getEcoDataIndRealestate", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801200": {
+    "industry_name": "商贸零售",
+    "core_terms": ["社会消费品零售", "商品零售", "网上零售", "实物商品网上零售", "限额以上单位", "批发和零售业", "零售业销售", "零售额", "商品销售总额", "百家重点大型零售企业", "重点流通企业", "百货", "超市", "便利店", "专业店", "商场", "电商", "购物", "消费者信心", "消费意愿"],
+    "support_terms": ["零售额", "销售额", "客流", "价格", "同比", "环比", "收入"],
+    "exclude_terms": ["澳门", "南非", "单个门店", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndCommercialtrade", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801210": {
+    "industry_name": "社会服务",
+    "core_terms": ["国内旅游", "入境旅游", "出境旅游", "旅游收入", "旅游人数", "旅游消费", "星级饭店", "酒店", "住宿和餐饮业", "餐饮收入", "景区", "旅行社", "免税", "教育服务"],
+    "support_terms": ["收入", "人数", "人次", "入住率", "客房", "零售额", "价格", "消费"],
+    "exclude_terms": ["MBI指数", "媒体指数", "点评指数", "单个景区", "单个酒店", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndCateringtourism", "getEcoDataIndCommercialtrade", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801710": {
+    "industry_name": "建筑材料",
+    "core_terms": ["水泥", "水泥熟料", "平板玻璃", "玻璃纤维", "玻璃制品", "石膏", "建筑陶瓷", "混凝土", "非金属矿物制品业", "建材", "砂石"],
+    "support_terms": ["产量", "价格", "库存", "开工率", "产能利用率", "出口", "利润"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndBuildingmaterials", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801720": {
+    "industry_name": "建筑装饰",
+    "core_terms": ["建筑业", "建筑安装", "建筑装饰", "基础设施建设投资", "基建投资", "房屋施工", "房屋建筑", "土木工程", "市政工程", "公路建设", "铁路建设", "建筑业企业", "建筑业PMI", "非制造业PMI:建筑业"],
+    "support_terms": ["投资", "订单", "合同", "产值", "新签", "施工面积", "竣工", "同比"],
+    "exclude_terms": ["单个地区", "制造业投资", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataChina", "getEcoDataIndRealestate", "getEcoDataIndTraffictransport"],
+    "global_scope_allowed": false
+  },
+  "801730": {
+    "industry_name": "电力设备",
+    "core_terms": ["光伏", "太阳能电池", "风电设备", "风力发电机组", "电网投资", "电网工程", "发电设备", "发电机组", "输变电", "变压器", "锂电池", "动力电池", "充电桩", "电源工程", "电力设备", "电线电缆"],
+    "support_terms": ["产量", "销量", "装机", "投资", "出口", "价格", "利用率", "订单"],
+    "exclude_terms": ["鼓风机", "空气泵", "真空泵", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndMachineryequipment", "getEcoDataIndEnergy", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801740": {
+    "industry_name": "国防军工",
+    "core_terms": ["造船完工", "造船新接订单", "造船手持订单", "民用钢质船舶", "船舶及浮动结构体", "航空航天", "国防支出", "军费", "军工", "飞机", "航空器", "运输设备制造业"],
+    "support_terms": ["订单", "完工量", "手持订单", "产量", "出口", "投资", "支出", "交付"],
+    "exclude_terms": ["仪表板钟", "港口船舶", "航空客运", "航空货运", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndTraffictransport", "getEcoDataIndMachineryequipment", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801750": {
+    "industry_name": "计算机",
+    "core_terms": ["软件业务", "软件产品", "软件业", "软件和信息技术服务业", "信息技术服务收入", "信息技术服务", "计算机设备", "计算机制造", "电子计算机整机", "微型计算机设备", "服务器", "云计算", "数据中心", "互联网业务收入", "信息安全", "信息服务", "电信、计算机和信息服务"],
+    "support_terms": ["收入", "利润", "产量", "销量", "投资", "支出", "业务量", "出口"],
+    "exclude_terms": ["台湾信息服务行业指数", "其他行业", "通信设备", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndOthers", "getEcoDataIndElectronic", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801760": {
+    "industry_name": "传媒",
+    "core_terms": ["电影", "票房", "电视节目", "广告", "出版", "图书", "游戏", "传媒", "广播", "在线视频", "新闻出版"],
+    "support_terms": ["收入", "观影人次", "价格", "产量", "销量", "用户", "时长", "投资"],
+    "exclude_terms": ["累计票房:张", "哔哩哔哩", "爱奇艺", "单一公司", "电视机产量", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndCulture", "getEcoDataIndCommercialtrade", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801770": {
+    "industry_name": "通信",
+    "core_terms": ["电信业务收入", "电信业务总量", "电信业务量", "通信业务", "移动电话用户", "移动电话普及率", "固定电话用户", "固定电话普及率", "宽带接入用户", "互联网宽带接入用户", "5G移动电话用户", "移动互联网流量", "移动互联网接入流量", "互联网接入", "短信业务", "光缆", "光纤", "电话机", "基站", "移动通信设备", "通信设备制造业"],
+    "support_terms": ["收入", "用户", "业务量", "产量", "投资", "流量", "出口", "新增"],
+    "exclude_terms": ["香皂", "电气装置", "单个运营商", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndMachineryequipment", "getEcoDataIndElectronic", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801780": {
+    "industry_name": "银行",
+    "core_terms": ["金融机构人民币各项贷款", "金融机构人民币各项存款", "金融机构本外币贷款", "金融机构本外币存款", "人民币贷款", "人民币存款", "贷款余额", "存款余额", "新增人民币贷款", "社会融资规模", "净息差", "不良贷款", "商业银行不良贷款", "银行业金融机构", "货币供应量", "M1", "M2", "银行间同业拆借", "同业拆借加权平均利率", "SHIBOR", "LPR", "贷款市场报价利率", "票据融资", "贷款需求指数", "银行家宏观经济热度指数", "货币政策感受指数", "存款准备金率"],
+    "support_terms": ["余额", "新增", "同比", "利率", "规模", "利润", "需求指数"],
+    "exclude_terms": ["台湾", "香港", "澳门", "欧洲央行", "欧元区", "工商银行", "农业银行", "中国银行", "建设银行", "交通银行", "招商银行", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndFinancialservices", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801790": {
+    "industry_name": "非银金融",
+    "core_terms": ["保险", "保费", "保险赔付", "证券市场", "股票成交", "融资融券", "公募基金", "证券投资基金", "基金份额", "信托资产", "期货成交", "券商", "资本市场", "银行理财产品"],
+    "support_terms": ["收入", "规模", "余额", "成交额", "发行", "利润", "同比", "新增"],
+    "exclude_terms": ["政府性基金", "国有土地", "终身寿险", "每日收益", "单一公司", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndFinancialservices", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801880": {
+    "industry_name": "汽车",
+    "core_terms": ["汽车", "乘用车", "商用车", "新能源汽车", "轿车", "SUV", "MPV", "客车", "货车", "卡车", "汽车轮胎"],
+    "support_terms": ["产量", "销量", "零售", "库存", "出口", "进口", "价格", "开工率"],
+    "exclude_terms": ["GPS导航", "汽车用品价格", "单个品牌", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndAutomobile", "getEcoDataChina", "getEcoDataIndCommercialtrade"],
+    "global_scope_allowed": false
+  },
+  "801890": {
+    "industry_name": "机械设备",
+    "core_terms": ["挖掘机", "起重机", "装载机", "机床", "工业机器人", "工程机械", "拖拉机", "叉车", "压路机", "电梯", "泵", "轴承", "内燃机"],
+    "support_terms": ["产量", "销量", "出口", "进口", "订单", "价格", "开工率", "利润"],
+    "exclude_terms": ["产量:汽车", "制冷设备", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndMachineryequipment", "getEcoDataChina"],
+    "global_scope_allowed": false
+  },
+  "801950": {
+    "industry_name": "煤炭",
+    "core_terms": ["煤炭", "原煤", "动力煤", "焦煤", "炼焦煤", "煤矿", "煤炭库存", "煤炭价格", "秦皇岛煤"],
+    "support_terms": ["产量", "销量", "价格", "库存", "进口", "出口", "开工率", "利润", "消费量"],
+    "exclude_terms": ["石油、煤炭及其他燃料加工业", "股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndEnergy", "getEcoDataChina"],
+    "global_scope_allowed": true,
+    "allowed_local_markers": ["秦皇岛"]
+  },
+  "801960": {
+    "industry_name": "石油石化",
+    "core_terms": ["原油", "石油", "成品油", "汽油", "柴油", "燃料油", "天然气", "炼油", "油品", "油气", "乙烯"],
+    "support_terms": ["产量", "消费量", "价格", "库存", "进口", "出口", "开工率", "利润", "炼厂"],
+    "exclude_terms": ["股票", "公司公告"],
+    "preferred_apis": ["getEcoDataIndEnergy", "getEcoDataIndChemical", "getEcoDataChina"],
+    "global_scope_allowed": true,
+    "allowed_foreign_markers": ["美国"]
+  }
+}
