@@ -36,7 +36,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CLIENT_DIR = Path(__file__).resolve().parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "results" / "uqer"
 STATUS_OUTPUT = PROJECT_ROOT / "results" / "UQER查询审计.csv"
-QUERY_END_DATE = "20260811"
+QUERY_END_DATE = "20260805"
 
 INDEX_NAMES = {
     "CI011800.WI": "国泰海通资产配置指数",

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3e65d64de81e412d",
+        "id": "83eed84e349f4312",
         "type": "tabs",
         "children": [
           {
-            "id": "a93f0f02bec0b87d",
+            "id": "1f578aa2fd8cf3bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_Projects/202608_多资产指数/reports/券商多资产配置指数_重构版.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "券商多资产配置指数_重构版"
             }
           }
         ]
@@ -86,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "0c73008de61b5284",
@@ -164,6 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01_Projects/202608_多资产指数/reports/券商多资产配置指数_重构版.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -177,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,53 +197,53 @@
       "templates:插入模板": false
     }
   },
-  "active": "a93f0f02bec0b87d",
+  "active": "1f578aa2fd8cf3bb",
   "lastOpenFiles": [
+    "01_Projects/202608_多资产指数/data/GT01.WI_国泰全天候低波_日行情.xlsx",
+    "01_Projects/202608_多资产指数/data/指数后复权收盘价.xlsx",
+    "01_Projects/202608_多资产指数/data/四大类资产配置指数_原始数据.xlsx",
+    "01_Projects/202608_多资产指数/data/29只券商多资产配置指数.xlsx",
+    "01_Projects/202608_多资产指数/data/29只券商多资产配置指数_原始数据.xlsx",
+    "01_Projects/202608_多资产指数/data",
+    "01_Projects/202608_多资产指数/未命名文件夹",
+    "01_Projects/202608_多资产指数/~$29只券商多资产配置指数_原始数据.xlsx",
+    "01_Projects/202608_多资产指数/reports/答辩演讲稿.md",
+    "01_Projects/202608_多资产指数/reports/券商多资产配置指数_重构版.md",
+    "01_Projects/202608_多资产指数/reports/数据缺口与补数清单.md",
+    "01_Projects/202608_多资产指数/outputs/019fff2d-b42a-7452-bb37-d3831f5bf21f/29只券商多资产配置指数_原始数据.xlsx.inspect.ndjson",
+    "01_Projects/202608_多资产指数/outputs/019fff2d-b42a-7452-bb37-d3831f5bf21f/29只券商多资产配置指数_原始数据.xlsx",
+    "01_Projects/202608_多资产指数/outputs/019fff2d-b42a-7452-bb37-d3831f5bf21f/数据来源审计预览.png",
+    "01_Projects/202608_多资产指数/outputs/019fff2d-b42a-7452-bb37-d3831f5bf21f/GT01补充后预览.png",
+    "01_Projects/202608_多资产指数/outputs/019fff2d-b42a-7452-bb37-d3831f5bf21f",
+    "01_Projects/202608_多资产指数/reports/券商多资产配置指数.md",
+    "01_Projects/202608_多资产指数/reports/figures/10_收益衰减敏感性.png",
+    "01_Projects/202608_多资产指数/reports/figures/09_GALLW走势.png",
+    "01_Projects/202608_多资产指数/reports/figures/08_CI011001走势.png",
+    "01_Projects/202608_多资产指数/reports/figures/07_CICSF040走势.png",
+    "01_Projects/202608_多资产指数/reports/figures/06_CI011800走势.png",
+    "01_Projects/202608_多资产指数/reports/figures/05_四指数全历史走势.png",
+    "01_Projects/202608_多资产指数/reports/figures/04_原文值与统一复算.png",
+    "01_Projects/202608_多资产指数/reports/figures/03_收益衰减多维诊断.png",
+    "01_Projects/202608_多资产指数/reports/绘图视觉风格重构设计.md",
+    "01_Projects/202608_多资产指数/reports/绘图视觉风格重构实施计划.md",
+    "01_Projects/202608_多资产指数/reports/答辩重构实施计划.md",
+    "01_Projects/202608_多资产指数/reports/答辩展示格式修订实施计划.md",
+    "01_Projects/202608_多资产指数/reports/答辩重构设计.md",
     "衍生品课程完整笔记_考试复习版.md",
     "UBS_GM_Structuring_硕士论文面试手册.md",
     "绿皮书_衍生品知识点问题详解.md",
     "01_Projects/202608_多资产指数/README.md",
     "02_Assets/README.md",
     "01_GM_Structuring面试知识点.md",
-    "衍生品课程完整笔记_assets/term_structure.png",
-    "衍生品课程完整笔记_assets/futures_payoff.png",
-    "衍生品课程完整笔记_assets/fra_payoff.png",
-    "衍生品课程完整笔记_assets",
     "Foundations_of_Finance_I_完整考试复习讲义.md",
     "README.md",
-    "01_Projects/202608_多资产指数/reports/券商多资产配置指数.md",
-    "01_Projects/202608_多资产指数/~$四大类资产配置指数_原始数据.xlsx",
     "01_Projects/202608_多资产指数/reports/研究讲解与备问.md",
-    "01_Projects/202608_多资产指数/reports/答辩演讲稿.md",
-    "01_Projects/202608_多资产指数/figures/16_GALLW个案走势.png",
-    "01_Projects/202608_多资产指数/figures/15_CI011001个案走势.png",
-    "01_Projects/202608_多资产指数/figures/14_CICSF040个案走势.png",
-    "01_Projects/202608_多资产指数/figures/13_CI011800个案走势.png",
-    "01_Projects/202608_多资产指数/figures/12_指标口径敏感性.png",
-    "01_Projects/202608_多资产指数/figures/10_样本前后差异.png",
-    "01_Projects/202608_多资产指数/figures/09_压力窗口比较.png",
-    "01_Projects/202608_多资产指数/scripts/__pycache__/test_analyze.cpython-312.pyc",
-    "01_Projects/202608_多资产指数/scripts/test_analyze.py",
-    "01_Projects/202608_多资产指数/reports/数据缺口与补数清单.md",
-    "01_Projects/202608_多资产指数/results/公众号统一口径检验.csv",
-    "01_Projects/202608_多资产指数/scripts/__pycache__/analyze.cpython-312.pyc",
-    "01_Projects/202608_多资产指数/results/公众号口径敏感性.csv",
-    "01_Projects/202608_多资产指数/results/年度收益集中度.csv",
-    "01_Projects/202608_多资产指数/results/滚动指标摘要.csv",
-    "01_Projects/202507_行业景气度因子/04_Code/data/uqer_recheck_20260813/observation_snapshot_comparison_summary.json",
     "02_GM_Structuring模拟面试题库.md",
     "docs/superpowers/specs/2026-08-12-uqer-prosperity-download-processing-design.md",
     "docs/superpowers/plans/2026-08-12-uqer-prosperity-download-processing.md",
     "docs/superpowers/plans/2026-08-12-multi-asset-index-report.md",
     "01_Projects/202608_多资产指数/01_GM_Structuring面试知识点.md",
     "01_Projects/202608_多资产指数/02_GM_Structuring模拟面试题库.md",
-    "docs/superpowers/plans/2026-08-12-multi-asset-index-defense-plan.md",
-    "docs/superpowers/specs/2026-08-12-multi-asset-index-defense-design.md",
-    "01_Projects/202608_多资产指数/02_Data/数据说明.md",
-    "01_Projects/202608_多资产指数/02_Data/README.md",
-    "01_Projects/202608_多资产指数/01_Research/研究问题.md",
-    "01_Projects/202608_多资产指数/01_Research/研究框架.md",
-    "01_Projects/202608_多资产指数/01_Research/方法说明.md",
-    "01_Projects/202608_多资产指数/01_Research/README.md"
+    "docs/superpowers/plans/2026-08-12-multi-asset-index-defense-plan.md"
   ]
 }

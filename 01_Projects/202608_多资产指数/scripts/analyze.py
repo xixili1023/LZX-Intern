@@ -40,11 +40,12 @@ from metrics import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_FILE = ROOT / "四大类资产配置指数_原始数据.xlsx"
-HAND_FILE = ROOT / "指数后复权收盘价.xlsx"
+DATA_DIR = ROOT / "data"
+RAW_FILE = DATA_DIR / "四大类资产配置指数_原始数据.xlsx"
+HAND_FILE = DATA_DIR / "指数后复权收盘价.xlsx"
 RESULTS = ROOT / "results"
 FIGURES = ROOT / "figures"
-CUTOFF = pd.Timestamp("2026-08-11")
+CUTOFF = pd.Timestamp("2026-08-05")
 RISK_FREE_RATE = 0.015
 PINGFANG_COLLECTION = Path(
     "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/"
@@ -168,7 +169,13 @@ def load_inputs() -> tuple[dict[str, pd.DataFrame], pd.DataFrame, dict[str, pd.S
 
     daily = books["Index_Daily"].copy()
     daily["日期"] = pd.to_datetime(daily["日期"]).dt.normalize()
-    price_column = "最早交易日期到2026年8月11日每日收盘价"
+    price_candidates = [
+        column for column in daily.columns
+        if "每日收盘价" in str(column) and "时间" not in str(column)
+    ]
+    if len(price_candidates) != 1:
+        raise ValueError("Index_Daily无法唯一识别收盘价字段")
+    price_column = price_candidates[0]
     raw_series = {
         code: clean_prices(group.set_index("日期")[price_column].loc[:CUTOFF])
         for code, group in daily.groupby("Wind代码")
@@ -557,7 +564,10 @@ def article_audit(metrics: pd.DataFrame) -> pd.DataFrame:
     return frame
 
 
-def add_source_note(ax: plt.Axes, note: str = "数据：Wind工作簿；计算：本项目脚本；截止：2026-08-11") -> None:
+def add_source_note(
+    ax: plt.Axes,
+    note: str = f"数据：Wind工作簿；计算：本项目脚本；截止：{CUTOFF:%Y-%m-%d}",
+) -> None:
     ax.text(0, -0.16, note, transform=ax.transAxes, fontsize=8, color="#686868", va="top")
 
 
@@ -594,7 +604,8 @@ def individual_anomaly_summary(code: str, metrics: pd.DataFrame) -> str:
     if code == "CI011800.WI":
         return "完整路径最大回撤-15.32%，高于分段回撤"
     if code == "CICSF040.WI":
-        return "11.60年最大回撤仅-3.85%"
+        full = part.loc["全历史"]
+        return f"{full['years']:.2f}年最大回撤{full['max_drawdown']:.2%}"
     pre = part.loc["发布前回溯期"]
     post = part.loc["发布后运行期"]
     if code == "CI011001.WI":
@@ -648,7 +659,11 @@ def plot_index_history(series_by_code: dict[str, pd.Series], info: pd.DataFrame)
     ax.set_ylabel("归一化指数点位")
     ax.grid(axis="y", color="#DEDDD8", lw=0.8)
     ax.legend(ncol=2, loc="upper left")
-    add_source_note(ax, "空心圆之前为发布前回溯历史；CICSF040发布日=首个点位，标记与起点重合；数据：Wind；截止：2026-08-11")
+    add_source_note(
+        ax,
+        f"空心圆之前为发布前回溯历史；CICSF040发布日=首个点位，"
+        f"标记与起点重合；数据：Wind；截止：{CUTOFF:%Y-%m-%d}",
+    )
     fig.savefig(FIGURES / CHART_SPECS["index_history"][1])
     plt.close(fig)
 
@@ -719,7 +734,13 @@ def plot_drawdowns(series_by_code: dict[str, pd.Series]) -> None:
         ax.xaxis.set_major_locator(mdates.AutoDateLocator(minticks=3, maxticks=6))
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
     fig.suptitle(CHART_SPECS["drawdowns"][0], fontsize=16)
-    fig.text(0.01, 0.005, "数据：Wind；计算：点位/历史峰值-1；截止：2026-08-11", fontsize=8, color="#686868")
+    fig.text(
+        0.01,
+        0.005,
+        f"数据：Wind；计算：点位/历史峰值-1；截止：{CUTOFF:%Y-%m-%d}",
+        fontsize=8,
+        color="#686868",
+    )
     fig.tight_layout(rect=(0, 0.025, 1, 0.95))
     fig.savefig(FIGURES / CHART_SPECS["drawdowns"][1])
     plt.close(fig)
